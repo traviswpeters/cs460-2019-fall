@@ -1,0 +1,107 @@
+\documentstyle[12pt,moretext]{article}
+%\setstretch{1.5}
+\pagestyle{empty}
+\title{CSCI 460---Operating Systems}
+\author{ Lecture 1 \\
+\\
+\\
+Textbook: Operating Systems --- Internals and Design Principles (9th edition)\\
+by William Stallings}
+\date{}
+\begin{document}
+\newenvironment{slide}[1]{\clearpage
+                         ~ \hfill {\bf #1}  \hfill ~\\ \begin{itemize}
+                         }{\end{itemize}}
+\Large
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{ 0. About CSCI~460}
+\item Course homepage for now: http://www.cs.montana.edu/bhz or
+\\ http://www.cs.montana.edu/bhz/classes/fall-2018/csci460/
+\item Basic operating systems (roughly 67\%) and advanced OS (33\%)
+\item Basic operating systems: memory management, processor management, device management and file management
+\item Advanced operating system: threads, symmetric multiprocessing, multiprocessor scheduling, networking, security, public key cryptography
+\item For the lecture parts, I will mainly focus on concepts and algorithms. 
+\item Evaluation:\\
+6 participation tests (in class, written, 5 will be counted, 10\%),\\
+5 homeworks through D2L (20\%),\\
+3 in-class tests (30\%),\\
+3 programming assignments (24\%),\\
+and  a final project (16\%) \\
+%{\bf option 2:} 3 in-class tests (45\%, the lowest will be discarded and the highest will be counted twice), 3 assignments (30\%) and project (25\%) \\
+% {\bf option 3:} in-class tests (30\%), assignments (20\%) and programming project (20\%) and final exam (30\%)
+%\item To pass the course, you must get at least 30 out of 100 in the final exam.
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{ 1. Name some operating systems (OS) you know of}
+\item --
+\item --
+\item --
+\item --
+\item --
+\item --
+\item --
+\end{slide}
+
+\begin{slide}{ 2. What is OS?}
+\item OS is the part of computing system managing all of the hardware and software.
+\item For example, it controls every file, device, section of memory, and every
+nanosecond of processing time.
+\item In the first part of this course, we will mainly focus on how OS works,
+the related concepts as well as algorithms.
+\item In the last twenty years, networks become more and more important in
+operating systems. This turns distributed computing and network operating
+systems into reality. We will cover some of this in the second part of the course.
+\item Some contents on computer architectures and hardware will be covered, if necessary. (Some will be learnt through D2L homeworks.)
+\vspace{3cm}
+\item What will happen if you enter {\tt a.out}?
+\end{slide}
+
+\begin{slide}{ 3. What is OS composed of?}
+\item {\bf 1. Memory Manager}, which is in charge of main memory.
+\item {\bf 2. Processor Manager}, which decides how to allocate the Central Processing Unit (CPU).
+\item {\bf 3. Device Manager}, which monitors every device, channel and control unit.
+\item {\bf 4. File Manager}, which keeps track of every file in the system, including data files, assemblers, compilers and application programs.
+\item {\bf 5. Network Manager}, which becomes an inseparable part of OS since 1990s and handles network communications and protocols, etc.
+\end{slide}
+
+\end{document}
+
+\begin{slide}{ 4. Types of OS}
+\item {\bf 1. Batch system}. Example: Systems processing punched cards, tapes, etc.
+\vspace{2cm}
+\item {\bf 2. Interactive system}. Example: DOS running on a PC.
+\vspace{2cm}
+\item {\bf 3. Real-time system}. Example: High speed aircraft, cruise missile.
+\vspace{2cm}
+\item {\bf 4. Hybrid system}. Example: Combination of batch and interactive system, e.g., CM-5.
+\vspace{2cm}
+\item {\bf 5. Embedded system}. Example: Kernel for a robot, elevators.
+\end{slide}
+
+\begin{slide}{ 5. A brief history of OS development}
+\item {\bf 1. First generation (1940--1955)}, mainly used in military.
+\vspace{3cm}
+\item {\bf 2. Second generation (1955--1965)}, mainly used in business.
+\vspace{3cm}
+\item {\bf 3. Third generation (1960s--late 1970s)}.
+\vspace{3cm}
+\item {\bf 4. Post-3rd generation (late 1970s--early 1990s)}.
+\vspace{3cm}
+\item {\bf 5. Modern generation (mid-1990s--now)}.
+\end{slide}
+
+%\begin{slide}{ 6. Early Memory Management Systems}
+%\item In the early days, a computer can only have one user at one time.
+%To run a program, it must be entirely and contiguously loaded into memory.
+%The memory management is therefore easy.
+%\item {\bf Algorithm}: Load a job in a single-user system
+%\end{slide}
+
+
+\end{document}
+
+
+

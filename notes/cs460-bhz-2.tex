@@ -1,0 +1,223 @@
+\documentstyle[12pt,moretext]{article}
+%\setstretch{1.5}
+\pagestyle{empty}
+\title{CSCI 418---Operating Systems}
+\author{ Lecture 2 \\
+\\
+\\
+Memory Management--early systems\\
+\\
+\\
+Textbook: Operating Systems --- Internals and Design Principles (9th edition)\\
+by William Stallings}
+\date{}
+\begin{document}
+\newenvironment{slide}[1]{\clearpage
+                         ~ \hfill {\bf #1}  \hfill ~\\ \begin{itemize}
+                         }{\end{itemize}}
+\Large
+\maketitle
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{ 1. A brief history of OS development}
+\item {\bf 1. First generation (1940--1955)}, mainly used in military.
+\vspace{3cm}
+\item {\bf 2. Second generation (1955--1965)}, mainly used in business.
+\vspace{3cm}
+\item {\bf 3. Third generation (1960s--late 1970s)}.
+\vspace{3cm}
+\item {\bf 4. Post-3rd generation (late 1970s--early 1990s)}.
+\vspace{3cm}
+\item {\bf 5. Modern generation (mid-1990s--now)}.
+\end{slide}
+
+\begin{slide}{ 2. Types of OS}
+\item {\bf 1. Batch system}. Example: Systems processing punched cards, tapes, etc.
+\vspace{2cm}
+\item {\bf 2. Interactive system}. Example: DOS running on a PC.
+\vspace{2cm}
+\item {\bf 3. Real-time system}. Example: High speed aircraft, cruise missile.
+\vspace{2cm}
+\item {\bf 4. Hybrid system}. Example: Combination of batch and interactive system, e.g., CM-5.
+\item {\bf 5. OS for intelligent phone}. Example: Android.
+\vspace{2cm}
+\item {\bf 6. Embedded system}. Example: Kernel for a robot, elevators.
+\end{slide}
+
+\begin{slide}{ 3. Early Memory Management Systems}
+\item In the early days, a computer can only have one user at one time.
+Moreover, a computer can only run a program at a time.
+To run a program, it must be entirely and contiguously loaded into memory.
+The memory management is therefore easy.
+\item {\bf Algorithm}: Load a job in a single-user system
+ \begin{itemize}
+ \item {\tt 1. Store first memory location Y of program into base register}
+ \item {\tt 2. Set program counter = Y}
+ \item {\tt 3. Read first instruction of program}
+ \item {\tt 4. Increment program counter by \# of bytes of instruction}
+ \item {\tt 5. Last instruction?}
+ \item {\tt ~~~~~~if YES, then stop loading}
+ \item {\tt ~~~~~~if NO, then continue with step 6}
+ \item {\tt 6. Program counter $>$ memory size?}
+ \item {\tt ~~~~~~if YES, then stop loading}
+ \item {\tt ~~~~~~if NO, then continue with step 7}
+ \item {\tt 7. Load instruction to memory}
+ \item {\tt 8. Read next instruction of program}
+ \item {\tt 9. Go to step 4}
+ \end{itemize}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{ 4. Fixed (Static) Partitions}
+\item Single-user system cannot support {\bf multiprogramming}, which is especially not cost-effective in the business community.
+\item Static partition is one way to handle multiprogramming.
+\item Once the system is power on and reconfigured, the partition sizes remain
+static. Partition sizes can only be changed/reconfigured when computer is
+rebooted.
+\item Any program must be entirely and contiguously stored in a partition.
+\item Clearly, several programs (jobs) can reside in memory at the same time.
+\item What is the drawback of fixed partition?
+\newpage
+\item {\bf Algorithm to load a job in a fixed partition}
+ \begin{itemize}
+ \item {\tt 1. Determine job's requested memory size.}
+ \item {\tt 2. If job\_size $>$ size of largest partition}
+ \item {\tt ~~~~~~then reject the job}
+ \item {\tt ~~~~~~~~~print appropriate message to operator}
+ \item {\tt ~~~~~~~~~go to step 1 to handle the next job}
+ \item {\tt ~~~~~~else continue step 3.}
+ \item {\tt 3. Set i = 1. //i is the counter}
+ \item {\tt 4. While i <= number of partitions in memory}
+ \item {\tt ~~~~~~if job\_size > memory\_partition\_size(i)}
+ \item {\tt ~~~~~~~~~then i = i +1}
+ \item {\tt ~~~~~~else}
+ \item {\tt ~~~~~~~~~if memory\_partition\_status(i)='FREE'}
+ \item {\tt ~~~~~~~~~~~ then load job into memory\_partition(i)}
+ \item {\tt ~~~~~~~~~~~~~~~~ change memory\_partition\_status(i)}
+ \item {\tt ~~~~~~~~~~~~~~~~ to 'BUSY'}
+ \item {\tt ~~~~~~~~~~~~~~~~ go to step 1}
+ \item {\tt ~~~~~~~~~else i = i + 1}
+ \item {\tt 5. No partition available at this time, put job}
+ \item {\tt ~~~ in waiting queue.}
+ \item {\tt 6. Go to step 1 to handle next job.}
+ \end{itemize}
+\end{slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}{ 5. Dynamic Partitions}
+\item There is no partition when the computer is turned on.
+\item Available memory is still kept in contiguous blocks but jobs
+are given only as much memory as they request.
+\item It still does not solve the memory-wasting problem completely.
+\newpage
+\item {\bf External Fragmentation}: the dynamic allocation of memory creates
+fragments of free memory between allocated memory, which might be wasted.
+\item Notice that when memory is allocated, we can either use
+{\bf first-fit} (first partition fitting the requirements) or {\bf best-fit}
+(closest fit, the smallest partition fitting the requirements).
+\item The {\bf first-fit} allocation method keeps a list of free/busy memory
+fragments ordered by memory address.
+\item The {\bf best-fit} allocation method keeps a list of free/busy memory
+fragments ordered by memory size.
+\item What is the advantage/drawback of first-fit?
+\vspace{2cm}
+\item What is the advantage/drawback of best-fit?
+\newpage
+\item {\bf Algorithm: Dynamic partition--first fit}
+ \begin{itemize}
+ \item {\tt 1. i = 1. //i = counter}
+ \item {\tt 2. While i<= number of blocks in memory}
+ \item {\tt ~~~~~~if job\_size > memory\_size(i)}
+ \item {\tt ~~~~~~~~~then i = i + 1.}
+ \item {\tt ~~~~~~else}
+ \item {\tt ~~~~~~~~~load job into memory\_size(i)}
+ \item {\tt ~~~~~~~~~adjust free/busy memory lists}
+ \item {\tt ~~~~~~~~~go to step 4.}
+ \item {\tt 3. Put job in waiting queue.}
+ \item {\tt 4. Process next job.}
+ \end{itemize}
+\newpage
+\item {\bf Algorithm: Dynamic partition--best fit}
+ \begin{itemize}
+ \item {\tt 1. memory\_block(0)=9999999. //largest memory address}
+ \item {\tt 2. initial\_memory\_waste=memory\_block(0)-job\_size.}
+ \item {\tt 3. j = 0. //j is the subscript.}
+ \item {\tt 4. i = 1. //i is the counter.}
+ \item {\tt 5. While i<= number of blocks in memory}
+ \item {\tt ~~~~~~if job\_size > memory\_size(i)}
+ \item {\tt ~~~~~~~~~then i = i + 1.}
+ \item {\tt ~~~~~~else}
+ \item {\tt ~~~~~~~~~memory\_waste=memory\_size(i)-job\_size}
+ \item {\tt ~~~~~~~~~if initial\_memory\_waste > memory\_waste}
+ \item {\tt ~~~~~~~~~~~then j = i}
+ \item {\tt ~~~~~~~~~~~~~~~~initial\_memory\_waste = memory\_waste}
+ \item {\tt ~~~~~~~~~~~i = i + 1.}
+ \item {\tt 6. If j==0 then put job in waiting queue}
+ \item {\tt ~~~~~~~~~~~else load job into memory\_size(j)}
+ \item {\tt ~~~~~~~~~~~~~~~~adjust free/busy memory lists}
+ \item {\tt 7. Process next job.}
+ \end{itemize}
+\end{slide}
+\begin{slide}{ 6. Memory Deallocation}
+\item When memory spaces are not used anymore they must be released (returned
+back to) the system.
+\item Fixed partition: easy! just reset the 'free/busy' status variable.
+\item Dynamic partition: we need to combine free areas of memory.
+\item Think of 3 situations when a block is to be released:
+\newpage
+\item {\bf Algorithm: Dynamic partition--memory deallocation}
+ \begin{itemize}
+ \item {\tt 1. If job\_location is adjacent to one or more free blocks}
+ \item {\tt ~~~~then}
+ \item {\tt ~~~~~~if job\_location is between 2 free blocks}
+ \item {\tt ~~~~~~~~~then merge all three blocks into one.}
+ \item {\tt ~~~~~~~~~~~~~~memory\_size(i-1)=memory\_size(i-1)}
+ \item {\tt ~~~~~~~~~~~~~~~~~~~+job\_size+memory\_size(i+1).}
+ \item {\tt ~~~~~~~~~~~~~~set the status of memory\_size(i+1)}
+ \item {\tt ~~~~~~~~~~~~~~to NULL.}
+ \item {\tt ~~~~~~~~~else merge both blocks into one}
+ \item {\tt ~~~~~~~~~~~~~~memory\_size(i-1)=memory\_size(i-1)}
+ \item {\tt ~~~~~~~~~~~~~~~~~~~~~~~~~~~~+job\_size.}
+ \item {\tt ~~~~else search for NULL entry in free memory}
+ \item {\tt ~~~~~~~~~list.}
+ \item {\tt ~~~~~~~~~enter job\_size and beginning\_address}
+ \item {\tt ~~~~~~~~~in the entry list.}
+ \item {\tt ~~~~~~~~~set its status to FREE.}
+ \end{itemize}
+\end{slide}
+
+\begin{slide}{ 7. Relocatable Dynamic Partitions}
+\item Both of the previous partitions introduce internal/external fragmentations.
+\item Relocatable dynamic partition is a natural solution.
+\item The basic idea is {\bf garbage collection (memory compaction)}---reuse unused memory blocks.
+\item How to do garbage collection?
+ \begin{itemize}
+ \item 1. Bounds register is used to store the highest (or lowest) location in
+ memory accessible by each program.
+ \item 2. The relocation register contains the value, which could be positive
+ or negative, and that must be added to each address referenced in the program
+ so that the memory addresses are correctly accessed after relocation.
+ \end{itemize}
+\end{slide}
+
+\begin{slide}{ 8. The drawback of relocatable dynamic partition}
+\item {\bf Overhead!}
+\item When should we use relocatable dynamic partition?
+ \begin{itemize}
+ \item 1. When memory is busy.
+ \item 2. When many jobs are waiting.
+ \item 3. When the waiting time is too long.
+ \end{itemize}
+\item What can we learn from relocatable dynamic partition?
+ \begin{itemize}
+ \item 1. Programs do not have to be stored completely in memory.
+ \item 2. Programs do not have to be stored contiguously in memory.
+ \end{itemize}
+\end{slide}
+
+
+\end{document}
+
+
