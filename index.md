@@ -154,8 +154,8 @@ Project Presentations
 | **Week 2**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/02/2019    | *No Class. Labor Day.*                                                                                                                                                                 |                                |                                              |
-| 09/04/2019    | The memory hierarchy                                                                                                                                                                   |                                |                                              |
-| 09/06/2019    | Recent memory management                                                                                                                                                               |                                |                                              |
+| 09/04/2019    |                                                                                                                                                                                        |                                |                                              |
+| 09/06/2019    |                                                                                                                                                                                        |                                |                                              |
 {% comment %}
 | **Week 3**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
@@ -232,6 +232,24 @@ Project Presentations
 
 *The schedule will be updated with more details soon.*
 
+## Grading
+
+The course will involve a variety of assignments, exams, and a project.
+Unless otherwise noted by the instructor, all work in this course is to be completed independently.
+If you are ever uncertain of how to complete an assignment, you can go to office hours or engage in high-level discussions about the problem with your classmates on the Piazza boards.
+
+* Participation: 10%
+* Programming Assignments: 20%
+* Homework: 20%
+* Exams: 30%
+* Project: 20%
+
+If a scheduling conflict prevents you from taking an exam at the scheduled time, you must let me know ***at least*** one week before the exam.
+
+There is no final exam for the course, but there is a final project.
+
+***I will post specific project-related details and deadlines as we get closer.***
+
 ## Project
 
 Students will complete an OS-related project in the final weeks of this term.
@@ -249,21 +267,11 @@ Each member of the same group should participate in the presentation/demo and wi
 
 <!-- FINAL PROJECT REPORT DUE: Dec 7, 2018! -->
 
-## Grading
+## Exams
 
-The course will involve a variety of assignments, exams, and a project.
-Unless otherwise noted by the instructor, all work in this course is to be completed independently.
-If you are ever uncertain of how to complete an assignment, you can go to office hours or engage in high-level discussions about the problem with your classmates on the Piazza boards.
+There will be two or three in-class exams.
 
-* Participation: 10%
-* Programming Assignments: 20%
-* Homework: 20%
-* Exams: 30%
-* Project: 20%
-
-If a scheduling conflict prevents you from taking an exam at the scheduled time, you must let me know ***at least*** one week before the exam.
-
-There is no final exam for the course, but there is a final project.
+***I will post specific exam-related details and deadlines as we get closer (at least one week in advance, but hopefully sooner).***
 
 ## Late Penalties
 
@@ -343,6 +351,7 @@ A couple of clarifications and additions:
 > *Anything you submit that did not originate from you must be accompanied by attribution.*
 > *Also, please do not share solutions or detailed information about solutions (e.g., specific code) with others.*   
 
+{% comment %}
 - For the assignments, you may consult freely with instructors and classmates during the phase of designing solutions,
 but you should then work individually when creating your programs&mdash;typing, documenting, and generating output.  
 - During the debugging stage you may discuss your problems with others in the class, but you should not copy code to "fix" bugs.
@@ -373,6 +382,7 @@ In this latter case, I would not report a violation of the Academic Honesty prin
 ```java
 // Based on code from page 66 of the textbook.
 ```  
+{% endcomment %}
 
 ## Religious Observances
 
