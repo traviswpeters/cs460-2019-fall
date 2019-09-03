@@ -28,14 +28,13 @@ h1, h2, h3, h4, h5, h6 {
   /* margin-bottom: 5px; */
 }
 h1 {
-  /* font-size: 2.5rem; */
-  /* margin-top: 0px; */
-  /* margin-bottom: 15px; */
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-h1#coursetitle {
+#coursetitle {
     text-align: center;
     padding:40px;
-    font-size: 3em;
+    /* font-size: 3em; */
     font-weight: 800;
 }
 h2 {
@@ -89,6 +88,13 @@ blockquote p {
     font-style: italic;
     font-weight: 100;
     color: #999;
+}
+.announcement {
+    font-style: italic;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 /* FOOTER */

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<p class="announcement">Class Announcement: We need a notetaker ASAP! Please contact the Office of Disability Services if interested.</p>
+
 ## About the Course
 
 This course introduces students to the design of operating systems.
@@ -23,9 +25,9 @@ The course will conclude with a series of advanced topics.
 > Also, I hang around my office quite a bit so if my office door is open, feel free to drop in.  
 
 **Grader:** Gerard Shu Fuhnwi \| [gerard.shufuhnwi@student.montana.edu](mailto:gerard.shufuhnwi@student.montana.edu) <br/>
-**Office Hours:** Barnard Hall 259 | *Hours TBA* <br/>
+**Office Hours:** Barnard Hall 259 | Monday, Wednesday 1:10–2:10 p.m. <br/>
 
-See also: [https://www.cs.montana.edu/student-success-center.html](https://www.cs.montana.edu/student-success-center.html)
+For more information on getting help, visit the [Student Success Center website](https://www.cs.montana.edu/student-success-center.html).
 
 <br style="clear:both" />
 
@@ -291,7 +293,7 @@ only the last version will be graded.
 
 ## Sample Solutions
 
-Sample Solutions for assignments and exams will be posted on [D2L]({{site.data.settings.d2l}}).
+Sample solutions for assignments and exams will be posted on [D2L]({{site.data.settings.d2l}}).
 
 ## Course Expectations
 
