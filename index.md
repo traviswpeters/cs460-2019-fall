@@ -10,10 +10,10 @@ The course will conclude with a series of advanced topics.
 
 ## Logistics
 
-<img src="{{ site.data.settings.img }}" width="30%" height="auto" align="right">
+<img src="{{ site.data.settings.img }}" width="25%" height="auto" align="right">
 
 **Lectures:** {{ site.data.settings.lectures }} <br/>
-**Textbook:** {{ site.data.settings.textbook }} <br/>
+**Textbook:** {{ site.data.settings.textbook }} --- {{ site.data.settings.textbooklink }} <br/>
 **D2L:** [{{ site.data.settings.d2l }}]({{ site.data.settings.d2l }}) <br/>
 
 **Instructor:** {{ site.data.settings.instructor }} \| [{{site.data.settings.email}}](mailto:{{site.data.settings.email}}?subject={{site.data.settings.titlenum}}) \| {{site.data.settings.office}} <br/>
@@ -29,13 +29,12 @@ See also: [https://www.cs.montana.edu/student-success-center.html](https://www.c
 
 <br style="clear:both" />
 
-{% comment %}
-
 ## Resources
 
+- [Student textbook resources --- *{{ site.data.settings.textbook }}*](http://williamstallings.com/OperatingSystems/OS9e-Student/)
+- [Reading a computer science research paper](https://dl.acm.org/citation.cfm?id=1595493)
+- [How to give a technical presentation (how to give a scientific talk)](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html)
 - [Efficient Reading of Papers in Science and Technology](https://classes.cs.uoregon.edu/13W/cis433/docs/Hanson2000.pdf)
-
-{% endcomment %}
 
 ## Prerequisites
 
@@ -111,92 +110,125 @@ Schedule
     Nov 21,23 --- No class, Thanksgiving.
     Nov 16 - Dec 7 --- Project presentations.
  -->
+
+Introduction
+- The Kernel Abstractions
+- Interrupts
+Processes
+Concurrency & Threads
+Synchronization
+
+Test 1
+
+Memory Management
+Scheduling
+Virtualization
+
+Test 2
+
+I/O & File Management
+Device Management
+File Systems
+Security
+- OS Security Overview
+- Access Control
+
+Test 3
+
+Special Topics
+- Operating Systems for Mobile: Android & iOS
+- Operating Systems for IoT
+Project Presentations
+
 {% endcomment %}
 
 {:.table .table-hover .table-striped .table-bordered .table-sm}
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                        | Assignments                                  |
-| **Week 1**    | <span class="smallnote">Week 1 will be led by Professor Binhai Zhu.</span>
+| **Week 1**    | <span class="smallnote">Introduction; Week 1 will be led by Professor Binhai Zhu.</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [notes](notes/cs460-bhz-1.pdf){:.badge .badge-pill .badge-info}                                                    | Chapter 2                      | Homework 1 (Due 08/30/2019)                  |
+| 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [notes](notes/cs460-bhz-1.pdf){:.badge .badge-pill .badge-info}                                                    | Chapter 2                      | Homework 1 (Due 08/30)                       |
 | 08/28/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              |
 | 08/30/2019    | History of OS Development (Part II); <br/>Early Memory Management: static and dynamic partition, memory deallocation. [notes](notes/cs460-bhz-2.pdf){:.badge .badge-pill .badge-info}  | Chapter 7.1-7.2                |                                              |
-| **Week 2**
+| **Week 2**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/02/2019    | *No Class. Labor Day.*                                                                                                                                                                 |                                |                                              |
 | 09/04/2019    | The memory hierarchy                                                                                                                                                                   |                                |                                              |
 | 09/06/2019    | Recent memory management                                                                                                                                                               |                                |                                              |
-| **Week 3**
+{% comment %}
+| **Week 3**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/09/2019    |                                                                                                                                                                                        |                                |                                              |
 | 09/11/2019    |                                                                                                                                                                                        |                                |                                              |
 | 09/13/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 4**
+| **Week 4**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/16/2019    |                                                                                                                                                                                        |                                |                                              |
 | 09/18/2019    |                                                                                                                                                                                        |                                |                                              |
 | 09/20/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 5**
+| **Week 5**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/23/2019    |                                                                                                                                                                                        |                                |                                              |
 | 09/25/2019    |                                                                                                                                                                                        |                                |                                              |
 | 09/27/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 6**
+| **Week 6**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/30/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/02/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/04/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 7**
+| **Week 7**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/07/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/09/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/11/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 8**
+| **Week 8**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/14/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/16/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/18/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 9**
+| **Week 9**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/21/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/23/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/25/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 10**
+| **Week 10**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/28/2019    |                                                                                                                                                                                        |                                |                                              |
 | 10/30/2019    |                                                                                                                                                                                        |                                |                                              |
 | 11/01/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 11**
+| **Week 11**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/04/2019    |                                                                                                                                                                                        |                                |                                              |
 | 11/06/2019    |                                                                                                                                                                                        |                                |                                              |
 | 11/08/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 12**
+| **Week 12**   | <span class="smallnote">Project Start?</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                |                                              |
+| 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                |                                |                                              |
 | 11/13/2019    |                                                                                                                                                                                        |                                |                                              |
 | 11/15/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 13**
+| **Week 13**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/18/2019    |                                                                                                                                                                                        |                                |                                              |
 | 11/20/2019    |                                                                                                                                                                                        |                                |                                              |
 | 11/22/2019    |                                                                                                                                                                                        |                                |                                              |
-| **Week 14**
+| **Week 14**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/25/2019    |                                                                                                                                                                                        |                                |                                              |
 | 11/27/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                |                                              |
 | 11/29/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                |                                              |
-| **Week 15**
+| **Week 15**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 12/02/2019    |                                                                                                                                                                                        |                                |                                              |
 | 12/04/2019    |                                                                                                                                                                                        |                                |                                              |
 | 12/06/2019    | *Last Day of Class.*                                                                                                                                                                   |                                |                                              |
-| **Week 16**
+| **Week 16**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 12/09/2019    |                                                                                                                                                                                        |                                |                                              |
 | 12/11/2019    |                                                                                                                                                                                        |                                |                                              |
 | 12/13/2019    |                                                                                                                                                                                        |                                |                                              |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
+{% endcomment %}
 
+*The schedule will be updated with more details soon.*
 
 ## Project
 
@@ -266,7 +298,7 @@ Sample Solutions for assignments and exams will be posted on [D2L]({{site.data.s
 The expectations for the course are that students will attend every class, do any readings assigned for class, and actively and constructively participate in class discussions.
 Class participation will be a measure of contributing to the discourse both in class, through discussion and questions, and outside of class through contributing and responding to the D2L forum.
 
-### Laptops and Phones
+#### Laptops and Phones
 
 *Out of respect for your classmates, I ask that you turn off all laptops, tablets, and phone screens for the duration of each class!*
 
@@ -286,7 +318,7 @@ live coding examples, etc. Here's what I propose:
 > engages different cognitive processes and has direct (positive) consequences
 > for learning.
 
-### Getting Help
+#### Getting Help
 
 - If you visit me or any of the course staff for help with a program that you are writing, make sure that you can get to an electronic copy of your program.
 That way, we can try to compile and run it.
