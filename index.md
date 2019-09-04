@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<p class="announcement">Class Announcement: We need a notetaker ASAP! Please contact the Office of Disability Services if interested.</p>
+<div class="announcement">We need a notetaker ASAP! Please contact the <a href="http://www.montana.edu/disabilityservices/" class="alert-link">Office of Disability Services</a> if interested.</div>
+
 
 ## About the Course
 
@@ -147,13 +148,13 @@ Project Presentations
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                        | Assignments                                  |
 | **Week 1**    | <span class="smallnote">Introduction; Week 1 will be led by Professor Binhai Zhu.</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [notes](notes/cs460-bhz-1.pdf){:.badge .badge-pill .badge-info}                                                    | Chapter 2                      | Homework 1 (Due 08/30)                       |
+| 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [notes]({{site.data.settings.notes}}/cs460-bhz-1.pdf){:.notes}                                                     | Chapter 2                      | Homework 1 (Due 08/30)                       |
 | 08/28/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              |
-| 08/30/2019    | History of OS Development (Part II); <br/>Early Memory Management: static and dynamic partition, memory deallocation. [notes](notes/cs460-bhz-2.pdf){:.badge .badge-pill .badge-info}  | Chapter 7.1-7.2                |                                              |
+| 08/30/2019    | History of OS Development (Part II); <br/>Early Memory Management: static and dynamic partition, memory deallocation. [notes]({{site.data.settings.notes}}/cs460-bhz-2.pdf){:.notes}   | Chapter 7.1-7.2                |                                              |
 | **Week 2**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/02/2019    | *No Class. Labor Day.*                                                                                                                                                                 |                                |                                              |
-| 09/04/2019    | *OS Reboot:* Introduction Revisited + Week 1 Review                                                                                                                                    |                                | {{site.data.settings.questionnaire}}         |
+| 09/04/2019    | *OS Reboot:* Introduction Revisited + Week 1 Review [slides]({{site.data.settings.slides}}/cs460-01.pdf){:.slides}                                                                     |                                | {{site.data.settings.questionnaire}}         |
 | 09/06/2019    |                                                                                                                                                                                        |                                |                                              |
 {% comment %}
 | **Week 3**    | <span class="smallnote"></span>
