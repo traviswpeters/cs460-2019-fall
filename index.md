@@ -49,8 +49,7 @@ If you do not have any of the above prerequisites, you should touch base with me
 ## Questionnaire
 
 I would like to know a little about you.
-Please fill out [this questionnaire](https://forms.gle/Krmco3bNsbPRjSca7) as soon as possible.
-
+Please fill out this {{ site.data.settings.questionnaire }} as soon as possible.
 
 ## Schedule <span class="titlenote">(subject to change with minimal notice)</span>
 
@@ -154,7 +153,7 @@ Project Presentations
 | **Week 2**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/02/2019    | *No Class. Labor Day.*                                                                                                                                                                 |                                |                                              |
-| 09/04/2019    |                                                                                                                                                                                        |                                |                                              |
+| 09/04/2019    | *OS Reboot:* Introduction Revisited + Week 1 Review                                                                                                                                    |                                | {{site.data.settings.questionnaire}}         |
 | 09/06/2019    |                                                                                                                                                                                        |                                |                                              |
 {% comment %}
 | **Week 3**    | <span class="smallnote"></span>
@@ -239,8 +238,8 @@ Unless otherwise noted by the instructor, all work in this course is to be compl
 If you are ever uncertain of how to complete an assignment, you can go to office hours or engage in high-level discussions about the problem with your classmates on the Piazza boards.
 
 * Participation: 10%
-* Programming Assignments: 20%
-* Homework: 20%
+* Programming Assignments: 30%
+* Homework: 10%
 * Exams: 30%
 * Project: 20%
 
@@ -329,6 +328,8 @@ live coding examples, etc. Here's what I propose:
 > for learning.
 
 #### Getting Help
+
+Read: [How To Ask Questions The Smart Way, Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)
 
 - If you visit me or any of the course staff for help with a program that you are writing, make sure that you can get to an electronic copy of your program.
 That way, we can try to compile and run it.
