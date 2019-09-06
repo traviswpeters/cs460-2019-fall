@@ -1,7 +1,7 @@
 # Website Settings
 # site.data.settings.XXXXXXXXX
 title: Operating Systems
-titleshort: OS
+titleshort: OS 460
 titlenum: CSCI 460
 lectures: "Barnard Hall 108 | Monday, Wednesday, Friday 8:00–8:50 a.m."
 officehours: "NAH 253A | Monday, Wednesday, Friday 9:00&ndash;10:00 a.m. and by appointment."
@@ -16,6 +16,7 @@ office: NAH 253A
 email: travis.peters1@montana.edu
 d2l: https://ecat.montana.edu/d2l/home/553509
 questionnaire: "[Questionnaire](https://forms.gle/Krmco3bNsbPRjSca7)"
-
+# locations of things (notes, slides, etc.)
 slides: "notes"
 notes: "notes"
+solutions: "solutions/"
