@@ -57,7 +57,7 @@ If you do not have any of the above prerequisites, you should touch base with me
 ## Questionnaire
 
 I would like to know a little about you.
-Please fill out this {{ site.data.settings.questionnaire }} as soon as possible.
+Please fill out this [Questionnaire] as soon as possible.
 
 ## Schedule <span class="titlenote">(subject to change with minimal notice)</span>
 
@@ -93,7 +93,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              
 | 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       | 3.1, 3.2                       | {% comment %}[HW2] (Due 09/20){% endcomment %}
-| 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides}                                                                                                                                      | 3.3-3.5                        | {% comment %}[PT1]{% endcomment %}
+| 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides} [fork_bomb.c]{:.code}                                                                                                                                      | 3.3-3.5                        | {% comment %}[PT1]{% endcomment %}
 | **Week 4**    | <span class="smallnote"></span>                                                                                                                                                        | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/16/2019    | Threads                                                                                                                                                                                | 4.1, 4.2, 4.3, 4.6             | {% comment %}[PA1] (Due 09/27){% endcomment %}
@@ -185,6 +185,10 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [PA1]: #
 [PA2]: #
 [PA3]: #
+
+<!-- code examples, provided code, etc. -->
+
+[fork_bomb.c]: {{site.data.settings.code}}/fork_bomb.c
 
 ## Grading
 

@@ -5,3 +5,6 @@ programming_drills.zip
 javacv/osx1010/javacv-0.10-bin.zip
 .jekyll-metadata
 package-lock.json
+
+# specific executables
+code/fb
