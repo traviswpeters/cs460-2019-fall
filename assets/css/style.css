@@ -7,6 +7,7 @@
     /* margin-right: auto; */
     /* margin-left: auto; */
     /* width: auto; */
+    /* width: auto; */
 }
 
 body {
@@ -77,6 +78,9 @@ blockquote p {
   display: inline;
 }
 
+span {
+
+}
 .titlenote {
     font-size: 0.85rem;
     font-style: italic;
@@ -84,7 +88,7 @@ blockquote p {
     color: #777;
 }
 .smallnote {
-    font-size: 0.75rem;
+    /* font-size: 0.75rem; */
     font-style: italic;
     font-weight: 100;
     color: #999;
