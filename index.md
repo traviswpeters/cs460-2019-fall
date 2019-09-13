@@ -74,13 +74,16 @@ Unless otherwise indicated, references are to the textbook *{{ site.data.setting
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
 
+{% comment %}
+{% endcomment %}
+
 {:.table .table-hover .table-striped .table-bordered .table-sm}
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                        | Assignments                                  |
 | **Week 1**    | <span class="smallnote">Introduction; Week 1 will be led by Professor Binhai Zhu.</span>                                                                                               | <span class="smallnote">Chapters 1 & 2</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [notes]({{site.data.settings.notes}}/cs460-bhz-1.pdf){:.notes}                                                     | Chapter 2                      | [HW1] (Due 09/13)
 | 08/28/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |
-| 08/30/2019    | History of OS Development (Part II); <br/>Early Memory Management: static and dynamic partition, memory deallocation. [notes]({{site.data.settings.notes}}/cs460-bhz-2.pdf){:.notes}   | Chapter 7.1-7.2                |
+| 08/30/2019    | History of OS Development (Part II); <br/>Early Memory Management: static and dynamic partition, memory deallocation. [notes]({{site.data.settings.notes}}/cs460-bhz-2.pdf){:.notes}   | 7.1-7.2                        |
 | **Week 2**    | <span class="smallnote">Review and High-Level OS Concepts</span>                                                                                                                       | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/02/2019    | *No Class. Labor Day.*                                                                                                                                                                 |                                |
@@ -89,17 +92,17 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | **Week 3**    | <span class="smallnote">Processes, Threads, and Concurrency + C Refresher & Tools</span>                                                                                               | <span class="smallnote">Chapters 3--6</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              
-| 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       |                                | {% comment %}[HW2] (Due 09/20){% endcomment %}
-| 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides}                                                                                                                                      |                                | {% comment %}[PT1]{% endcomment %}
+| 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       | 3.1, 3.2                       | {% comment %}[HW2] (Due 09/20){% endcomment %}
+| 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides}                                                                                                                                      | 3.3-3.5                        | {% comment %}[PT1]{% endcomment %}
 | **Week 4**    | <span class="smallnote"></span>                                                                                                                                                        | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 09/16/2019    |                                                                                                                                                                                        |                                | {% comment %}[PA1] (Due 09/27){% endcomment %}
+| 09/16/2019    | Threads                                                                                                                                                                                | 4.1, 4.2, 4.3, 4.6             | {% comment %}[PA1] (Due 09/27){% endcomment %}
 | 09/18/2019    |                                                                                                                                                                                        |                                |
 | 09/20/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT2]{% endcomment %}
 | **Week 5**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/23/2019    |                                                                                                                                                                                        |                                |
-| 09/25/2019    | Exam Review                                                                                                                                                                            |                                |
+| 09/25/2019    | {% comment %}Exam Review{% endcomment %}                                                                                                                                               |                                |
 | 09/27/2019    | ***Exam #1***                                                                                                                                                                          |                                |
 | **Week 6**    | <span class="smallnote">Scheduling</span>                                                                                                                                              | <span class="smallnote">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
@@ -118,12 +121,12 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | 10/18/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT5]{% endcomment %}
 | **Week 9**    | <span class="smallnote">OS Security</span>                                                                                                                                             | <span class="smallnote">Chapter 15</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 10/21/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                                                                       |                                |
-| 10/23/2019    | Exam Review                                                                                                                                                                            |                                |
+| 10/21/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                |
+| 10/23/2019    | {% comment %}Exam Review{% endcomment %}                                                                                                                                               |                                |
 | 10/25/2019    | ***Exam #2***                                                                                                                                                                          |                                |
 | **Week 10**   | <span class="smallnote">Finish OS Security; Potential Special Topics: Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                         | <span class="smallnote">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 10/28/2019    | {% comment %}Access Control{% endcomment %}                                                                                                                                                                                       |                                | {% comment %}[HW5] (Due 11/08){% endcomment %}
+| 10/28/2019    | {% comment %}Access Control{% endcomment %}                                                                                                                                            |                                | {% comment %}[HW5] (Due 11/08){% endcomment %}
 | 10/30/2019    |                                                                                                                                                                                        |                                |
 | 11/01/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT6]{% endcomment %}
 | **Week 11**   | <span class="smallnote"></span>
@@ -134,7 +137,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | **Week 12**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                |
-| 11/13/2019    | Exam Review                                                                                                                                                                            |                                |
+| 11/13/2019    |  {% comment %}Exam Review{% endcomment %}                                                                                                                                              |                                |
 | 11/15/2019    | ***Exam #3***                                                                                                                                                                          |                                |
 | **Week 13**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
@@ -152,9 +155,6 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | 12/04/2019    | Project Presentations.                                                                                                                                                                 |                                |
 | 12/06/2019    | Project Presentations. *(Last Day of Class.)*                                                                                                                                          |                                |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-
-{% comment %}
-{% endcomment %}
 
 **Schedule Legend:** *HW = Homework, PT = Participation Test, P = Programming Assignment, E = Exam.*
 
