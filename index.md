@@ -22,7 +22,7 @@ The course will conclude with a series of advanced topics.
 **Textbook:** {{ site.data.settings.textbook }} --- {{ site.data.settings.textbooklink }} <br/>
 **D2L:** [{{ site.data.settings.d2l }}]({{ site.data.settings.d2l }}) <br/>
 
-**Instructor:** {{ site.data.settings.instructor }} \| [{{site.data.settings.email}}](mailto:{{site.data.settings.email}}?subject={{site.data.settings.titlenum}}) \| {{site.data.settings.office}} <br/>
+**Instructor:** {{ site.data.settings.instructor }} \| [{{site.data.settings.email}}](mailto:{{site.data.settings.email}}?subject={{site.data.settings.titlenum}}) \| {{site.data.settings.office}} \| {{site.data.settings.officephone}} <br/>
 **Office Hours:** {{ site.data.settings.officehours }} <br/>
 
 > If you'd like to meet with me outside of office hours, please contact me and we'll set up a time.
