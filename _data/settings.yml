@@ -19,5 +19,5 @@ d2l: https://ecat.montana.edu/d2l/home/553509
 # locations of things (notes, slides, etc.)
 slides: "notes"
 notes: "notes"
-solutions: "solutions/"
-code: "code/"
+solutions: "solutions"
+code: "code"
