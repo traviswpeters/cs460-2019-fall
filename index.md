@@ -94,11 +94,11 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | 09/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              
 | 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       | 3.1, 3.2                       | {% comment %}[HW2] (Due 09/20){% endcomment %}
 | 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides} [fork_bomb.c]{:.code}                                                                                                                | 3.3-3.5                        | {% comment %}[PT1]{% endcomment %}
-| **Week 4**    | <span class="smallnote"></span>                                                                                                                                                        | <span class="smallnote"></span>
+| **Week 4**    | <span class="smallnote"></span>                                                                                                                                                        | <span class="smallnote"></span>  
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                | {% comment %}[PA1] (Due 09/27){% endcomment %}
 | 09/18/2019    | Threads                                                                                                                                                                                | 4.1, 4.2, 4.3, 4.6             |
-| 09/20/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT2]{% endcomment %}
+| 09/20/2019    |                                                                                                                                                                                        | [Intro to Threads]             | {% comment %}[PT2]{% endcomment %}
 | **Week 5**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/23/2019    |                                                                                                                                                                                        |                                |
@@ -160,6 +160,12 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 
 [Questionnaire]: https://forms.gle/Krmco3bNsbPRjSca7
 
+<!-- Reading -->
+[Intro to Threads]: {{site.data.settings.reading}}/intro2threads-andrew-birrell-1989.pdf
+
+<!-- code examples, provided code, etc. -->
+[fork_bomb.c]: {{site.data.settings.code}}/fork_bomb.c
+
 <!-- slides -->
 [slides01]: {{site.data.settings.slides}}/cs460-01.pdf
 [slides02]: {{site.data.settings.slides}}/cs460-02.pdf
@@ -186,10 +192,6 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [PA1]: #
 [PA2]: #
 [PA3]: #
-
-<!-- code examples, provided code, etc. -->
-
-[fork_bomb.c]: {{site.data.settings.code}}/fork_bomb.c
 
 ## Grading
 
