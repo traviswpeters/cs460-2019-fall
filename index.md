@@ -93,11 +93,11 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              
 | 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       | 3.1, 3.2                       | {% comment %}[HW2] (Due 09/20){% endcomment %}
-| 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides} [fork_bomb.c]{:.code}                                                                                                                                      | 3.3-3.5                        | {% comment %}[PT1]{% endcomment %}
+| 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides} [fork_bomb.c]{:.code}                                                                                                                | 3.3-3.5                        | {% comment %}[PT1]{% endcomment %}
 | **Week 4**    | <span class="smallnote"></span>                                                                                                                                                        | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 09/16/2019    | Threads                                                                                                                                                                                | 4.1, 4.2, 4.3, 4.6             | {% comment %}[PA1] (Due 09/27){% endcomment %}
-| 09/18/2019    |                                                                                                                                                                                        |                                |
+| 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                | {% comment %}[PA1] (Due 09/27){% endcomment %}
+| 09/18/2019    | Threads                                                                                                                                                                                | 4.1, 4.2, 4.3, 4.6             |
 | 09/20/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT2]{% endcomment %}
 | **Week 5**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
@@ -165,6 +165,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [slides02]: {{site.data.settings.slides}}/cs460-02.pdf
 [slides03]: {{site.data.settings.slides}}/cs460-03.pdf
 [slides04]: {{site.data.settings.slides}}/cs460-04.pdf
+[slides05]: {{site.data.settings.slides}}/cs460-05.pdf
 
 <!-- homework -->
 [HW1]: {{site.data.settings.d2l}}
