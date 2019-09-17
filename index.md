@@ -38,7 +38,10 @@ For more information on getting help, visit the [Student Success Center website]
 ## Resources
 
 - **(Required) Textbook:** [{{ site.data.settings.textbook }}]({{ site.data.settings.textbooklink }})
-- **(Optional) Textbook:** [zyBook - Operating Systems]()
+- **(Optional) Textbook:** [zyBook - Operating Systems](https://learn.zybooks.com/zybook/MONTANACSCI460PetersFall2019)
+    1. Sign in or create an account at [learn.zybooks.com](https://learn.zybooks.com/)
+    2. Enter zyBook code: `MONTANACSCI460PetersFall2019`
+    3. Subscribe. *NOTE: A subscription is $58. Students may begin subscribing on Aug 29, 2019 and the cutoff to subscribe is Dec 03, 2019. Subscriptions will last until Dec 27, 2019.*
 - [Student textbook resources --- *{{ site.data.settings.textbook }}*](http://williamstallings.com/OperatingSystems/OS9e-Student/)
 - [Reading a computer science research paper](https://dl.acm.org/citation.cfm?id=1595493)
 - [How to give a technical presentation (how to give a scientific talk)](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html)
