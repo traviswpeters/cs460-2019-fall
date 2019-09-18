@@ -100,7 +100,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | **Week 4**    | <span class="smallnote"></span>                                                                                                                                                        | <span class="smallnote"></span>  
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                | {% comment %}[PA1] (Due 09/27){% endcomment %}
-| 09/18/2019    | Threads                                                                                                                                                                                | 4.1, 4.2, 4.3, 4.6             |
+| 09/18/2019    | Processes & Threads. [slides][slides06]{:.slides}                                                                                                                                      | 4.1, 4.2, 4.3, 4.6             |
 | 09/20/2019    |                                                                                                                                                                                        | [Intro to Threads]             | {% comment %}[PT2]{% endcomment %}
 | **Week 5**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
@@ -175,6 +175,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [slides03]: {{site.data.settings.slides}}/cs460-03.pdf
 [slides04]: {{site.data.settings.slides}}/cs460-04.pdf
 [slides05]: {{site.data.settings.slides}}/cs460-05.pdf
+[slides06]: {{site.data.settings.slides}}/cs460-06.pdf
 
 <!-- homework -->
 [HW1]: {{site.data.settings.d2l}}
