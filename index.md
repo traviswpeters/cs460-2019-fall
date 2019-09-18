@@ -37,17 +37,29 @@ For more information on getting help, visit the [Student Success Center website]
 
 ## Resources
 
-- **(Required) Textbook:** [{{ site.data.settings.textbook }}]({{ site.data.settings.textbooklink }})
+- **(Required) Textbook:** {{ site.data.settings.textbook }} --- {{ site.data.settings.textbooklink }}
+    - [Student textbook resources --- *{{ site.data.settings.textbook }}*](http://williamstallings.com/OperatingSystems/OS9e-Student/)
 - **(Optional) Textbook:** [zyBook - Operating Systems](https://learn.zybooks.com/zybook/MONTANACSCI460PetersFall2019)
     1. Sign in or create an account at [learn.zybooks.com](https://learn.zybooks.com/)
     2. Enter zyBook code: `MONTANACSCI460PetersFall2019`
     3. Subscribe. *NOTE: A subscription is $58. Students may begin subscribing on Aug 29, 2019 and the cutoff to subscribe is Dec 03, 2019. Subscriptions will last until Dec 27, 2019.*
-- [Student textbook resources --- *{{ site.data.settings.textbook }}*](http://williamstallings.com/OperatingSystems/OS9e-Student/)
+
+##### Technical Resources
+
+- [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html)
+- [Browse the Linux Source Code (thanks @bootlin!)](https://elixir.bootlin.com/linux/latest/source)
+
+##### Research Resources
+
 - [Reading a computer science research paper](https://dl.acm.org/citation.cfm?id=1595493)
 - [How to give a technical presentation (how to give a scientific talk)](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html)
 - [Efficient Reading of Papers in Science and Technology](https://classes.cs.uoregon.edu/13W/cis433/docs/Hanson2000.pdf)
-- [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html) *\*new!\*---posted 09/06*
-- [Browse the Linux Source Code (thanks @bootlin!)](https://elixir.bootlin.com/linux/latest/source) *\*new!\*---posted 09/10*
+
+##### Forward-Thinking Papers Relevant to OS
+
+- [A `fork()` in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) - HotOS'19
+- [CheriABI: enforcing valid pointer provenance and minimizing pointer privilege in the POSIX C run-time environment](https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201904-asplos-cheriabi.pdf) - ASPLOS'19 [summary](https://blog.acolyer.org/2019/05/28/cheri-abi/){:.notes}
+- [Compress Objects, Not Cache Lines: An Object-Based Compressed Memory Hierarchy](https://people.csail.mit.edu/poantsai/papers/2019.zippads.asplos.pdf) - ASPLOS'19 [summary](https://blog.acolyer.org/2019/05/24/zippads/){:.notes}
 
 ## Prerequisites
 
@@ -101,7 +113,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                | {% comment %}[PA1] (Due 09/27){% endcomment %}
 | 09/18/2019    | Processes & Threads. [slides][slides06]{:.slides}                                                                                                                                      | 4.1, 4.2, 4.3, 4.6             |
-| 09/20/2019    |                                                                                                                                                                                        | [Intro to Threads]             | {% comment %}[PT2]{% endcomment %}
+| 09/20/2019    | Concurrency                                                                                                                                                                            | [Intro to Threads]             | {% comment %}[PT2]{% endcomment %}
 | **Week 5**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/23/2019    |                                                                                                                                                                                        |                                |
@@ -164,6 +176,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [Questionnaire]: https://forms.gle/Krmco3bNsbPRjSca7
 
 <!-- Reading -->
+[Sys Design Hints]: {{site.data.settings.reading}}/design-hints-butler-lampson-1983.pdf
 [Intro to Threads]: {{site.data.settings.reading}}/intro2threads-andrew-birrell-1989.pdf
 
 <!-- code examples, provided code, etc. -->
