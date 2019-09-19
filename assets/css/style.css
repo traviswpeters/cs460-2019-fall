@@ -62,6 +62,17 @@ a {
   color: rgb(24, 107, 188); /* MSU Blue */
 }
 
+/*
+ Pretty-ify the collapsable elements
+ Thanks @ https://codepen.io/tmg/pen/PQVBGB
+ */
+[data-toggle="collapse"] .fa:before {
+  content: "\f139";
+}
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}
+
 img {
   height: auto;
   border-radius: 5px;
@@ -128,4 +139,35 @@ code {
     background-color: #eee;
     padding: 1px 10px;
     font-family: "Andale Mono", "Source Code Pro", sans-serif;
+}
+
+/* Table of Contents */
+.toc2 {
+    list-style: none;
+
+}
+
+.toc {
+    /* overflow: hidden; */
+    box-shadow: 0 0 5px 0 black;
+}
+
+.toc * {
+    display: inline;
+    /* align-items: center; */
+}
+
+.toc ul {
+    /* list-style: none; */
+    display: inline;
+    display: flex;
+}
+
+.toc li {
+    margin: 20px;
+}
+
+.toc li a {
+    /* color: black; */
+    /* text-decoration: none; */
 }

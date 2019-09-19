@@ -7,7 +7,6 @@ Send an <a href="mailto:mary.cummings1@montana.edu" class="alert-link">email</a>
 
 <div class="announcement">We need a notetaker ASAP! Please contact the <a href="http://www.montana.edu/disabilityservices/" class="alert-link">Office of Disability Services</a> if interested.</div>
 
-
 ## About the Course
 
 This course introduces students to the design of operating systems.
@@ -74,10 +73,10 @@ If you do not have any of the above prerequisites, you should touch base with me
 I would like to know a little about you.
 Please fill out this [Questionnaire] as soon as possible.
 
-## Schedule <span class="titlenote">(subject to change with minimal notice)</span>
+## Schedule
+***This is a tentative schedule that is subject to change with minimal notice. The schedule will be altered as the term progresses.***
 
 Below is the calendar for this course.
-***This is a tentative schedule, which may be altered as the term progresses.***
 It is the responsibility of the students to frequently check this web-page for schedule, readings, and assignment changes.
 As the professor, I will attempt to announce any change to the class, but this web-page should be viewed as authoritative.
 If you have any questions, please contact me.
@@ -88,9 +87,6 @@ If you have any questions, please contact me.
 Unless otherwise indicated, references are to the textbook *{{ site.data.settings.textbook }}*.
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
-
-{% comment %}
-{% endcomment %}
 
 {:.table .table-hover .table-striped .table-bordered .table-sm}
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                        | Assignments                                  |
@@ -113,7 +109,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                | {% comment %}[PA1] (Due 09/27){% endcomment %}
 | 09/18/2019    | Processes & Threads. [slides][slides06]{:.slides}                                                                                                                                      | 4.1, 4.2, 4.3, 4.6             |
-| 09/20/2019    | Concurrency                                                                                                                                                                            | [Intro to Threads]             | {% comment %}[PT2]{% endcomment %}
+| 09/20/2019    | Concurrency                                                                                                                                                                            | 5.1-5.9, [Intro to Threads]    | {% comment %}[PT2]{% endcomment %}
 | **Week 5**    | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/23/2019    |                                                                                                                                                                                        |                                |
@@ -239,21 +235,25 @@ The evaluation of the project is based on the report, quality, presentation, and
 
 Each member of the same group should participate in the presentation/demo and will receive the same mark.
 
-***I will post specific project-related details and deadlines as we get closer.***
-
 <!-- During the actual project presentations, attendance will be taken randomly. --- 3 points -->
 
 <!-- FINAL PROJECT REPORT DUE: Dec 7, 2018! -->
 
 <div id="accordion">
-<div class="card">
+<div class="card card bg-light">
 <!-- header -->
-<div class="card-header" id="headingTwo">
-    <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-        Project Details
-        </button>
-    </h5>
+<!-- <div class="card-header" id="headingTwo" data-toggle="collapse"  data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" markdown="1"> -->
+<!-- *Click this bar to show/hide project details...* -->
+<!-- </div> -->
+
+<div class="card-header" id="headingTwo" data-toggle="collapse"  data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" markdown="1">
+<h5 class="mb-0">
+<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"  markdown="1">
+<i class="fa" aria-hidden="true"></i>
+*Click here to show/hide project details...*
+<!-- ***I will post specific project-related details and deadlines as we get closer.*** -->
+</button>
+</h5>
 </div>
 
 <!-- details -->
@@ -263,8 +263,8 @@ Each member of the same group should participate in the presentation/demo and wi
 
 Projects can take various forms:
 
-1. **Technical Report.** For this type of project, your group will work together to conduct a deep technical analysis of an existing OS concept and its implementation (e.g., in the Linux OS). You should examine actual OS code and be able to describe how that code works. You should also formally present an introduction to your OS concept/implementation, why it is necessary, alternative ideas or strategies, an assessment of how it was implemented, and ideas for future work or possible improvements.
-2. **Proof of Concept.** For this type of project, your group will work together to implement an interesting OS idea or algorithm. The primary assessment of this type of project will be through a short demo (approx. 10 minutes). This project still requires a technical report, but the emphasis is less on the report and more on the demo.
+1. **Technical Report (TR).** For this type of project, your group will work together to conduct a deep technical analysis of an existing OS concept and its implementation (e.g., in the Linux OS). You should examine actual OS code and be able to describe how that code works. You should also formally present an introduction to your OS concept/implementation, why it is necessary, alternative ideas or strategies, an assessment of how it was implemented, and ideas for future work or possible improvements.
+2. **Proof of Concept (PoC).** For this type of project, your group will work together to implement an interesting OS idea or algorithm. The primary assessment of this type of project will be through a short demo (approx. 10 minutes). This project still requires a technical report, but the emphasis is less on the report and more on the demo.
 3. **Something Else?** If your group has an idea that doesn’t fit into one of the above categories, schedule some time to meet with me to discuss the idea. Your group should come prepared to discuss details such as the problem, deliverables, assessment, and so forth.
 
 ## Project Milestones
@@ -284,9 +284,9 @@ Your group should submit all deliverables in a single zipped folder.
 
 The naming convention should be:  
 
-```
+`
 os-project-fall2019-lastname1-lastname2-lastname3.zip
-```
+`
 
 #### Demo
 
@@ -340,7 +340,7 @@ only the last version will be graded.
 
 ## Sample Solutions
 
-Sample solutions for assignments and exams will be posted on [D2L]({{site.data.settings.d2l}}).
+Any sample solutions that are released will be posted on [D2L]({{site.data.settings.d2l}}).
 
 ## Course Expectations
 
