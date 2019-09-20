@@ -47,6 +47,12 @@ For more information on getting help, visit the [Student Success Center website]
 
 - [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html)
 - [Browse the Linux Source Code (thanks @bootlin!)](https://elixir.bootlin.com/linux/latest/source)
+- [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/)
+- [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf)
+- [An Introduction to C Programming for Java Programmers]({{site.data.settings.reading}}/intro-to-C-for-java-programmers.pdf)
+- [The Linux Kernel Module Programming Guide]({{site.data.settings.reading}}/readme-linux-kernel-programming-lkmpg.pdf)
+- [The C Cheat Sheet]({{site.data.settings.reading}}/the-C-cheat-sheet.pdf)
+- [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
 
 ##### Research Resources
 
@@ -59,6 +65,9 @@ For more information on getting help, visit the [Student Success Center website]
 - [A `fork()` in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) - HotOS'19
 - [CheriABI: enforcing valid pointer provenance and minimizing pointer privilege in the POSIX C run-time environment](https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201904-asplos-cheriabi.pdf) - ASPLOS'19 [summary](https://blog.acolyer.org/2019/05/28/cheri-abi/){:.notes}
 - [Compress Objects, Not Cache Lines: An Object-Based Compressed Memory Hierarchy](https://people.csail.mit.edu/poantsai/papers/2019.zippads.asplos.pdf) - ASPLOS'19 [summary](https://blog.acolyer.org/2019/05/24/zippads/){:.notes}
+- [Granular Computing](https://dl.acm.org/citation.cfm?id=3321447) - HotOS'19
+- [Practical Safe Linux Kernel Extensibility](https://dl.acm.org/citation.cfm?id=3321429) - HotOS'19
+- [My VM is Lighter (and Safer) than your Container](https://dl.acm.org/citation.cfm?id=3132763) - SOSP'17
 
 ## Prerequisites
 
@@ -88,6 +97,12 @@ Unless otherwise indicated, references are to the textbook *{{ site.data.setting
 
 Feedback is always appreciated regarding typos, suggestions for more detailed explanations, additional examples, etc.
 
+ {% comment %}
+ + C Refresher, Makefiles
+ + Tools (e.g., Git, VirtualBox, Vagrant)
+ + Linux Namespaces (e.g., Containers)
+ {% endcomment %}
+
 {:.table .table-hover .table-striped .table-bordered .table-sm}
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                        | Assignments                                  |
 | **Week 1**    | <span class="smallnote">Introduction; Week 1 will be led by Professor Binhai Zhu.</span>                                                                                               | <span class="smallnote">Chapters 1 & 2</span>
@@ -100,7 +115,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | 09/02/2019    | *No Class. Labor Day.*                                                                                                                                                                 |                                |
 | 09/04/2019    | *OS Reboot:* Introduction Revisited + Week 1 Review [slides][slides01]{:.slides}                                                                                                       |                                | [Questionnaire]
 | 09/06/2019    | Computer System Overview & Operating System Overview [slides][slides02]{:.slides}                                                                                                      | Chapter 1 & 2                  |
-| **Week 3**    | <span class="smallnote">Processes, Threads, and Concurrency + C Refresher & Tools</span>                                                                                               | <span class="smallnote">Chapters 3--6</span>
+| **Week 3**    | <span class="smallnote">Processes, Threads</span>                                                                                               | <span class="smallnote">Chapters 3--6</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              
 | 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       | 3.1, 3.2                       | {% comment %}[HW2] (Due 09/20){% endcomment %}
@@ -109,12 +124,12 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                | {% comment %}[PA1] (Due 09/27){% endcomment %}
 | 09/18/2019    | Processes & Threads. [slides][slides06]{:.slides}                                                                                                                                      | 4.1, 4.2, 4.3, 4.6             |
-| 09/20/2019    | Concurrency                                                                                                                                                                            | 5.1-5.9, [Intro to Threads]    | {% comment %}[PT2]{% endcomment %}
-| **Week 5**    | <span class="smallnote"></span>
+| 09/20/2019    | Some Review of Processes & Threads. [slides][slides07]{:.slides}                                                                                                                       |                                |
+| **Week 5**    | <span class="smallnote">Concurrency</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 09/23/2019    |                                                                                                                                                                                        |                                |
-| 09/25/2019    | {% comment %}Exam Review{% endcomment %}                                                                                                                                               |                                |
-| 09/27/2019    | ***Exam #1***                                                                                                                                                                          |                                |
+| 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization                                                                                                                                        | 5.1-5.9, [Intro to Threads]    | {% comment %}[PT2]{% endcomment %}
+| 09/25/2019    | Concurrency: Deadlock & Starvation                                                                                                                                                     | 6.1-6.6 (6.7-6.8)              |
+| 09/27/2019    | {% comment %}Exam Review{% endcomment %}***Exam #1***                                                                                                                                  |                                |
 | **Week 6**    | <span class="smallnote">Scheduling</span>                                                                                                                                              | <span class="smallnote">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/30/2019    |                                                                                                                                                                                        |                                | {% comment %}[HW3] (Due 10/11){% endcomment %}
@@ -185,6 +200,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [slides04]: {{site.data.settings.slides}}/cs460-04.pdf
 [slides05]: {{site.data.settings.slides}}/cs460-05.pdf
 [slides06]: {{site.data.settings.slides}}/cs460-06.pdf
+[slides07]: {{site.data.settings.slides}}/cs460-07.pdf
 
 <!-- homework -->
 [HW1]: {{site.data.settings.d2l}}
