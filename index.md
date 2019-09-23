@@ -127,14 +127,14 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | 09/20/2019    | Some Review of Processes & Threads. [slides][slides07]{:.slides}                                                                                                                       |                                |
 | **Week 5**    | <span class="smallnote">Concurrency</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization                                                                                                                                        | 5.1-5.9, [Intro to Threads]    | {% comment %}[PT2]{% endcomment %}
+| 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization (Part I) [slides][slides08]{:.slides}                                                                                                  | 5.1-5.9, [Intro to Threads]    | {% comment %}[PT2]{% endcomment %}
 | 09/25/2019    | Concurrency: Deadlock & Starvation                                                                                                                                                     | 6.1-6.6 (6.7-6.8)              |
-| 09/27/2019    | {% comment %}Exam Review{% endcomment %}***Exam #1***                                                                                                                                  |                                |
+| 09/27/2019    |                                                                                                                                   |                                |
 | **Week 6**    | <span class="smallnote">Scheduling</span>                                                                                                                                              | <span class="smallnote">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/30/2019    |                                                                                                                                                                                        |                                | {% comment %}[HW3] (Due 10/11){% endcomment %}
 | 10/02/2019    |                                                                                                                                                                                        |                                |
-| 10/04/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT3]{% endcomment %}
+| 10/04/2019    | {% comment %}Exam Review{% endcomment %}***Exam #1***                                                                                                                                                                                       |                                | {% comment %}[PT3]{% endcomment %}
 | **Week 7**    | <span class="smallnote">Memory Management & Virtual Memory</span>                                                                                                                      | <span class="smallnote">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/07/2019    |                                                                                                                                                                                        |                                |
@@ -148,13 +148,13 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | **Week 9**    | <span class="smallnote">OS Security</span>                                                                                                                                             | <span class="smallnote">Chapter 15</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/21/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                |
-| 10/23/2019    | {% comment %}Exam Review{% endcomment %}                                                                                                                                               |                                |
-| 10/25/2019    | ***Exam #2***                                                                                                                                                                          |                                |
+| 10/23/2019    |                                                                                                                                                                                        |                                |
+| 10/25/2019    |                                                                                                                                                                                        |                                |
 | **Week 10**   | <span class="smallnote">Finish OS Security; Potential Special Topics: Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                         | <span class="smallnote">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/28/2019    | {% comment %}Access Control{% endcomment %}                                                                                                                                            |                                | {% comment %}[HW5] (Due 11/08){% endcomment %}
 | 10/30/2019    |                                                                                                                                                                                        |                                |
-| 11/01/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT6]{% endcomment %}
+| 11/01/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                | {% comment %}[PT6]{% endcomment %}
 | **Week 11**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                |
@@ -163,8 +163,8 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | **Week 12**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                |
-| 11/13/2019    |  {% comment %}Exam Review{% endcomment %}                                                                                                                                              |                                |
-| 11/15/2019    | ***Exam #3***                                                                                                                                                                          |                                |
+| 11/13/2019    |                                                                                                                                                                                        |                                |
+| 11/15/2019    |                                                                                                                                                                                        |                                |
 | **Week 13**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/18/2019    | Project Presentations.                                                                                                                                                                 |                                |
@@ -201,6 +201,30 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [slides05]: {{site.data.settings.slides}}/cs460-05.pdf
 [slides06]: {{site.data.settings.slides}}/cs460-06.pdf
 [slides07]: {{site.data.settings.slides}}/cs460-07.pdf
+[slides08]: {{site.data.settings.slides}}/cs460-08.pdf
+
+[slides09]: {{site.data.settings.slides}}/cs460-09.pdf
+[slides10]: {{site.data.settings.slides}}/cs460-10.pdf
+[slides11]: {{site.data.settings.slides}}/cs460-11.pdf
+[slides12]: {{site.data.settings.slides}}/cs460-12.pdf
+[slides13]: {{site.data.settings.slides}}/cs460-13.pdf
+[slides14]: {{site.data.settings.slides}}/cs460-14.pdf
+[slides15]: {{site.data.settings.slides}}/cs460-15.pdf
+[slides16]: {{site.data.settings.slides}}/cs460-16.pdf
+[slides17]: {{site.data.settings.slides}}/cs460-17.pdf
+[slides18]: {{site.data.settings.slides}}/cs460-18.pdf
+[slides19]: {{site.data.settings.slides}}/cs460-19.pdf
+[slides20]: {{site.data.settings.slides}}/cs460-20.pdf
+[slides21]: {{site.data.settings.slides}}/cs460-21.pdf
+[slides22]: {{site.data.settings.slides}}/cs460-22.pdf
+[slides23]: {{site.data.settings.slides}}/cs460-23.pdf
+[slides24]: {{site.data.settings.slides}}/cs460-24.pdf
+[slides25]: {{site.data.settings.slides}}/cs460-25.pdf
+[slides26]: {{site.data.settings.slides}}/cs460-26.pdf
+[slides27]: {{site.data.settings.slides}}/cs460-27.pdf
+[slides28]: {{site.data.settings.slides}}/cs460-28.pdf
+[slides29]: {{site.data.settings.slides}}/cs460-29.pdf
+[slides30]: {{site.data.settings.slides}}/cs460-30.pdf
 
 <!-- homework -->
 [HW1]: {{site.data.settings.d2l}}
