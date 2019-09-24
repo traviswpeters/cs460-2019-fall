@@ -118,33 +118,33 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | **Week 3**    | <span class="smallnote">Processes, Threads</span>                                                                                               | <span class="smallnote">Chapters 3--6</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              
-| 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       | 3.1, 3.2                       | {% comment %}[HW2] (Due 09/20){% endcomment %}
-| 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides} [fork_bomb.c]{:.code}                                                                                                                | 3.3-3.5                        | {% comment %}[PT1]{% endcomment %}
+| 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       | 3.1, 3.2                       |
+| 09/13/2019    | Processes (Part II). [slides][slides04]{:.slides} [fork_bomb.c]{:.code}                                                                                                                | 3.3-3.5                        |
 | **Week 4**    | <span class="smallnote"></span>                                                                                                                                                        | <span class="smallnote"></span>  
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                | {% comment %}[PA1] (Due 09/27){% endcomment %}
+| 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                |
 | 09/18/2019    | Processes & Threads. [slides][slides06]{:.slides}                                                                                                                                      | 4.1, 4.2, 4.3, 4.6             |
-| 09/20/2019    | Some Review of Processes & Threads. [slides][slides07]{:.slides}                                                                                                                       |                                |
+| 09/20/2019    | Some Review of Processes & Threads. [slides][slides07]{:.slides}                                                                                                                       |                                | [HW2] (Due 10/11)
 | **Week 5**    | <span class="smallnote">Concurrency</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization (Part I) [slides][slides08]{:.slides}                                                                                                  | 5.1-5.9, [Intro to Threads]    | {% comment %}[PT2]{% endcomment %}
-| 09/25/2019    | Concurrency: Deadlock & Starvation                                                                                                                                                     | 6.1-6.6 (6.7-6.8)              |
-| 09/27/2019    |                                                                                                                                   |                                |
+| 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization (Part I) [slides][slides08]{:.slides}                                                                                                  | 5.1-5.9, [Intro to Threads]    |
+| 09/25/2019    | Concurrency: Mutual Exclusion & Synchronization (Part II) [slides][slides09]{:.slides}                                                                                                 |                                |
+| 09/27/2019    | Concurrency: Deadlock & Starvation                                                                                                                                                     | 6.1-6.6 (6.7-6.8)              | {% comment %}[PA1] (Due 09/27){% endcomment %}
 | **Week 6**    | <span class="smallnote">Scheduling</span>                                                                                                                                              | <span class="smallnote">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 09/30/2019    |                                                                                                                                                                                        |                                | {% comment %}[HW3] (Due 10/11){% endcomment %}
+| 09/30/2019    |                                                                                                                                                                                        |                                | {% comment %}[HW3] (Due 10/18){% endcomment %}
 | 10/02/2019    |                                                                                                                                                                                        |                                |
-| 10/04/2019    | {% comment %}Exam Review{% endcomment %}***Exam #1***                                                                                                                                                                                       |                                | {% comment %}[PT3]{% endcomment %}
+| 10/04/2019    |                                                                                                                                                                                        |                                |
 | **Week 7**    | <span class="smallnote">Memory Management & Virtual Memory</span>                                                                                                                      | <span class="smallnote">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 10/07/2019    |                                                                                                                                                                                        |                                |
+| 10/07/2019    | {% comment %}Exam Review{% endcomment %}***Exam #1***                                                                                                                                  |                                |
 | 10/09/2019    |                                                                                                                                                                                        |                                |
-| 10/11/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT4]{% endcomment %}
+| 10/11/2019    |                                                                                                                                                                                        |                                |
 | **Week 8**    | <span class="smallnote">File Systems & I/O</span>                                                                                                                                      | <span class="smallnote">Chapters 11 & 12</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/14/2019    |                                                                                                                                                                                        |                                | {% comment %}[HW4] (Due 10/25){% endcomment %}
 | 10/16/2019    |                                                                                                                                                                                        |                                |
-| 10/18/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT5]{% endcomment %}
+| 10/18/2019    |                                                                                                                                                                                        |                                |
 | **Week 9**    | <span class="smallnote">OS Security</span>                                                                                                                                             | <span class="smallnote">Chapter 15</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/21/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                |
@@ -154,12 +154,12 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/28/2019    | {% comment %}Access Control{% endcomment %}                                                                                                                                            |                                | {% comment %}[HW5] (Due 11/08){% endcomment %}
 | 10/30/2019    |                                                                                                                                                                                        |                                |
-| 11/01/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                | {% comment %}[PT6]{% endcomment %}
+| 11/01/2019    |                                                                                                                                                       |                                | {% comment %}[PT6]{% endcomment %}
 | **Week 11**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                |
 | 11/06/2019    |                                                                                                                                                                                        |                                |
-| 11/08/2019    |                                                                                                                                                                                        |                                |
+| 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                |
 | **Week 12**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                |
@@ -255,7 +255,7 @@ If you are ever uncertain of how to complete an assignment, you can go to office
 * Participation: 10%
 * Programming Assignments: 30%
 * Homework: 10%
-* Exams: 30%
+* Exams: 30% (2 exams, 15% each)
 * Project: 20%
 
 If a scheduling conflict prevents you from taking an exam at the scheduled time, you must let me know ***at least*** one week before the exam.
@@ -348,9 +348,20 @@ os-project-fall2019-lastname1-lastname2-lastname3.zip
 
 ## Exams
 
-There will be two or three in-class exams.
+There will be two in-class exams.
 
-***I will post specific exam-related details and deadlines as we get closer (at least one week in advance, but hopefully sooner).***
+Exam \#1 will be held in class on 10/07/2019.
+Topics covered up to the class prior to the exam are all in-scope for this exam.
+(In other words, all topics covered in the first half of this course are fair game.)
+
+Exam \#2 will be held in class on 11/08/2019.
+Topics covered between the first exam and up to the class prior to the exam are all in-scope for this exam.
+(In other words, all topics covered in the second half of this course are fair game.)
+
+If you are unable to attend class on these days,
+    you must meet with me ***at least 1 week*** prior to the scheduled date of the exam to arrange an alternative date/time/location to take the exam.
+
+***Exam resources are TBD.***
 
 ## Late Penalties
 
