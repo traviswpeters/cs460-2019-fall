@@ -1,59 +1,63 @@
 // A simple example of some pitfalls of working with threads.
 // Author: Travis W. Peters, Montana State University (Fall 2019)
-// Inspired by http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf
+// Inspired by 
+//      http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf
+//      https://computing.llnl.gov/tutorials/pthreads/
 
-#include <stdio.h>
-#include <pthread.h>
+#include <stdio.h>     // printf()
+#include <stdlib.h>    // exit()
+#include <pthread.h> 
 
-pthread_mutex_t mutex; // <<<<<<<<<<<<< global lock for counter
+#define NUM_THREADS 10
+
+// static int target = 1000;
+static int target = 10000000;
 static volatile int counter = 0;
+pthread_mutex_t mutexsum;
 
 // mythread()
 // Simply adds 1 to counter repeatedly, in a loop
-void *mythread(void *arg){
-    printf("%s: begin\n", (char *) arg);
-
-    int i;
-    for (i = 0; i < 1e7; i++) {
-        pthread_mutex_lock(&mutex); // <<<<<<<<<<<<< lock the counter before updating
-        counter = counter + 1;
-        pthread_mutex_unlock(&mutex); // <<<<<<<<<<<<< unlock the counter now that you are done updating
+void *mythread(void *arg) {
+    for (int i = 0; i < target; i++) {
+        pthread_mutex_lock (&mutexsum);
+        counter += 1;
+        pthread_mutex_unlock (&mutexsum);
     }
-
-    printf("%s: done\n", (char *) arg);
+    pthread_exit(NULL);
 }
 
-// main()
-// create two threads (pthread_create) and wait for them to finish counting (pthread_join)
 int main(int argc, char *argv[]) {
-    char a = 'A';
-    char b = 'B';
-    pthread_t p1, p2;
-    pthread_mutex_init(&mutex, NULL);  // <<<<<<<<<<<<< initialize the lock
+    pthread_mutex_init(&mutexsum, NULL);
+
     printf("main: begin (counter = %d)\n", counter);
 
-    // `create` starts a thread running
-    if(pthread_create(&p1, NULL, mythread, &a)) {
-        fprintf(stderr, "Error creating thread A\n");
-        return 1;
-    }
-    if(pthread_create(&p2, NULL, mythread, &b)) {
-        fprintf(stderr, "Error creating thread B\n");
-        return 2;
+    pthread_t threads[NUM_THREADS];
+    int rc;
+    long t;
+    
+    // create threads (pthread_create) that count
+    for(t=0; t<NUM_THREADS; t++){
+       rc = pthread_create(&threads[t], NULL, mythread, (void *)t);
+       if (rc){
+          printf("ERROR; return code from pthread_create() is %d\n", rc);
+          exit(-1);
+       }
     }
 
-    // `join` waits for the threads to finish
-    if(pthread_join(p1, NULL)) {
-        fprintf(stderr, "Error joining thread A\n");
-        return 3;
-    }
-    if(pthread_join(p2, NULL)) {
-        fprintf(stderr, "Error joining thread B\n");
-        return 4;
+    // wait for the threads to finish (pthread_join)
+    // pthread_join() blocks the calling thread until the specified thread terminates.
+    for(t=0; t<NUM_THREADS; t++){
+       rc = pthread_join(threads[t], NULL);
+       if (rc){
+          fprintf(stderr, "ERROR; return code from join() is %d\n", rc);
+          exit(-2);
+       }
     }
 
     printf("main: done with both (counter = %d)\n", counter);
 
-    pthread_mutex_destroy(&mutex); // <<<<<<<<<<<<< good practice: free up any allocated resources
+    pthread_mutex_destroy(&mutexsum);
+    pthread_exit(NULL);
+
     return 0;
 }

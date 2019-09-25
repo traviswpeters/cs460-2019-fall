@@ -115,7 +115,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | 09/02/2019    | *No Class. Labor Day.*                                                                                                                                                                 |                                |
 | 09/04/2019    | *OS Reboot:* Introduction Revisited + Week 1 Review [slides][slides01]{:.slides}                                                                                                       |                                | [Questionnaire]
 | 09/06/2019    | Computer System Overview & Operating System Overview [slides][slides02]{:.slides}                                                                                                      | Chapter 1 & 2                  |
-| **Week 3**    | <span class="smallnote">Processes, Threads</span>                                                                                               | <span class="smallnote">Chapters 3--6</span>
+| **Week 3**    | <span class="smallnote">Processes, Threads</span>                                                                                                                                      | <span class="smallnote">Chapters 3--6</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                |                                              
 | 09/11/2019    | Processes (Part I). [slides][slides03]{:.slides}                                                                                                                                       | 3.1, 3.2                       |
@@ -128,7 +128,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | **Week 5**    | <span class="smallnote">Concurrency</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization (Part I) [slides][slides08]{:.slides}                                                                                                  | 5.1-5.9, [Intro to Threads]    |
-| 09/25/2019    | Concurrency: Mutual Exclusion & Synchronization (Part II) [slides][slides09]{:.slides}                                                                                                 |                                |
+| 09/25/2019    | Concurrency: Mutual Exclusion & Synchronization (Part II) [slides][slides09]{:.slides} [threads01.c]{:.code} [threads02.c]{:.code}                                                     |                                |
 | 09/27/2019    | Concurrency: Deadlock & Starvation                                                                                                                                                     | 6.1-6.6 (6.7-6.8)              | {% comment %}[PA1] (Due 09/27){% endcomment %}
 | **Week 6**    | <span class="smallnote">Scheduling</span>                                                                                                                                              | <span class="smallnote">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
@@ -192,6 +192,8 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 
 <!-- code examples, provided code, etc. -->
 [fork_bomb.c]: {{site.data.settings.code}}/fork_bomb.c
+[threads01.c]: {{site.data.settings.code}}/threads01.c
+[threads02.c]: {{site.data.settings.code}}/threads02.c
 
 <!-- slides -->
 [slides01]: {{site.data.settings.slides}}/cs460-01.pdf
