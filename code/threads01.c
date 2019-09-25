@@ -4,14 +4,19 @@
 //      http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf
 //      https://computing.llnl.gov/tutorials/pthreads/
 
+
+// To build this program: 
+//  gcc -std=c99 threads01.c -o t1 -lpthread
+
+
 #include <stdio.h>     // printf()
 #include <stdlib.h>    // exit()
 #include <pthread.h> 
 
 #define NUM_THREADS 10
 
-// static int target = 1000;
-static int target = 10000000;
+static int target = 1000;
+// static int target = 10000000;
 static volatile int counter = 0;
 
 // mythread()
