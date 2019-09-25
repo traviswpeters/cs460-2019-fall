@@ -52,7 +52,9 @@ For more information on getting help, visit the [Student Success Center website]
 - [An Introduction to C Programming for Java Programmers]({{site.data.settings.reading}}/intro-to-C-for-java-programmers.pdf)
 - [The Linux Kernel Module Programming Guide]({{site.data.settings.reading}}/readme-linux-kernel-programming-lkmpg.pdf)
 - [The C Cheat Sheet]({{site.data.settings.reading}}/the-C-cheat-sheet.pdf)
+- [Summary of GCC Flags (Options)](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
 - [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
+- [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/)
 
 ##### Research Resources
 
