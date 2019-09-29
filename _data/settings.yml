@@ -2,7 +2,8 @@
 # site.data.settings.XXXXXXXXX
 title: Operating Systems
 titleshort: OS 460
-titlenum: CSCI 460
+titlenum: CS 460 #CSCI 460
+titlenumshort: CS 460
 school: Montana State University
 term: Fall 2019
 lectures: "Barnard Hall 108 | Monday, Wednesday, Friday 8:00–8:50 a.m."
