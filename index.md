@@ -131,32 +131,32 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization (Part I) [slides][slides08]{:.slides}                                                                                                  | 5.1-5.9, [Intro to Threads]    |
 | 09/25/2019    | Concurrency: Mutual Exclusion & Synchronization (Part II) [slides][slides09]{:.slides} [threads01.c]{:.code} [threads02.c]{:.code}                                                     |                                |
-| 09/27/2019    | Concurrency: Deadlock & Starvation                                                                                                                                                     | 6.1-6.6 (6.7-6.8)              | {% comment %}[PA1] (Due 09/27){% endcomment %}
-| **Week 6**    | <span class="smallnote">Scheduling</span>                                                                                                                                              | <span class="smallnote">Chapters 9 & 10</span>
+| 09/27/2019    | Concurrency: Mutual Exclusion & Synchronization (Part III) [slides][slides10]{:.slides}                                                                                                |                                | [PA1] (Due 10/16)
+| **Week 6**    |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 09/30/2019    |                                                                                                                                                                                        |                                | {% comment %}[HW3] (Due 10/18){% endcomment %}
-| 10/02/2019    |                                                                                                                                                                                        |                                |
-| 10/04/2019    |                                                                                                                                                                                        |                                |
-| **Week 7**    | <span class="smallnote">Memory Management & Virtual Memory</span>                                                                                                                      | <span class="smallnote">Chapters 7 & 8</span>
+| 09/30/2019    | Concurrency: Deadlock & Starvation                                                                                                                                                     | 6.1-6.6 (6.7-6.8)              | {% comment %}[HW3] (Due 10/18){% endcomment %}
+| 10/02/2019    | {% comment %}Concurrency: Deadlock & Starvation (Part II){% endcomment %}                                                                                                              |                                |
+| 10/04/2019    | Exam Review                                                                                                                                                                            |                                |
+| **Week 7**    | <span class="smallnote">Scheduling</span>                                                                                                                                              | <span class="smallnote">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 10/07/2019    | {% comment %}Exam Review{% endcomment %}***Exam #1***                                                                                                                                  |                                |
+| 10/07/2019    | ***Exam #1*** [Exam 1 Coversheet][exam1coversheet]{:.exam}                                                                                                                               |                                |
 | 10/09/2019    |                                                                                                                                                                                        |                                |
 | 10/11/2019    |                                                                                                                                                                                        |                                |
-| **Week 8**    | <span class="smallnote">File Systems & I/O</span>                                                                                                                                      | <span class="smallnote">Chapters 11 & 12</span>
+| **Week 8**    |  <span class="smallnote">Memory Management & Virtual Memory</span>                                                                                                                      | <span class="smallnote">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/14/2019    |                                                                                                                                                                                        |                                | {% comment %}[HW4] (Due 10/25){% endcomment %}
 | 10/16/2019    |                                                                                                                                                                                        |                                |
 | 10/18/2019    |                                                                                                                                                                                        |                                |
-| **Week 9**    | <span class="smallnote">OS Security</span>                                                                                                                                             | <span class="smallnote">Chapter 15</span>
+| **Week 9**    | <span class="smallnote">File Systems & I/O</span>                                                                                                                                      | <span class="smallnote">Chapters 11 & 12</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 10/21/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                |
 | 10/23/2019    |                                                                                                                                                                                        |                                |
 | 10/25/2019    |                                                                                                                                                                                        |                                |
-| **Week 10**   | <span class="smallnote">Finish OS Security; Potential Special Topics: Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                         | <span class="smallnote">Chapters 13--16</span>
+| **Week 10**   | <span class="smallnote">OS Security; Potential Special Topics: Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                                | <span class="smallnote">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
-| 10/28/2019    | {% comment %}Access Control{% endcomment %}                                                                                                                                            |                                | {% comment %}[HW5] (Due 11/08){% endcomment %}
-| 10/30/2019    |                                                                                                                                                                                        |                                |
-| 11/01/2019    |                                                                                                                                                       |                                | {% comment %}[PT6]{% endcomment %}
+| 10/28/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                | {% comment %}[HW5] (Due 11/08){% endcomment %}
+| 10/30/2019    | {% comment %}Access Control{% endcomment %}                                                                                                                                            |                                |
+| 11/01/2019    |                                                                                                                                                                                        |                                | {% comment %}[PT6]{% endcomment %}
 | **Week 11**   | <span class="smallnote"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 | 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                |
@@ -184,7 +184,7 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 | 12/06/2019    | Project Presentations. *(Last Day of Class.)*                                                                                                                                          |                                |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |--------------------------------------------- |
 
-**Schedule Legend:** *HW = Homework, PT = Participation Test, P = Programming Assignment, E = Exam.*
+**Schedule Legend:** *HW = Homework, P = Programming Assignment, E = Exam.*
 
 [Questionnaire]: https://forms.gle/Krmco3bNsbPRjSca7
 
@@ -237,18 +237,12 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [HW4]: {{site.data.settings.d2l}}
 [HW5]: {{site.data.settings.d2l}}
 
-<!-- participation tests (posted w/ solutions) -->
-[PT1]: #
-[PT2]: #
-[PT3]: #
-[PT4]: #
-[PT5]: #
-[PT6]: #
-
 <!-- programming assignments (not posted w/ solutions) -->
-[PA1]: #
+[PA1]: a1
 [PA2]: #
 [PA3]: #
+
+[exam1coversheet]: {{site.data.settings.exams}}/exam1-coversheet.pdf
 
 ## Grading
 
@@ -266,120 +260,18 @@ If a scheduling conflict prevents you from taking an exam at the scheduled time,
 
 There is no final exam for the course, but there is a final project.
 
-***I will post specific project-related details and deadlines as we get closer.***
+## Assignments
 
-## Project
+Homework in this course comes in two forms:
+**short assessments** of comprehension based on textbook readings, paper readings, material covered in class, etc., and
+**programming assignments** that provide opportunities to gain hands-on experience with select topics from the course.
 
-Students will complete an OS-related project in the final weeks of this term.
-Students taking this course will be divided into groups of 2-4 people.
-*(1-person teams are permissible, but groups of 2-4 people are preferable.)*
-Each group will choose, propose, and implement an OS-related project; groups will also present a live demo and write a report about the project.
-
-The evaluation of the project is based on the report, quality, presentation, and participation.
-
-Each member of the same group should participate in the presentation/demo and will receive the same mark.
-
-<!-- During the actual project presentations, attendance will be taken randomly. --- 3 points -->
-
-<!-- FINAL PROJECT REPORT DUE: Dec 7, 2018! -->
-
-<div id="accordion">
-<div class="card card bg-light">
-<!-- header -->
-<!-- <div class="card-header" id="headingTwo" data-toggle="collapse"  data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" markdown="1"> -->
-<!-- *Click this bar to show/hide project details...* -->
-<!-- </div> -->
-
-<div class="card-header" id="headingTwo" data-toggle="collapse"  data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" markdown="1">
-<h5 class="mb-0">
-<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"  markdown="1">
-<i class="fa" aria-hidden="true"></i>
-*Click here to show/hide project details...*
-<!-- ***I will post specific project-related details and deadlines as we get closer.*** -->
-</button>
-</h5>
-</div>
-
-<!-- details -->
-<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-<div class="card-body" markdown="1">
-# Project Details
-
-Projects can take various forms:
-
-1. **Technical Report (TR).** For this type of project, your group will work together to conduct a deep technical analysis of an existing OS concept and its implementation (e.g., in the Linux OS). You should examine actual OS code and be able to describe how that code works. You should also formally present an introduction to your OS concept/implementation, why it is necessary, alternative ideas or strategies, an assessment of how it was implemented, and ideas for future work or possible improvements.
-2. **Proof of Concept (PoC).** For this type of project, your group will work together to implement an interesting OS idea or algorithm. The primary assessment of this type of project will be through a short demo (approx. 10 minutes). This project still requires a technical report, but the emphasis is less on the report and more on the demo.
-3. **Something Else?** If your group has an idea that doesn’t fit into one of the above categories, schedule some time to meet with me to discuss the idea. Your group should come prepared to discuss details such as the problem, deliverables, assessment, and so forth.
-
-## Project Milestones
-
-#### Project Proposal
-
-Your group will present a 1-page proposal on your project. Your proposal should (briefly) address:
-
-- Who are the members of your group.
-- An overview to your proposed project and deliverables.
-- Your plan for division of labor within the group.
-- A rough schedule for when various aspects of the project will be complete.
-
-#### Final Submission
-
-Your group should submit all deliverables in a single zipped folder.
-
-The naming convention should be:  
-
-`
-os-project-fall2019-lastname1-lastname2-lastname3.zip
-`
-
-#### Demo
-
-- Project presentations will take place in the final weeks of the term during regularly-scheduled class times.
-- TR projects will present an overview of their technical report.
-- PoC projects will present a demo (which should include some introduction to the project, the goals, and what the PoC demonstrates).
-- All students are required to attend the projects presentations & demos. If you need to miss a class, I will need written notice at least 1 week before the class(es) that you will not be able to attend.
-
-## Project Grade Breakdown
-
-- Proposal (10%)
-- Final Submission / Demo / Presentation (80%)
-- Attendance during presentations (10%)
-</div>
-</div>
-</div>
-</div>
+{% for a in site.data.settings.assignments %}
+<a href="{{a.url}}">{{a.name}}</a>
+{% endfor %}
 
 
-## Exams
-
-There will be two in-class exams.
-
-Exam \#1 will be held in class on 10/07/2019.
-Topics covered up to the class prior to the exam are all in-scope for this exam.
-(In other words, all topics covered in the first half of this course are fair game.)
-
-Exam \#2 will be held in class on 11/08/2019.
-Topics covered between the first exam and up to the class prior to the exam are all in-scope for this exam.
-(In other words, all topics covered in the second half of this course are fair game.)
-
-If you are unable to attend class on these days,
-    you must meet with me ***at least 1 week*** prior to the scheduled date of the exam to arrange an alternative date/time/location to take the exam.
-
-***Exam resources are TBD.***
-
-## Late Penalties
-
-You are allowed at most one late submission (up to 48 hours) with no penalty &ndash; no excuse required.
-Indicate in your submission that you are electing to use your free pass; you cannot change this decision later.
-
-Once your pass is used (or you fail to indicate that you are using your free pass), the penalties for late submissions are as follows:
-
-* &lt;     8 hours: 10%
-* &lt;    24 hours: 20%
-* &lt;    48 hours: 40%
-* &#8805; 48 hours: no credit.
-
-## Handing in Assignments
+#### Handing in Assignments
 
 Unless otherwise stated, everything will be submitted through [D2L]({{site.data.settings.d2l}}).
 
@@ -392,6 +284,45 @@ For plain text, you can use an editor like Sublime, TextEdit, NotePad, Emacs, or
 If an assignment requires you to submit multiple files, zip all the files into a single zip file and submit that.
 If you have to revise your submission, submit your new zip file once more, with VX appended (V2 for Version 2, V3 for Version 3, etc.);
 only the last version will be graded.
+
+#### Late Penalties
+
+You are allowed at most one late submission (up to 48 hours) with no penalty &ndash; no excuse required.
+Indicate in your submission that you are electing to use your free pass; you cannot change this decision later.
+
+Once your pass is used (or you fail to indicate that you are using your free pass), the penalties for late submissions are as follows:
+
+* &lt;     8 hours: 10%
+* &lt;    24 hours: 20%
+* &lt;    48 hours: 40%
+* &#8805; 48 hours: no credit.
+
+## Exams
+
+There will be two in-class exams.
+If you are unable to attend class on these days,
+    you must meet with me ***at least 1 week*** prior to the scheduled date of the exam to arrange an alternative date/time/location to take the exam.
+
+
+**Exam \#1** will be held in class on **10/07/2019**.
+Topics covered up to the class prior to the exam are all in-scope for this exam.
+(In other words, all topics covered in the first half of this course are fair game.)
+[Exam 1 Coversheet][exam1coversheet]{:.exam}
+
+**Exam \#2** will be held in class on **11/08/2019**.
+Topics covered between the first exam and up to the class prior to the exam are all in-scope for this exam.
+(In other words, all topics covered in the second half of this course are fair game.)
+
+## Project
+
+Students will complete an OS-related project in the final weeks of this term.
+Students taking this course will be divided into groups of 2-4 people.
+*(1-person teams are permissible, but groups of 2-4 people are preferable.)*
+Each group will choose, propose, and implement an OS-related project; groups will also present a live demo and write a report about the project.
+The evaluation of the project is based on the report, quality, presentation, and participation.
+Each member of the same group should participate in the presentation/demo and will receive the same mark.
+
+[***Click here to go to the official project page...***](project)
 
 ## Sample Solutions
 
