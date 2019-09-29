@@ -1,6 +1,6 @@
 ---
 layout: default
-proposal: Friday, December 4th, 2019
+proposal: TBD
 due: Friday, December 6th, 2019
 ---
 
