@@ -105,6 +105,8 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
  + Linux Namespaces (e.g., Containers)
  {% endcomment %}
 
+Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
+
 {:.table .table-hover .table-striped .table-bordered .table-sm}
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                        | Assignments                                  |
 | **Week 1**    | <span class="smallnote">Introduction; Week 1 will be led by Professor Binhai Zhu.</span>                                                                                               | <span class="smallnote">Chapters 1 & 2</span>
@@ -196,6 +198,8 @@ Feedback is always appreciated regarding typos, suggestions for more detailed ex
 [fork_bomb.c]: {{site.data.settings.code}}/fork_bomb.c
 [threads01.c]: {{site.data.settings.code}}/threads01.c
 [threads02.c]: {{site.data.settings.code}}/threads02.c
+[Makefile]: {{site.data.settings.code}}/Makefile
+[Vagrantfile]: {{site.data.settings.code}}/Vagrantfile
 
 <!-- slides -->
 [slides01]: {{site.data.settings.slides}}/cs460-01.pdf
