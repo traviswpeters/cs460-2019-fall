@@ -137,8 +137,8 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 09/27/2019    | Concurrency: Mutual Exclusion & Synchronization (Part III) [slides][slides10]{:.slides}                                                                                                |                                              | [PA1] (Due 10/16)
 | **Week 6**    |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 09/30/2019    | Finish Concurrency: Mutual Exclusion & Synchronization; (Begin Concurrency: Deadlock & Starvation?) [slides][slides11]{:.slides}                                                       | 6.1-6.6 (6.7-6.8)                            | {% comment %}[HW3] (Due 10/18){% endcomment %}
-| 10/02/2019    | Concurrency: Deadlock & Starvation                                                                                                                                                     | [(Extra) Synchronization + Deadlock]         |
+| 09/30/2019    | Finish Concurrency: Mutual Exclusion & Synchronization (Part IV) [slides][slides11]{:.slides}                                                                                          | 6.1-6.6 (6.7-6.8)                            | {% comment %}[HW3] (Due 10/18){% endcomment %}
+| 10/02/2019    | Concurrency: Deadlock & Starvation (Part V) [slides][slides12]{:.slides}                                                                                                               | [(Extra) Synchronization + Deadlock]         |
 | 10/04/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
 | **Week 7**    | <span class="note">Scheduling</span>                                                                                                                                                   | <span class="note">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
@@ -211,12 +211,12 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides05]: {{site.data.settings.slides}}/cs460-05.pdf
 [slides06]: {{site.data.settings.slides}}/cs460-06.pdf
 [slides07]: {{site.data.settings.slides}}/cs460-07.pdf
-[slides08]: {{site.data.settings.slides}}/cs460-08.pdf
+[slides08]: {{site.data.settings.slides}}/cs460-08-concurrency.pdf
+[slides09]: {{site.data.settings.slides}}/cs460-09-concurrency.pdf
+[slides10]: {{site.data.settings.slides}}/cs460-10-concurrency.pdf
+[slides11]: {{site.data.settings.slides}}/cs460-11-concurrency.pdf
+[slides12]: {{site.data.settings.slides}}/cs460-12-concurrency.pdf
 
-[slides09]: {{site.data.settings.slides}}/cs460-09.pdf
-[slides10]: {{site.data.settings.slides}}/cs460-10.pdf
-[slides11]: {{site.data.settings.slides}}/cs460-11.pdf
-[slides12]: {{site.data.settings.slides}}/cs460-12.pdf
 [slides13]: {{site.data.settings.slides}}/cs460-13.pdf
 [slides14]: {{site.data.settings.slides}}/cs460-14.pdf
 [slides15]: {{site.data.settings.slides}}/cs460-15.pdf
