@@ -6,11 +6,11 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "osbox"
 
   # Don't check for updates on every 'vagrant up'
-  config.vm.box_check_update = false
+  # config.vm.box_check_update = false
   # set auto_update to false, if do NOT want to check the correct additions
-  config.vbguest.auto_update = false
+  # config.vm.auto_update = false
   # do NOT download the iso file from a webserver
-  config.vbguest.no_remote = true
+  # config.vm.no_remote = true
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is
