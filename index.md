@@ -143,7 +143,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | **Week 7**    | <span class="note">Scheduling</span>                                                                                                                                                   | <span class="note">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/07/2019    | ***Exam #1*** [Exam 1 Coversheet][exam1coversheet]{:.exam}                                                                                                                             |                                              |
-| 10/09/2019    |                                                                                                                                                                                        |                                              |
+| 10/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                              |
 | 10/11/2019    |                                                                                                                                                                                        |                                              |
 | **Week 8**    |  <span class="note">Memory Management & Virtual Memory</span>                                                                                                                          | <span class="note">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
@@ -272,20 +272,21 @@ Homework in this course comes in two forms:
 **short assessments** of comprehension based on textbook readings, paper readings, material covered in class, etc., and
 **programming assignments** that provide opportunities to gain hands-on experience with select topics from the course.
 
+<ul>
 {% for a in site.data.settings.assignments %}
-<a href="{{a.url}}">{{a.name}}</a>
+    <li><a href="{{a.url}}">{{a.name}}</a></li>
 {% endfor %}
-
+</ul>
 
 #### Handing in Assignments
 
-Unless otherwise stated, everything will be submitted through [D2L]({{site.data.settings.d2l}}).
+Unless otherwise stated, everything will be submitted through [D2L]({{site.data.settings.d2l}}), and is **due by 10pm** on the due date.
 
 Even when an assignment has some written exercises, you are required to either type in a file or scan your written work and submit it electronically.
 
 To submit output from your program, submit a copy-pasted file in plain text format and/or a screenshot, as appropriate.
 
-For plain text, you can use an editor like Sublime, TextEdit, NotePad, Emacs, or even Word, but be sure to save as plain text.
+For plain text, you can use an editor like Sublime, TextEdit, NotePad, Emacs, or even Word, **but be sure to save as plain text.**
 
 If an assignment requires you to submit multiple files, zip all the files into a single zip file and submit that.
 If you have to revise your submission, submit your new zip file once more, with VX appended (V2 for Version 2, V3 for Version 3, etc.);
@@ -303,12 +304,13 @@ Once your pass is used (or you fail to indicate that you are using your free pas
 * &lt;    48 hours: 40%
 * &#8805; 48 hours: no credit.
 
+**Note:** this cannot be used to receive full credit on any assignment checkpoints.
+
 ## Exams
 
 There will be two in-class exams.
 If you are unable to attend class on these days,
     you must meet with me ***at least 1 week*** prior to the scheduled date of the exam to arrange an alternative date/time/location to take the exam.
-
 
 **Exam \#1** will be held in class on **10/07/2019**.
 Topics covered up to the class prior to the exam are all in-scope for this exam.
