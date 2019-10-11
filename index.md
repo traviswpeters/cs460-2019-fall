@@ -51,6 +51,7 @@ For more information on getting help, visit the [Student Success Center website]
 - [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf)
 - [An Introduction to C Programming for Java Programmers]({{site.data.settings.reading}}/intro-to-C-for-java-programmers.pdf)
 - [The C Cheat Sheet]({{site.data.settings.reading}}/the-C-cheat-sheet.pdf)
+- [A Nice `Makefile` Tutorial](https://gist.github.com/isaacs/62a2d1825d04437c6f08)
 - [The Linux Kernel Module Programming Guide]({{site.data.settings.reading}}/readme-linux-kernel-programming-lkmpg.pdf)
 - [Summary of GCC Flags (Options)](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
 - [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
@@ -320,6 +321,15 @@ Topics covered up to the class prior to the exam are all in-scope for this exam.
 **Exam \#2** will be held in class on **11/08/2019**.
 Topics covered between the first exam and up to the class prior to the exam are all in-scope for this exam.
 (In other words, all topics covered in the second half of this course are fair game.)
+
+#### Gradescope
+
+We will be using Gradescope to evaluate exams this term, which allows us to provide fast and accurate feedback on your work.
+Exam grades will be returned through Gradescope.
+As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback.
+You may also submit regrade requests if you feel we have made a mistake.
+
+MSU has an institutional license with Gradescope, so you can use your NedID to login: [https://www.gradescope.com/saml](https://www.gradescope.com/saml).
 
 ## Project
 
