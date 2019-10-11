@@ -145,7 +145,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/07/2019    | ***Exam #1*** [Exam 1 Coversheet][exam1coversheet]{:.exam}                                                                                                                             |                                              |
 | 10/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                              |
-| 10/11/2019    |                                                                                                                                                                                        |                                              |
+| 10/11/2019    | Review Exam #1 Results *(Review your exam and feedback on [Gradescope])*                                                                                                                                                                 |                                              |
 | **Week 8**    |  <span class="note">Memory Management & Virtual Memory</span>                                                                                                                          | <span class="note">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/14/2019    |                                                                                                                                                                                        |                                              | {% comment %}[HW4] (Due 10/25){% endcomment %}
@@ -191,6 +191,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 **Schedule Legend:** *HW = Homework, P = Programming Assignment, E = Exam.*
 
 [Questionnaire]: https://forms.gle/Krmco3bNsbPRjSca7
+[Gradescope]: https://www.gradescope.com/
 
 <!-- Reading -->
 [Sys Design Hints]: {{site.data.settings.reading}}/design-hints-butler-lampson-1983.pdf
