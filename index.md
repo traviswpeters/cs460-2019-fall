@@ -45,18 +45,21 @@ For more information on getting help, visit the [Student Success Center website]
 
 ##### Technical Resources
 
-- [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html)
+- [System Programming Overview / Programming in C Refresher](http://www.lysator.liu.se/c/bwk-tutor.html) *#SysProgramming*{:.text-muted} *#Programming*{:.text-muted}
+- [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf) *#Programming*{:.text-muted}
+- [An Introduction to C Programming for Java Programmers]({{site.data.settings.reading}}/intro-to-C-for-java-programmers.pdf) *#Programming*{:.text-muted}
+- [A Nice `Makefile` Tutorial](https://gist.github.com/isaacs/62a2d1825d04437c6f08) *#Programming*{:.text-muted}
+- [The Linux Kernel Module Programming Guide]({{site.data.settings.reading}}/readme-linux-kernel-programming-lkmpg.pdf) *#SysProgramming*{:.text-muted}
+- [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf) *#SysProgramming*{:.text-muted}
+- [PLT and GOT - the key to code sharing and dynamic libraries](https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html) *#SysProgramming*{:.text-muted}
+- [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/) *#Assignment1*{:.text-muted}
+
+##### Reference Resources
+
 - [Browse the Linux Source Code *(thanks @bootlin!)*](https://elixir.bootlin.com/linux/latest/source)
+- [The C Cheat Sheet]({{site.data.settings.reading}}/the-C-cheat-sheet.pdf) *#Programming*{:.text-muted}
+- [Summary of GCC Flags (Options)](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html) *#Programming*{:.text-muted}
 - [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/)
-- [C and C++ in 5 days]({{site.data.settings.reading}}/C-in-5-days.pdf)
-- [An Introduction to C Programming for Java Programmers]({{site.data.settings.reading}}/intro-to-C-for-java-programmers.pdf)
-- [The C Cheat Sheet]({{site.data.settings.reading}}/the-C-cheat-sheet.pdf)
-- [A Nice `Makefile` Tutorial](https://gist.github.com/isaacs/62a2d1825d04437c6f08)
-- [The Linux Kernel Module Programming Guide]({{site.data.settings.reading}}/readme-linux-kernel-programming-lkmpg.pdf)
-- [Summary of GCC Flags (Options)](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
-- [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf)
-- [PLT and GOT - the key to code sharing and dynamic libraries](https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html)
-- [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/)
 
 ##### Research Resources
 
@@ -141,16 +144,23 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 09/30/2019    | Finish Concurrency: Mutual Exclusion & Synchronization (Part IV) [slides][slides11]{:.slides}                                                                                          | 6.1-6.6 (6.7-6.8)                            | {% comment %}[HW3] (Due 10/18){% endcomment %}
 | 10/02/2019    | Concurrency: Deadlock & Starvation (Part V) [slides][slides12]{:.slides}                                                                                                               | [(Extra) Synchronization + Deadlock]         |
 | 10/04/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
-| **Week 7**    | <span class="note">Scheduling</span>                                                                                                                                                   | <span class="note">Chapters 9 & 10</span>
+| **Week 7**    |                                                                                                                                                                                        |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/07/2019    | ***Exam #1*** [Exam 1 Coversheet][exam1coversheet]{:.exam}                                                                                                                             |                                              |
 | 10/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                              |
-| 10/11/2019    | Review Exam #1 Results *(Review your exam and feedback on [Gradescope])*                                                                                                                                                                 |                                              |
-| **Week 8**    |  <span class="note">Memory Management & Virtual Memory</span>                                                                                                                          | <span class="note">Chapters 7 & 8</span>
+| 10/11/2019    | Review Exam #1 Results *(Review your exam and feedback on [Gradescope])*                                                                                                                                                              |                                              |
+| **Week 8**    | <span class="note">Scheduling</span>                                                                                                                                                   | <span class="note">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 10/14/2019    |                                                                                                                                                                                        |                                              | {% comment %}[HW4] (Due 10/25){% endcomment %}
-| 10/16/2019    |                                                                                                                                                                                        |                                              |
+| 10/14/2019    | Scheduling (Part I) [slides][slides13]{:.slides}                                                                                                                                       | 9.1-9.2 (9.3)                                |
+| 10/16/2019    | Scheduling (Part II)                                                                                                                                                                   | 10.1-10.2 (10.3-10.5)                        |
 | 10/18/2019    |                                                                                                                                                                                        |                                              |
+
+{% comment %}
+| **Week 9**    |  <span class="note">Memory Management & Virtual Memory</span>                                                                                                                          | <span class="note">Chapters 7 & 8</span>
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
+| 10/21/2019    |                                                                                                                                                                                        |                                              | {% comment %}[HW4] (Due 10/25){% endcomment %}
+| 10/23/2019    |                                                                                                                                                                                        |                                              |
+| 10/25/2019    |                                                                                                                                                                                        |                                              |
 | **Week 9**    | <span class="note">File Systems & I/O</span>                                                                                                                                           | <span class="note">Chapters 11 & 12</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/21/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                              |
@@ -164,7 +174,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | **Week 11**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
-| 11/06/2019    |                                                                                                                                                                                        |                                              |
+| 11/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
 | 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              |
 | **Week 12**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
@@ -187,6 +197,8 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 12/04/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | 12/06/2019    | Project Presentations. *(Last Day of Class.)*                                                                                                                                          |                                              |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
+{% endcomment %}
+
 
 **Schedule Legend:** *HW = Homework, P = Programming Assignment, E = Exam.*
 
@@ -218,9 +230,9 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides10]: {{site.data.settings.slides}}/cs460-10-concurrency.pdf
 [slides11]: {{site.data.settings.slides}}/cs460-11-concurrency.pdf
 [slides12]: {{site.data.settings.slides}}/cs460-12-concurrency.pdf
+[slides13]: {{site.data.settings.slides}}/cs460-13-scheduling.pdf
+[slides14]: {{site.data.settings.slides}}/cs460-14-scheduling.pdf
 
-[slides13]: {{site.data.settings.slides}}/cs460-13.pdf
-[slides14]: {{site.data.settings.slides}}/cs460-14.pdf
 [slides15]: {{site.data.settings.slides}}/cs460-15.pdf
 [slides16]: {{site.data.settings.slides}}/cs460-16.pdf
 [slides17]: {{site.data.settings.slides}}/cs460-17.pdf
