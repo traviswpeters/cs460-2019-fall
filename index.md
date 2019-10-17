@@ -188,7 +188,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 12/02/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | 12/04/2019    | Project Presentations.                                                                                                                                                                 |                                              |
-| 12/06/2019    | Project Presentations. *(Last Day of Class.)*                                                                                                                                          |                                              | ***Project Due!*** 
+| 12/06/2019    | Project Presentations. *(Last Day of Class.)*                                                                                                                                          |                                              | ***Project Due!***
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 
 {% comment %}OS Security Overview; Access Control{% endcomment %}
@@ -256,8 +256,8 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 
 <!-- programming assignments (not posted w/ solutions) -->
 [PA1]: a1
-[PA2]: #
-[PA3]: #
+[PA2]: a2
+[PA3]: a3
 
 [exam1coversheet]: {{site.data.settings.exams}}/exam1-coversheet.pdf
 [exam2coversheet]: {{site.data.settings.exams}}/exam2-coversheet.pdf
