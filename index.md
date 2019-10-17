@@ -148,13 +148,13 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/07/2019    | ***Exam #1*** [Exam 1 Coversheet][exam1coversheet]{:.exam}                                                                                                                             |                                              |
 | 10/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                              |
-| 10/11/2019    | Review Exam #1 Results *(Review your exam and feedback on [Gradescope])*                                                                                                                                                              |
+| 10/11/2019    | Review Exam #1 Results *(Review your exam and feedback on [Gradescope])* <br/> MINIMUM 34.5%, MEDIAN 72.75%, MAXIMUM 91.5%, MEAN 67.48%, STD DEV 17.27%                                |
 | **Week 8**    | <span class="note">Scheduling</span>                                                                                                                                                   | <span class="note">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/14/2019    | Scheduling (Part I) [slides][slides13]{:.slides}                                                                                                                                       | 9.1-9.2 (9.3)                                |
 | 10/16/2019    | Scheduling (Part II) [slides][slides14]{:.slides}                                                                                                                                      | 10.1-10.2 (10.3-10.5)                        |
 | 10/18/2019    | Scheduling (Part III) [slides][slides15]{:.slides}                                                                                                                                     |                                              | [HW4] (Due 10/25)
-| **Week 9**    |  <span class="note">Memory Management & Virtual Memory</span>                                                                                                                          | <span class="note">Chapters 7 & 8</span>
+| **Week 9**    | <span class="note">Memory Management & Virtual Memory</span>                                                                                                                           | <span class="note">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/21/2019    |                                                                                                                                                                                        |                                              |
 | 10/23/2019    |                                                                                                                                                                                        |                                              |
@@ -164,7 +164,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 10/28/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                              |
 | 10/30/2019    |                                                                                                                                                                                        |                                              |
 | 11/01/2019    |                                                                                                                                                                                        |                                              | ***Project Proposal Due!*** <br/> [HW6] (Due 11/08)
-| **Week 11**   | <span class="note">OS Security; Potential Special Topics: Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                                     | <span class="note">Chapters 13--16</span>
+| **Week 11**   | <span class="note">OS Security. Potential Special Topics: <br/> Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                               | <span class="note">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
 | 10/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
@@ -277,6 +277,10 @@ If you are ever uncertain of how to complete an assignment, you can go to office
 If a scheduling conflict prevents you from taking an exam at the scheduled time, you must let me know ***at least*** one week before the exam.
 
 There is no final exam for the course, but there is a final project.
+
+> *Will the course grades be curved?*   
+
+No. I've studied the topic and in my current understanding (thanks to [great insights and research by others](https://academics.hamilton.edu/biology/smiller/curve.html)), applying a curve does more harm than good in the long run.
 
 ## Assignments
 
