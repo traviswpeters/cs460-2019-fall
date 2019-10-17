@@ -1,22 +1,24 @@
 ---
 layout: default
-proposal: TBD
+proposal: Friday, November 1st, 2019
 due: Friday, December 6th, 2019
+timedue: "@10pm"
+
 ---
 
 ### **Final Project**
 {:.text-center}
 
-###### ***Proposal Due:*** *{{ page.proposal }}*
+###### ***Project Proposal Due:*** *{{ page.proposal }}* *{{ page.timedue }}*
 {:.text-center}
 
-###### ***All Project Deliverables Due:*** *{{ page.due }}*
+###### ***All Project Deliverables Due:*** *{{ page.due }}* *{{ page.timedue }}*
 {:.text-center}
 
 ## Introduction
 
 Students will complete an OS-related project in the final weeks of this term.
-Students taking this course will be divided into groups of 2-4 people.
+Students taking this course will be divide into groups of 2-4 people.
 *(1-person teams are permissible, but groups of 2-4 people are preferable.)*
 Each group will choose, propose, and implement an OS-related project; groups will also present a live demo and write a report about the project.
 The evaluation of the project is based on the report, quality, presentation, and participation.
@@ -72,9 +74,9 @@ Your group should submit all deliverables in a single zipped folder.
 
 The naming convention should be:  
 
-`
-os-fall2019-project-lastname1-lastname2-lastname3.zip
-`
+```
+2019-fall-os-project-lastname1-lastname2-lastname3.zip
+```
 
 #### Demo
 

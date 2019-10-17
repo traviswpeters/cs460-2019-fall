@@ -116,9 +116,9 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                                      | Assignments                                  |
 | **Week 1**    | <span class="note">Introduction; Week 1 will be led by Professor Binhai Zhu.</span>                                                                                                    | <span class="note">Chapters 1 & 2</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [notes]({{site.data.settings.notes}}/cs460-bhz-1.pdf){:.notes}                                                     | Chapter 2                                    | [HW1] (Due 09/13)
+| 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [slides][slides00-bhz-1]{:.slides}                                                                                 | Chapter 2                                    | [HW1] (Due 09/13)
 | 08/28/2019    | *Class Cancelled.*                                                                                                                                                                     |                                              |
-| 08/30/2019    | History of OS Development (Part II); <br/>Early Memory Management: static and dynamic partition, memory deallocation. [notes]({{site.data.settings.notes}}/cs460-bhz-2.pdf){:.notes}   | 7.1-7.2                                      |
+| 08/30/2019    | History of OS Development (Part II); <br/>Early Memory Management: static and dynamic partition, memory deallocation. [slides][slides00-bhz-2]{:.slides}                               | 7.1-7.2                                      |
 | **Week 2**    | <span class="note">Review and High-Level OS Concepts</span>                                                                                                                            | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 09/02/2019    | *No Class. Labor Day.*                                                                                                                                                                 |                                              |
@@ -141,63 +141,57 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 09/27/2019    | Concurrency: Mutual Exclusion & Synchronization (Part III) [slides][slides10]{:.slides}                                                                                                |                                              | [PA1] (Due 10/16)
 | **Week 6**    |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 09/30/2019    | Finish Concurrency: Mutual Exclusion & Synchronization (Part IV) [slides][slides11]{:.slides}                                                                                          | 6.1-6.6 (6.7-6.8)                            | {% comment %}[HW3] (Due 10/18){% endcomment %}
+| 09/30/2019    | Finish Concurrency: Mutual Exclusion & Synchronization (Part IV) [slides][slides11]{:.slides}                                                                                          | 6.1-6.6 (6.7-6.8)                            | [HW3] (Due 10/18)
 | 10/02/2019    | Concurrency: Deadlock & Starvation (Part V) [slides][slides12]{:.slides}                                                                                                               | [(Extra) Synchronization + Deadlock]         |
 | 10/04/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
 | **Week 7**    |                                                                                                                                                                                        |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/07/2019    | ***Exam #1*** [Exam 1 Coversheet][exam1coversheet]{:.exam}                                                                                                                             |                                              |
 | 10/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                              |
-| 10/11/2019    | Review Exam #1 Results *(Review your exam and feedback on [Gradescope])*                                                                                                                                                              |                                              |
+| 10/11/2019    | Review Exam #1 Results *(Review your exam and feedback on [Gradescope])*                                                                                                                                                              |
 | **Week 8**    | <span class="note">Scheduling</span>                                                                                                                                                   | <span class="note">Chapters 9 & 10</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/14/2019    | Scheduling (Part I) [slides][slides13]{:.slides}                                                                                                                                       | 9.1-9.2 (9.3)                                |
-| 10/16/2019    | Scheduling (Part II)                                                                                                                                                                   | 10.1-10.2 (10.3-10.5)                        |
-| 10/18/2019    |                                                                                                                                                                                        |                                              |
-
-{% comment %}
+| 10/16/2019    | Scheduling (Part II) [slides][slides14]{:.slides}                                                                                                                                      | 10.1-10.2 (10.3-10.5)                        |
+| 10/18/2019    | Scheduling (Part III) [slides][slides15]{:.slides}                                                                                                                                     |                                              | [HW4] (Due 10/25)
 | **Week 9**    |  <span class="note">Memory Management & Virtual Memory</span>                                                                                                                          | <span class="note">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 10/21/2019    |                                                                                                                                                                                        |                                              | {% comment %}[HW4] (Due 10/25){% endcomment %}
+| 10/21/2019    |                                                                                                                                                                                        |                                              |
 | 10/23/2019    |                                                                                                                                                                                        |                                              |
-| 10/25/2019    |                                                                                                                                                                                        |                                              |
-| **Week 9**    | <span class="note">File Systems & I/O</span>                                                                                                                                           | <span class="note">Chapters 11 & 12</span>
+| 10/25/2019    |                                                                                                                                                                                        |                                              | [HW5] (Due 11/01)
+| **Week 10**    | <span class="note">File Systems & I/O</span>                                                                                                                                           | <span class="note">Chapters 11 & 12</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 10/21/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                              |
-| 10/23/2019    |                                                                                                                                                                                        |                                              |
-| 10/25/2019    |                                                                                                                                                                                        |                                              |
-| **Week 10**   | <span class="note">OS Security; Potential Special Topics: Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                                     | <span class="note">Chapters 13--16</span>
+| 10/28/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                              |
+| 10/30/2019    |                                                                                                                                                                                        |                                              |
+| 11/01/2019    |                                                                                                                                                                                        |                                              | ***Project Proposal Due!*** <br/> [HW6] (Due 11/08)
+| **Week 11**   | <span class="note">OS Security; Potential Special Topics: Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                                     | <span class="note">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 10/28/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                              | {% comment %}[HW5] (Due 11/08){% endcomment %}
-| 10/30/2019    | {% comment %}Access Control{% endcomment %}                                                                                                                                            |                                              |
-| 11/01/2019    |                                                                                                                                                                                        |                                              | {% comment %}[PT6]{% endcomment %}
-| **Week 11**   | <span class="note"></span>
-| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
-| 11/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
+| 10/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
+| 10/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
 | 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              |
 | **Week 12**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                              |
-| 11/13/2019    |                                                                                                                                                                                        |                                              |
-| 11/15/2019    |                                                                                                                                                                                        |                                              |
+| 11/11/2019    | Hold for Guest Lecture - [Daniel Pagan](https://www.linkedin.com/in/daniel-pagan-0227b8126), OS Enthusiast & Pen Tester @ IBM X-Force Red                                              |                                              |
+| 11/13/2019    | Review Exam #2 Results *(Review your exam and feedback on [Gradescope])*                                                                                                               |                                              |
+| 11/15/2019    |
 | **Week 13**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/18/2019    | Project Presentations.                                                                                                                                                                 |                                              |
-| 11/20/2019    | Project Presentations.                                                                                                                                                                 |                                              |
-| 11/22/2019    | Project Presentations.                                                                                                                                                                 |                                              |
+| 11/18/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                              |
+| 11/20/2019    |                                                                                                                                                                                        |                                              |
+| 11/22/2019    | (Project Presentations.)                                                                                                                                                               |                                              |
 | **Week 14**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/25/2019    | Project Presentations.                                                                                                                                                                 |                                              |
-| 11/27/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                              |
-| 11/29/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                              |
+| 12/02/2019    | Project Presentations.                                                                                                                                                                 |                                              |
+| 12/04/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                              |
+| 12/06/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                              |
 | **Week 15**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 12/02/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | 12/04/2019    | Project Presentations.                                                                                                                                                                 |                                              |
-| 12/06/2019    | Project Presentations. *(Last Day of Class.)*                                                                                                                                          |                                              |
+| 12/06/2019    | Project Presentations. *(Last Day of Class.)*                                                                                                                                          |                                              | ***Project Due!*** 
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-{% endcomment %}
+
+{% comment %}OS Security Overview; Access Control{% endcomment %}
 
 
 **Schedule Legend:** *HW = Homework, P = Programming Assignment, E = Exam.*
@@ -218,6 +212,8 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [Vagrantfile]: {{site.data.settings.code}}/Vagrantfile
 
 <!-- slides -->
+[slides00-bhz-1]: {{site.data.settings.slides}}/cs460-00-bhz-1.pdf
+[slides00-bhz-2]: {{site.data.settings.slides}}/cs460-00-bhz-2.pdf
 [slides01]: {{site.data.settings.slides}}/cs460-01.pdf
 [slides02]: {{site.data.settings.slides}}/cs460-02.pdf
 [slides03]: {{site.data.settings.slides}}/cs460-03.pdf
@@ -232,8 +228,8 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides12]: {{site.data.settings.slides}}/cs460-12-concurrency.pdf
 [slides13]: {{site.data.settings.slides}}/cs460-13-scheduling.pdf
 [slides14]: {{site.data.settings.slides}}/cs460-14-scheduling.pdf
+[slides15]: {{site.data.settings.slides}}/cs460-15-scheduling.pdf
 
-[slides15]: {{site.data.settings.slides}}/cs460-15.pdf
 [slides16]: {{site.data.settings.slides}}/cs460-16.pdf
 [slides17]: {{site.data.settings.slides}}/cs460-17.pdf
 [slides18]: {{site.data.settings.slides}}/cs460-18.pdf
@@ -256,6 +252,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [HW3]: {{site.data.settings.d2l}}
 [HW4]: {{site.data.settings.d2l}}
 [HW5]: {{site.data.settings.d2l}}
+[HW6]: {{site.data.settings.d2l}}
 
 <!-- programming assignments (not posted w/ solutions) -->
 [PA1]: a1
@@ -263,6 +260,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [PA3]: #
 
 [exam1coversheet]: {{site.data.settings.exams}}/exam1-coversheet.pdf
+[exam2coversheet]: {{site.data.settings.exams}}/exam2-coversheet.pdf
 
 ## Grading
 
@@ -309,7 +307,10 @@ only the last version will be graded.
 #### Late Penalties
 
 You are allowed at most one late submission (up to 48 hours) with no penalty &ndash; no excuse required.
-Indicate in your submission that you are electing to use your free pass; you cannot change this decision later.
+
+***To use your free late pass, indicate in your submission that you are electing to use your free pass (e.g., in a comment on your submission in D2L).***
+
+***Note that you cannot change this decision later.***
 
 Once your pass is used (or you fail to indicate that you are using your free pass), the penalties for late submissions are as follows:
 
