@@ -53,9 +53,18 @@ Each member of the same group should participate in the presentation/demo and wi
 
 Projects can take various forms:
 
-1. **Technical Report (TR).** For this type of project, your group will work together to conduct a deep technical analysis of an existing OS concept and its implementation (e.g., in the Linux OS). You should examine actual OS code and be able to describe how that code works. You should also formally present an introduction to your OS concept/implementation, why it is necessary, alternative ideas or strategies, an assessment of how it was implemented, and ideas for future work or possible improvements.
-2. **Proof of Concept (PoC).** For this type of project, your group will work together to implement an interesting OS idea or algorithm. The primary assessment of this type of project will be through a short demo (approx. 10 minutes). This project still requires a technical report, but the emphasis is less on the report and more on the demo.
-3. **Something Else?** If your group has an idea that doesn’t fit into one of the above categories, schedule some time to meet with me to discuss the idea. Your group should come prepared to discuss details such as the problem, deliverables, assessment, and so forth.
+1. **Technical Report (TR).** For this type of project, your group will work together to conduct a deep technical analysis of an existing OS concept and its implementation
+(e.g., in the Linux OS). You should examine actual OS code and be able to describe how that code works.
+You should also formally present an introduction to your OS concept/implementation,
+why it is necessary,
+alternative ideas or strategies,
+an assessment of how it was implemented, and
+ideas for future work or possible improvements.
+2. **Proof of Concept (PoC).** For this type of project, your group will work together to implement an interesting OS idea or algorithm.
+The primary assessment of this type of project will be through a short demo (approx. 10 minutes).
+This project still requires a technical report, but the emphasis is less on the report and more on the demo.
+3. **Something Else?** If your group has an idea that doesn’t fit into one of the above categories, schedule some time to meet with me to discuss the idea.
+Your group should come prepared to discuss details such as the problem, deliverables, assessment, and so forth.
 
 ## Project Milestones
 
@@ -83,7 +92,8 @@ The naming convention should be:
 - Project presentations will take place in the final weeks of the term during regularly-scheduled class times.
 - TR projects will present an overview of their technical report.
 - PoC projects will present a demo (which should include some introduction to the project, the goals, and what the PoC demonstrates).
-- All students are required to attend the projects presentations & demos. If you need to miss a class, I will need written notice at least 1 week before the class(es) that you will not be able to attend.
+- All students are required to attend the projects presentations & demos.
+If you need to miss a class, I will need written notice at least 1 week before the class(es) that you will not be able to attend.
 
 ## Project Grade Breakdown
 
