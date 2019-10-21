@@ -49,7 +49,7 @@ assignments:
     url: 'a2'
     due: 'Due 11/08'
     tinedue: '@10pm'
-    show: True
+    show: False
   a3:
     shortname: 'PA3'
     longname: 'Programming Assignment 3: ???'
