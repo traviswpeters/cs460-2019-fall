@@ -17,9 +17,16 @@
                   <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
                     <a class="dropdown-item" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }} | Syllabus</a>
                     <div class="dropdown-divider"></div>
-                    {% for a in site.data.settings.assignments %}
-                    <a class="dropdown-item" href="{{a.url}}">{{a.name}}</a>
+                    {% for assignment in site.data.settings.assignments %}
+                    {% for a in assignment %}
+                      {% if a.show %}
+                      <a class="dropdown-item" href="{{a.url}}">{{a.longname}}</a>
+                      {% endif %}
                     {% endfor %}
+                    {% endfor %}
+
+
+
                   </div>
                 </li>
                 {% else %}

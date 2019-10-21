@@ -138,7 +138,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization (Part I) [slides][slides08]{:.slides}                                                                                                  | 5.1-5.9, [Intro to Threads]                  |
 | 09/25/2019    | Concurrency: Mutual Exclusion & Synchronization (Part II) [slides][slides09]{:.slides} [threads01.c]{:.code} [threads02.c]{:.code}                                                     |                                              |
-| 09/27/2019    | Concurrency: Mutual Exclusion & Synchronization (Part III) [slides][slides10]{:.slides}                                                                                                |                                              | [PA1] (Due 10/16)
+| 09/27/2019    | Concurrency: Mutual Exclusion & Synchronization (Part III) [slides][slides10]{:.slides}                                                                                                |                                              | {% if site.data.settings.assignments.a1.show %} [{{site.data.settings.assignments.a1.shortname}}]({{site.data.settings.assignments.a1.url}}) {{site.data.settings.assignments.a1.due}} {% endif %}
 | **Week 6**    |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 09/30/2019    | Finish Concurrency: Mutual Exclusion & Synchronization (Part IV) [slides][slides11]{:.slides}                                                                                          | 6.1-6.6 (6.7-6.8)                            | [HW3] (Due 10/18)
@@ -156,19 +156,19 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 10/18/2019    | Scheduling (Part III) [slides][slides15]{:.slides}                                                                                                                                     |                                              | [HW4] (Due 10/25)
 | **Week 9**    | <span class="note">Memory Management & Virtual Memory</span>                                                                                                                           | <span class="note">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 10/21/2019    |                                                                                                                                                                                        |                                              |
-| 10/23/2019    |                                                                                                                                                                                        |                                              |
+| 10/21/2019    | Memory (Part I) [slides][slides16]{:.slides}                                                                                                                                           | 7.1-7.2                                      |
+| 10/23/2019    |                                                                                                                                                                                        |                                              | {% if site.data.settings.assignments.a2.show %} [{{site.data.settings.assignments.a2.shortname}}]({{site.data.settings.assignments.a2.url}}) {{site.data.settings.assignments.a2.due}} {% endif %}
 | 10/25/2019    |                                                                                                                                                                                        |                                              | [HW5] (Due 11/01)
-| **Week 10**    | <span class="note">File Systems & I/O</span>                                                                                                                                           | <span class="note">Chapters 11 & 12</span>
+| **Week 10**    | <span class="note">File Systems & I/O</span>                                                                                                                                          | <span class="note">Chapters 11 & 12</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/28/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                              |
 | 10/30/2019    |                                                                                                                                                                                        |                                              |
 | 11/01/2019    |                                                                                                                                                                                        |                                              | ***Project Proposal Due!*** <br/> [HW6] (Due 11/08)
 | **Week 11**   | <span class="note">OS Security. Potential Special Topics: <br/> Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                               | <span class="note">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 10/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
-| 10/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
-| 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              |
+| 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
+| 11/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
+| 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              | {% if site.data.settings.assignments.a3.show %} [{{site.data.settings.assignments.a3.shortname}}]({{site.data.settings.assignments.a3.url}}) {{site.data.settings.assignments.a3.due}} {% endif %}
 | **Week 12**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/11/2019    | Hold for Guest Lecture - [Daniel Pagan](https://www.linkedin.com/in/daniel-pagan-0227b8126), OS Enthusiast & Pen Tester @ IBM X-Force Red                                              |                                              |
@@ -181,9 +181,9 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 11/22/2019    | (Project Presentations.)                                                                                                                                                               |                                              |
 | **Week 14**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 12/02/2019    | Project Presentations.                                                                                                                                                                 |                                              |
-| 12/04/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                              |
-| 12/06/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                              |
+| 11/25/2019    | Project Presentations.                                                                                                                                                                 |                                              |
+| 11/27/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                              |
+| 11/29/2019    | *No Class. Thanksgiving.*                                                                                                                                                              |                                              |
 | **Week 15**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 12/02/2019    | Project Presentations.                                                                                                                                                                 |                                              |
@@ -192,7 +192,6 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 
 {% comment %}OS Security Overview; Access Control{% endcomment %}
-
 
 **Schedule Legend:** *HW = Homework, P = Programming Assignment, E = Exam.*
 
@@ -229,10 +228,10 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides13]: {{site.data.settings.slides}}/cs460-13-scheduling.pdf
 [slides14]: {{site.data.settings.slides}}/cs460-14-scheduling.pdf
 [slides15]: {{site.data.settings.slides}}/cs460-15-scheduling.pdf
+[slides16]: {{site.data.settings.slides}}/cs460-16-memory.pdf
+[slides17]: {{site.data.settings.slides}}/cs460-17-memory.pdf
+[slides18]: {{site.data.settings.slides}}/cs460-18-memory.pdf
 
-[slides16]: {{site.data.settings.slides}}/cs460-16.pdf
-[slides17]: {{site.data.settings.slides}}/cs460-17.pdf
-[slides18]: {{site.data.settings.slides}}/cs460-18.pdf
 [slides19]: {{site.data.settings.slides}}/cs460-19.pdf
 [slides20]: {{site.data.settings.slides}}/cs460-20.pdf
 [slides21]: {{site.data.settings.slides}}/cs460-21.pdf
@@ -253,11 +252,6 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [HW4]: {{site.data.settings.d2l}}
 [HW5]: {{site.data.settings.d2l}}
 [HW6]: {{site.data.settings.d2l}}
-
-<!-- programming assignments (not posted w/ solutions) -->
-[PA1]: a1
-[PA2]: a2
-[PA3]: a3
 
 [exam1coversheet]: {{site.data.settings.exams}}/exam1-coversheet.pdf
 [exam2coversheet]: {{site.data.settings.exams}}/exam2-coversheet.pdf
@@ -289,8 +283,14 @@ Homework in this course comes in two forms:
 **programming assignments** that provide opportunities to gain hands-on experience with select topics from the course.
 
 <ul>
-{% for a in site.data.settings.assignments %}
-    <li><a href="{{a.url}}">{{a.name}}</a></li>
+{% for assignment in site.data.settings.assignments %}
+{% for a in assignment %}
+  {% if a.show %}
+  <li>
+  <a href="{{a.url}}">{{a.longname}}</a>
+  </li>
+  {% endif %}  
+{% endfor %}
 {% endfor %}
 </ul>
 
