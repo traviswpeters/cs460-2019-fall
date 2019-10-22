@@ -35,10 +35,10 @@ $(document).ready(function() {
     $('.code').addClass('badge badge-pill badge-danger');
     $('.exam').addClass('badge badge-pill badge-success');
     $('.announcement').addClass('alert alert-primary').prepend('<h4 class="alert-heading">Class Announcement!</h4>');
-    // $('.collapse').collapse()
+    $('.timestamp').prepend('&mdash;Posted ');
 });
 </script>
-
+{% include mathjax.html %}
 </body>
 
 </html>

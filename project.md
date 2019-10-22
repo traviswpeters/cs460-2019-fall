@@ -3,8 +3,12 @@ layout: default
 proposal: Friday, November 1st, 2019
 due: Friday, December 6th, 2019
 timedue: "@10pm"
-
 ---
+
+<div class="announcement">
+Please enter team info <a href="https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing" class="alert-link"> in this Google Sheet</a> ASAP.
+<span class="timestamp">10/22/2019</span>
+</div>
 
 ### **Final Project**
 {:.text-center}

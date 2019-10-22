@@ -2,10 +2,25 @@
 layout: default
 ---
 
-<div class="announcement">Want a refresher on C Programming?
-Send an <a href="mailto:mary.cummings1@montana.edu" class="alert-link">email</a> to <a href="http://www.cs.montana.edu/directory/2069105/mary-cummings" class="alert-link">Dr. Mary Ann Cummings</a> to request access to materials from her course on <i>Programming with C</i>.</div>
+<div class="announcement">
+Please enter team info <a href="https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing" class="alert-link"> in this Google Sheet</a> ASAP.
+<span class="timestamp">10/22/2019</span>
+</div>
 
-<div class="announcement">We need a notetaker ASAP! Please contact the <a href="http://www.montana.edu/disabilityservices/" class="alert-link">Office of Disability Services</a> if interested.</div>
+{% comment %}
+
+<div class="announcement">Want a refresher on C Programming?
+Send an <a href="mailto:mary.cummings1@montana.edu" class="alert-link">email</a> to <a href="http://www.cs.montana.edu/directory/2069105/mary-cummings" class="alert-link">Dr. Mary Ann Cummings</a>
+  to request access to materials from her course on <i>Programming with C</i>.
+  <span class="timestamp">09/11/2019</span>
+</div>
+
+<div class="announcement">
+We need a notetaker ASAP! Please contact the <a href="http://www.montana.edu/disabilityservices/" class="alert-link">Office of Disability Services</a> if interested.
+<span class="timestamp">09/02/2019</span>
+</div>
+
+{% endcomment %}
 
 ## About the Course
 
