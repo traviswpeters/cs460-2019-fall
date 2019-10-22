@@ -2,6 +2,29 @@
 layout: default
 ---
 
+<!-- variable aliases -->
+{% assign hw1 = site.data.settings.homeworks.hw1 %}
+{% assign hw2 = site.data.settings.homeworks.hw2 %}
+{% assign hw3 = site.data.settings.homeworks.hw3 %}
+{% assign hw4 = site.data.settings.homeworks.hw4 %}
+{% assign hw5 = site.data.settings.homeworks.hw5 %}
+{% assign hw6 = site.data.settings.homeworks.hw6 %}
+
+{% assign a1 = site.data.settings.assignments.a1 %}
+{% assign a2 = site.data.settings.assignments.a2 %}
+{% assign a3 = site.data.settings.assignments.a3 %}
+
+<!-- Course Links -->
+[Questionnaire]: https://forms.gle/Krmco3bNsbPRjSca7
+[Gradescope]: https://www.gradescope.com/
+
+<!-- Reading -->
+[Sys Design Hints]: {{site.data.settings.reading}}/design-hints-butler-lampson-1983.pdf
+[Intro to Threads]: {{site.data.settings.reading}}/intro2threads-andrew-birrell-1989.pdf
+[(Extra) Synchronization + Deadlock]: https://www.traviswpeters.com/cs10/lectures/8/8.html
+
+<!-- Announcements -->
+
 <div class="announcement">
 Please enter team info <a href="https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing" class="alert-link"> in this Google Sheet</a> ASAP.
 <span class="timestamp">10/22/2019</span>
@@ -131,7 +154,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | Date          | Topics & Lectures                                                                                                                                                                      | Reading                                      | Assignments                                  |
 | **Week 1**    | <span class="note">Introduction; Week 1 will be led by Professor Binhai Zhu.</span>                                                                                                    | <span class="note">Chapters 1 & 2</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [slides][slides00-bhz-1]{:.slides}                                                                                 | Chapter 2                                    | [HW1] (Due 09/13)
+| 08/26/2019    | Introduction & Course Overview; History of OS Development (Part I). [slides][slides00-bhz-1]{:.slides}                                                                                 | Chapter 2                                    | {% if hw1.show %} [{{hw1.shortname}}]({{hw1.url}}) ({{hw1.due}}) {% endif %}
 | 08/28/2019    | *Class Cancelled.*                                                                                                                                                                     |                                              |
 | 08/30/2019    | History of OS Development (Part II); <br/>Early Memory Management: static and dynamic partition, memory deallocation. [slides][slides00-bhz-2]{:.slides}                               | 7.1-7.2                                      |
 | **Week 2**    | <span class="note">Review and High-Level OS Concepts</span>                                                                                                                            | <span class="note"></span>
@@ -148,15 +171,15 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 09/16/2019    | Processes (Part III). [slides][slides05]{:.slides}                                                                                                                                     |                                              |
 | 09/18/2019    | Processes & Threads. [slides][slides06]{:.slides}                                                                                                                                      | 4.1, 4.2, 4.3, 4.6                           |
-| 09/20/2019    | Some Review of Processes & Threads. [slides][slides07]{:.slides}                                                                                                                       |                                              | [HW2] (Due 10/11)
+| 09/20/2019    | Some Review of Processes & Threads. [slides][slides07]{:.slides}                                                                                                                       |                                              | {% if hw2.show %} [{{hw2.shortname}}]({{hw2.url}}) ({{hw2.due}}) {% endif %}
 | **Week 5**    | <span class="note">Concurrency</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 09/23/2019    | Concurrency: Mutual Exclusion & Synchronization (Part I) [slides][slides08]{:.slides}                                                                                                  | 5.1-5.9, [Intro to Threads]                  |
 | 09/25/2019    | Concurrency: Mutual Exclusion & Synchronization (Part II) [slides][slides09]{:.slides} [threads01.c]{:.code} [threads02.c]{:.code}                                                     |                                              |
-| 09/27/2019    | Concurrency: Mutual Exclusion & Synchronization (Part III) [slides][slides10]{:.slides}                                                                                                |                                              | {% if site.data.settings.assignments.a1.show %} [{{site.data.settings.assignments.a1.shortname}}]({{site.data.settings.assignments.a1.url}}) {{site.data.settings.assignments.a1.due}} {% endif %}
+| 09/27/2019    | Concurrency: Mutual Exclusion & Synchronization (Part III) [slides][slides10]{:.slides}                                                                                                |                                              | {% if a1.show %} [{{a1.shortname}}]({{a1.url}}) ({{a1.due}}) {% endif %}
 | **Week 6**    |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 09/30/2019    | Finish Concurrency: Mutual Exclusion & Synchronization (Part IV) [slides][slides11]{:.slides}                                                                                          | 6.1-6.6 (6.7-6.8)                            | [HW3] (Due 10/18)
+| 09/30/2019    | Finish Concurrency: Mutual Exclusion & Synchronization (Part IV) [slides][slides11]{:.slides}                                                                                          | 6.1-6.6 (6.7-6.8)                            | {% if hw3.show %} [{{hw3.shortname}}]({{hw3.url}}) ({{hw3.due}}) {% endif %}
 | 10/02/2019    | Concurrency: Deadlock & Starvation (Part V) [slides][slides12]{:.slides}                                                                                                               | [(Extra) Synchronization + Deadlock]         |
 | 10/04/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
 | **Week 7**    |                                                                                                                                                                                        |
@@ -168,22 +191,22 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/14/2019    | Scheduling (Part I) [slides][slides13]{:.slides}                                                                                                                                       | 9.1-9.2 (9.3)                                |
 | 10/16/2019    | Scheduling (Part II) [slides][slides14]{:.slides}                                                                                                                                      | 10.1-10.2 (10.3-10.5)                        |
-| 10/18/2019    | Scheduling (Part III) [slides][slides15]{:.slides}                                                                                                                                     |                                              | [HW4] (Due 10/25)
+| 10/18/2019    | Scheduling (Part III) [slides][slides15]{:.slides}                                                                                                                                     |                                              | {% if hw4.show %} [{{hw4.shortname}}]({{hw4.url}}) ({{hw4.due}}) {% endif %}
 | **Week 9**    | <span class="note">Memory Management & Virtual Memory</span>                                                                                                                           | <span class="note">Chapters 7 & 8</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/21/2019    | Memory (Part I) [slides][slides16]{:.slides}                                                                                                                                           | 7.1-7.2                                      |
-| 10/23/2019    |                                                                                                                                                                                        |                                              | {% if site.data.settings.assignments.a2.show %} [{{site.data.settings.assignments.a2.shortname}}]({{site.data.settings.assignments.a2.url}}) {{site.data.settings.assignments.a2.due}} {% endif %}
-| 10/25/2019    |                                                                                                                                                                                        |                                              | [HW5] (Due 11/01)
-| **Week 10**    | <span class="note">File Systems & I/O</span>                                                                                                                                          | <span class="note">Chapters 11 & 12</span>
+| 10/23/2019    | Memory (Part II) [slides][slides17]{:.slides}                                                                                                                                          |                                              |
+| 10/25/2019    | Memory (Part III) [slides][slides18]{:.slides}                                                                                                                                         |                                              | {% if hw5.show %} [{{hw5.shortname}}]({{hw5.url}}) ({{hw5.due}}) {% endif %} <br/> {% if a2.show %}[{{a2.shortname}}]({{a2.url}}) ({{a2.due}}){% endif %}
+| **Week 10**   | <span class="note">File Systems & I/O</span>                                                                                                                                           | <span class="note">Chapters 11 & 12</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 10/28/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                              |
 | 10/30/2019    |                                                                                                                                                                                        |                                              |
-| 11/01/2019    |                                                                                                                                                                                        |                                              | ***Project Proposal Due!*** <br/> [HW6] (Due 11/08)
+| 11/01/2019    |                                                                                                                                                                                        |                                              | ***Project Proposal Due!*** <br/> {% if hw6.show %} [{{hw6.shortname}}]({{hw6.url}}) ({{hw6.due}}) {% endif %}
 | **Week 11**   | <span class="note">OS Security. Potential Special Topics: <br/> Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                               | <span class="note">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
 | 11/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
-| 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              | {% if site.data.settings.assignments.a3.show %} [{{site.data.settings.assignments.a3.shortname}}]({{site.data.settings.assignments.a3.url}}) {{site.data.settings.assignments.a3.due}} {% endif %}
+| 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              | {% if a3.show %} [{{a3.shortname}}]({{a3.url}}) ({{a3.due}}) {% endif %}
 | **Week 12**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/11/2019    | Hold for Guest Lecture - [Daniel Pagan](https://www.linkedin.com/in/daniel-pagan-0227b8126), OS Enthusiast & Pen Tester @ IBM X-Force Red                                              |                                              |
@@ -209,14 +232,6 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 {% comment %}OS Security Overview; Access Control{% endcomment %}
 
 **Schedule Legend:** *HW = Homework, P = Programming Assignment, E = Exam.*
-
-[Questionnaire]: https://forms.gle/Krmco3bNsbPRjSca7
-[Gradescope]: https://www.gradescope.com/
-
-<!-- Reading -->
-[Sys Design Hints]: {{site.data.settings.reading}}/design-hints-butler-lampson-1983.pdf
-[Intro to Threads]: {{site.data.settings.reading}}/intro2threads-andrew-birrell-1989.pdf
-[(Extra) Synchronization + Deadlock]: https://www.traviswpeters.com/cs10/lectures/8/8.html
 
 <!-- code examples, provided code, etc. -->
 [fork_bomb.c]: {{site.data.settings.code}}/fork_bomb.c
@@ -260,14 +275,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides29]: {{site.data.settings.slides}}/cs460-29.pdf
 [slides30]: {{site.data.settings.slides}}/cs460-30.pdf
 
-<!-- homework -->
-[HW1]: {{site.data.settings.d2l}}
-[HW2]: {{site.data.settings.d2l}}
-[HW3]: {{site.data.settings.d2l}}
-[HW4]: {{site.data.settings.d2l}}
-[HW5]: {{site.data.settings.d2l}}
-[HW6]: {{site.data.settings.d2l}}
-
+<!-- exams -->
 [exam1coversheet]: {{site.data.settings.exams}}/exam1-coversheet.pdf
 [exam2coversheet]: {{site.data.settings.exams}}/exam2-coversheet.pdf
 

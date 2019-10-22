@@ -35,6 +35,38 @@ menu:
 - {name: 'Project', url: 'project'}
 # - {name: 'Code', url: 'code'}
 
+homeworks:
+  hw1:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW1'
+    due: 'Due 09/13'
+    show: True
+  hw2:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW2'
+    due: 'Due 10/11'
+    show: True
+  hw3:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW3'
+    due: 'Due 10/18'
+    show: True
+  hw4:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW4'
+    due: 'Due 10/25'
+    show: True
+  hw5:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW5'
+    due: 'Due 11/01'
+    show: False
+  hw6:
+    url: 'https://ecat.montana.edu/d2l/home/553509'
+    shortname: 'HW6'
+    due: 'Due 11/08'
+    show: False
+
 assignments:
   a1:
     shortname: 'PA1'
@@ -49,6 +81,7 @@ assignments:
     url: 'a2'
     due: 'Due 11/08'
     tinedue: '@10pm'
+    duelong: 'Friday, November 8th, 2019 @10pm'
     show: False
   a3:
     shortname: 'PA3'
