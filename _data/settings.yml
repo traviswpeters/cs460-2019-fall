@@ -17,7 +17,10 @@ baseurl:
 office: NAH 253A
 officephone: "x4296" # extension
 email: travis.peters1@montana.edu
+
+Questionnaire: https://forms.gle/Krmco3bNsbPRjSca7
 d2l: https://ecat.montana.edu/d2l/home/553509
+Gradescope: https://www.gradescope.com/
 
 # locations of things (notes, slides, etc.)
 slides: "notes"
@@ -25,10 +28,9 @@ notes: "notes"
 solutions: "solutions"
 code: "code"
 reading: "notes"
-exams: "notes"
 
 menu:
-# - {name: 'Syllabus', url: '#'}
+- {name: 'Syllabus', url: '#'}
 - {name: 'Schedule', url: '#schedule'}
 - {name: 'Assignments', url: '#assignments'}
 - {name: 'Exams', url: '#exams'}
@@ -74,7 +76,9 @@ assignments:
     url: 'a1'
     due: 'Due 10/16'
     timedue: '@10pm'
-    show: True
+    duecheckpoint: 'Friday, October 4th, 2019 @10pm'
+    duelong: 'Wednesday, October 16th, 2019 @10pm'
+    show: True # show on schedule?
   a2:
     shortname: 'PA2'
     longname: 'Programming Assignment 2: Scheduling'
@@ -82,14 +86,29 @@ assignments:
     due: 'Due 11/08'
     tinedue: '@10pm'
     duelong: 'Friday, November 8th, 2019 @10pm'
-    show: False
+    show: False # show on schedule?
   a3:
     shortname: 'PA3'
     longname: 'Programming Assignment 3: ???'
     url: 'a3'
     due: 'Due 11/22'
     tinedue: '@10pm'
-    show: False
+    show: False # show on schedule?
 
-# exams:
-# - {name: 'Exam 1', url: 'exam1'}
+project:
+  infolink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
+  due-proposal: 'Friday, November 1st, 2019 @10pm'
+  due-final: 'Friday, December 6th, 2019 @10pm'
+
+exams:
+  files: "notes"
+  exam1:
+    name: 'Exam 1'
+    date: '10/07/2019'
+    url: '#exams'
+    show: True # show on schedule?
+  exam1:
+    name: 'Exam 2'
+    date: '11/08/2019'
+    url: '#exams'
+    show: False # show on schedule?

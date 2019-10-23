@@ -1,22 +1,19 @@
 ---
 layout: default
-proposal: Friday, November 1st, 2019
-due: Friday, December 6th, 2019
-timedue: "@10pm"
 ---
 
-<div class="announcement">
-Please enter team info <a href="https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing" class="alert-link"> in this Google Sheet</a> ASAP.
+<div class="announcement" markdown="1">
+Please enter team info into this [Project Info Google Sheet]({{site.data.settings.project.infolink}}){:.alert-link} ASAP.
 <span class="timestamp">10/22/2019</span>
 </div>
 
 ### **Final Project**
 {:.text-center}
 
-###### ***Project Proposal Due:*** *{{ page.proposal }}* *{{ page.timedue }}*
+###### ***Project Proposal Due:*** *{{ site.data.settings.project.due-proposal }}*
 {:.text-center}
 
-###### ***All Project Deliverables Due:*** *{{ page.due }}* *{{ page.timedue }}*
+###### ***All Project Deliverables Due:*** *{{ site.data.settings.project.due-final }}*
 {:.text-center}
 
 ## Introduction
