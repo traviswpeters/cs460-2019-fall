@@ -60,7 +60,7 @@ homeworks:
     url: 'https://ecat.montana.edu/d2l/home/553509'
     shortname: 'HW5'
     due: 'Due 11/01'
-    show: False
+    show: True
   hw6:
     url: 'https://ecat.montana.edu/d2l/home/553509'
     shortname: 'HW6'
