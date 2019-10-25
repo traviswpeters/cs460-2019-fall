@@ -67,7 +67,7 @@ homeworks:
     url: 'https://ecat.montana.edu/d2l/home/553509'
     shortname: 'HW6'
     due: 'Due 11/08'
-    show: False
+    show: True
 
 assignments:
   a1:
@@ -86,7 +86,7 @@ assignments:
     due: 'Due 11/08'
     tinedue: '@10pm'
     duelong: 'Friday, November 8th, 2019 @10pm'
-    show: False # show on schedule?
+    show: True # show on schedule?
   a3:
     shortname: 'PA3'
     longname: 'Programming Assignment 3: ???'

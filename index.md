@@ -234,9 +234,9 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 10/25/2019    | Memory (Part III) [slides][slides18]{:.slides}                                                                                                                                         | 8.1-8.2 (8.3,8.4,8.6)                        | {{hw5}} <br/> {{a2}}
 | **Week 10**   | <span class="note">File Systems & I/O</span>                                                                                                                                           | <span class="note">Chapters 11 & 12</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 10/28/2019    | {% comment %}OS Security Overview{% endcomment %}                                                                                                                                      |                                              |
-| 10/30/2019    |                                                                                                                                                                                        |                                              |
-| 11/01/2019    |                                                                                                                                                                                        |                                              | ***Project Proposal Due!*** <br/> {{hw6}}
+| 10/28/2019    | *Memory (Part IV) [slides][slides19]{:.slides}*                                                                                                                                        |                                              |
+| 10/30/2019    | *I/O & Files (Part I) [slides][slides20]{:.slides}*                                                                                                                                    |                                              |
+| 11/01/2019    | *I/O & Files (Part II) [slides][slides21]{:.slides}*                                                                                                                                   |                                              | ***Project Proposal Due!*** <br/> {{hw6}}
 | **Week 11**   | <span class="note">OS Security. Potential Special Topics: <br/> Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                               | <span class="note">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
@@ -264,6 +264,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 12/06/2019    | Project Presentations. *(Last Day of Class.)*                                                                                                                                          |                                              | ***Project Due!***
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 
+{% comment %}OS Security Overview{% endcomment %}
 {% comment %}OS Security Overview; Access Control{% endcomment %}
 
 **Schedule Legend:** *HW = Homework, P = Programming Assignment, E = Exam.*
