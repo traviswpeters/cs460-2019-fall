@@ -297,10 +297,11 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides16]: {{site.data.settings.slides}}/cs460-16-memory.pdf
 [slides17]: {{site.data.settings.slides}}/cs460-17-memory.pdf
 [slides18]: {{site.data.settings.slides}}/cs460-18-memory.pdf
+[slides19]: {{site.data.settings.slides}}/cs460-19-memory.pdf
 
-[slides19]: {{site.data.settings.slides}}/cs460-19.pdf
-[slides20]: {{site.data.settings.slides}}/cs460-20.pdf
-[slides21]: {{site.data.settings.slides}}/cs460-21.pdf
+[slides20]: {{site.data.settings.slides}}/cs460-20-IO.pdf
+[slides21]: {{site.data.settings.slides}}/cs460-21-IO.pdf
+
 [slides22]: {{site.data.settings.slides}}/cs460-22.pdf
 [slides23]: {{site.data.settings.slides}}/cs460-23.pdf
 [slides24]: {{site.data.settings.slides}}/cs460-24.pdf
