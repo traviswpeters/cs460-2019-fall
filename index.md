@@ -239,7 +239,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 11/01/2019    | *I/O & Files (Part II) [slides][slides21]{:.slides}*                                                                                                                                   |                                              | ***Project Proposal Due!*** <br/> {{hw6}}
 | **Week 11**   | <span class="note">OS Security. Potential Special Topics: <br/> Embedded Systems, IoT, Mobile OS, Networks, VMs, Containers, Side-Channel Attacks</span>                               | <span class="note">Chapters 13--16</span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    |                                              |
+| 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS                                    | [DEP & ASLR I] / [DEP & ASLR II] / [0days]   |
 | 11/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
 | 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              | {{a3}}
 | **Week 12**   | <span class="note"></span>
@@ -298,7 +298,6 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides17]: {{site.data.settings.slides}}/cs460-17-memory.pdf
 [slides18]: {{site.data.settings.slides}}/cs460-18-memory.pdf
 [slides19]: {{site.data.settings.slides}}/cs460-19-memory.pdf
-
 [slides20]: {{site.data.settings.slides}}/cs460-20-IO.pdf
 [slides21]: {{site.data.settings.slides}}/cs460-21-IO.pdf
 
@@ -311,6 +310,12 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides28]: {{site.data.settings.slides}}/cs460-28.pdf
 [slides29]: {{site.data.settings.slides}}/cs460-29.pdf
 [slides30]: {{site.data.settings.slides}}/cs460-30.pdf
+
+<!-- Guest Lecture Resources -->
+[DEP & ASLR I]: https://msrc-blog.microsoft.com/2010/12/08/on-the-effectiveness-of-dep-and-aslr/
+[DEP & ASLR II]: https://msrc-blog.microsoft.com/2013/08/12/mitigating-the-ldrhotpatchroutine-depaslr-bypass-with-ms13-063/
+[0days]: https://arstechnica.com/information-technology/2019/08/armed-with-ios-0days-hackers-indiscriminately-infected-iphones-for-two-years/
+
 
 <!-- exams -->
 [exam1coversheet]: {{site.data.settings.exams.files}}/exam1-coversheet.pdf
