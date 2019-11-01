@@ -85,7 +85,7 @@ assignments:
     url: 'a2'
     due: 'Due 11/11'
     tinedue: '@10pm'
-    duelong: 'Friday, November 11th, 2019 @10pm'
+    duelong: 'Monday, November 11th, 2019 @10pm'
     show: True # show on schedule?
   a3:
     shortname: 'PA3'
