@@ -244,12 +244,12 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              | {{a3}}
 | **Week 12**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/11/2019    | Hold for Guest Lecture - [Daniel Pagan](https://www.linkedin.com/in/daniel-pagan-0227b8126), OS Enthusiast & Pen Tester @ IBM X-Force Red                                              |                                              |
-| 11/13/2019    | Review Exam #2 Results *(exam & feedback available on [Gradescope]({{site.data.settings.Gradescope}}))*                                                                                |                                              |
-| 11/15/2019    |
+| 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                              |
+| 11/13/2019    | Hold for Guest Lecture - [Daniel Pagan](https://www.linkedin.com/in/daniel-pagan-0227b8126), OS Enthusiast & Pen Tester @ IBM X-Force Red                                              |                                              |
+| 11/15/2019    | Review Exam #2 Results *(exam & feedback available on [Gradescope]({{site.data.settings.Gradescope}}))*
 | **Week 13**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/18/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                              |
+| 11/18/2019    |                                                                                                                                                                                        |                                              |
 | 11/20/2019    |                                                                                                                                                                                        |                                              |
 | 11/22/2019    | (Project Presentations.)                                                                                                                                                               |                                              |
 | **Week 14**   | <span class="note"></span>
