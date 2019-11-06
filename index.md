@@ -219,7 +219,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 10/04/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
 | **Week 7**    |                                                                                                                                                                                        |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 10/07/2019    | ***Exam #1*** [Exam 1 Coversheet][exam1coversheet]{:.exam}                                                                                                                             |                                              |
+| 10/07/2019    | ***Exam #1*** [Sample Exam Coversheet]{:.exam}                                                                                                                             |                                              |
 | 10/09/2019    | *Class Cancelled.*                                                                                                                                                                     |                                              |
 | 10/11/2019    | Review Exam #1 Results *(exam & feedback available on [Gradescope]({{site.data.settings.Gradescope}}))* <br/> MINIMUM 34.5%, MEDIAN 72.75%, MAXIMUM 91.5%, MEAN 67.48%, STD DEV 17.27% |
 | **Week 8**    | <span class="note">Scheduling</span>                                                                                                                                                   | <span class="note">Chapters 9 & 10</span>
@@ -241,7 +241,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS [slides][slides22]{:.slides}       | [DEP & ASLR I] / [DEP & ASLR II] / [0days]   |
 | 11/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
-| 11/08/2019    | {% comment %}Exam Review{% endcomment %}***Exam #2***                                                                                                                                  |                                              | {{a3}}
+| 11/08/2019    | ***Exam #2*** [Sample Exam Coversheet]{:.exam}                                                                                                                                  |                                              | {{a3}}
 | **Week 12**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                              |
@@ -302,6 +302,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides21]: {{site.data.settings.slides}}/cs460-21-IO.pdf
 [slides22]: {{site.data.settings.slides}}/cs460-22-os-security-will-peteroy.pdf
 
+
 [slides23]: {{site.data.settings.slides}}/cs460-23.pdf
 [slides24]: {{site.data.settings.slides}}/cs460-24.pdf
 [slides25]: {{site.data.settings.slides}}/cs460-25.pdf
@@ -318,8 +319,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 
 
 <!-- exams -->
-[exam1coversheet]: {{site.data.settings.exams.files}}/exam1-coversheet.pdf
-[exam2coversheet]: {{site.data.settings.exams.files}}/exam2-coversheet.pdf
+[Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
 
 ## Grading
 
