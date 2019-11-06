@@ -517,7 +517,9 @@ In this latter case, I would not report a violation of the Academic Honesty prin
 Some students may wish to take part in religious observances that occur during this academic term.
 If you have a religious observance that conflicts with your participation in the course, please meet with me as soon as possible to discuss appropriate accommodations.
 
-## Disabilities
+## Accommodations & Disabilities
 
 If you have a documented disability (including "invisible" disabilities such as chronic diseases and learning disabilities) for which you are or may be requesting any accommodation(s),
 I encourage you to reach out to me and the [Office of Disability Services (ODS)](http://www.montana.edu/disabilityservices/) as soon as possible.
+
+If you have a need for accommodations on exams, please see information on the [MSU's Testing Services website](http://www.montana.edu/testing/).
