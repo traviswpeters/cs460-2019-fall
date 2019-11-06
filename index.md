@@ -61,22 +61,28 @@ layout: default
 <!-- Announcements -->
 
 <div class="announcement" markdown="1">
-Please enter team info into this [Project Info Google Sheet]({{site.data.settings.project.infolink}}){:.alert-link} ASAP.
-<span class="timestamp">10/22/2019</span>
+Please sign-up for a slot to present your final project ASAP. <br/><br/> Sign-ups are FCFS and can be done through the [Project Presentation Sign-up Google Sheet]({{site.data.settings.project.signuplink}}){:.alert-link}.
+<span class="timestamp">11/06/2019</span>
 </div>
+
 
 {% comment %}
 
-<div class="announcement">Want a refresher on C Programming?
-Send an <a href="mailto:mary.cummings1@montana.edu" class="alert-link">email</a> to <a href="http://www.cs.montana.edu/directory/2069105/mary-cummings" class="alert-link">Dr. Mary Ann Cummings</a>
-  to request access to materials from her course on <i>Programming with C</i>.
-  <span class="timestamp">09/11/2019</span>
-</div>
+  <div class="announcement" markdown="1">
+  Please enter team info into this [Project Info Google Sheet]({{site.data.settings.project.infolink}}){:.alert-link} ASAP.
+  <span class="timestamp">10/22/2019</span>
+  </div>
 
-<div class="announcement">
-We need a notetaker ASAP! Please contact the <a href="http://www.montana.edu/disabilityservices/" class="alert-link">Office of Disability Services</a> if interested.
-<span class="timestamp">09/02/2019</span>
-</div>
+  <div class="announcement">Want a refresher on C Programming?
+  Send an <a href="mailto:mary.cummings1@montana.edu" class="alert-link">email</a> to <a href="http://www.cs.montana.edu/directory/2069105/mary-cummings" class="alert-link">Dr. Mary Ann Cummings</a>
+    to request access to materials from her course on <i>Programming with C</i>.
+    <span class="timestamp">09/11/2019</span>
+  </div>
+
+  <div class="announcement">
+  We need a notetaker ASAP! Please contact the <a href="http://www.montana.edu/disabilityservices/" class="alert-link">Office of Disability Services</a> if interested.
+  <span class="timestamp">09/02/2019</span>
+  </div>
 
 {% endcomment %}
 
@@ -241,7 +247,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/04/2019    | Hold for Guest Lecture - [Will Peteroy](https://www.linkedin.com/in/wpete/), CEO @ [icebrg.io](https://www.icebrg.io) - Breaking and Securing an OS [slides][slides22]{:.slides}       | [DEP & ASLR I] / [DEP & ASLR II] / [0days]   |
 | 11/06/2019    | Exam Review <span class="note">--- Come with questions and topics you'd like to review!</span>                                                                                         |                                              |
-| 11/08/2019    | ***Exam #2*** [Sample Exam Coversheet]{:.exam}                                                                                                                                  |                                              | {{a3}}
+| 11/08/2019    | ***Exam #2*** [Sample Exam Coversheet]{:.exam}                                                                                                                                         |                                              | {{a3}}
 | **Week 12**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                              |
@@ -251,7 +257,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/18/2019    |                                                                                                                                                                                        |                                              |
 | 11/20/2019    |                                                                                                                                                                                        |                                              |
-| 11/22/2019    | (Project Presentations.)                                                                                                                                                               |                                              |
+| 11/22/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | **Week 14**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/25/2019    | Project Presentations.                                                                                                                                                                 |                                              |
