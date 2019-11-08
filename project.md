@@ -2,11 +2,6 @@
 layout: default
 ---
 
-<div class="announcement" markdown="1">
-Please enter team info into this [Project Info Google Sheet]({{site.data.settings.project.infolink}}){:.alert-link} ASAP.
-<span class="timestamp">10/22/2019</span>
-</div>
-
 ### **Final Project**
 {:.text-center}
 
@@ -91,10 +86,10 @@ The naming convention should be:
 #### Demo
 
 - Project presentations will take place in the final weeks of the term during regularly-scheduled class times.
-- TR projects will present an overview of their technical report.
+- TR projects will present an overview of their exploration and findings.
 - PoC projects will present a demo (which should include some introduction to the project, the goals, and what the PoC demonstrates).
-- All students are required to attend the projects presentations & demos.
-If you need to miss a class, I will need written notice at least 1 week before the class(es) that you will not be able to attend.
+- All students are required to attend all of the projects presentations & demos.  
+***If you need to miss a class, I will need written notice at least 1 week before the class(es) that you will not be able to attend.***
 
 ## Project Grade Breakdown
 

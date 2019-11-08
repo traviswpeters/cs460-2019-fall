@@ -65,7 +65,6 @@ Please sign-up for a slot to present your final project ASAP. <br/><br/> Sign-up
 <span class="timestamp">11/06/2019</span>
 </div>
 
-
 {% comment %}
 
   <div class="announcement" markdown="1">
@@ -132,6 +131,7 @@ For more information on getting help, visit the [Student Success Center website]
 - [A Tiny Guide to Programming in 32-bit x86 Assembly Language]({{site.data.settings.reading}}/tiny-guide-to-x86-assembly.pdf) *#SysProgramming*{:.text-muted}
 - [PLT and GOT - the key to code sharing and dynamic libraries](https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html) *#SysProgramming*{:.text-muted}
 - [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/) *#Assignment1*{:.text-muted}
+- [The 101 of ELF files on Linux: Understanding and Analysis](https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/)
 
 ##### Reference Resources
 
@@ -256,7 +256,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | **Week 13**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/18/2019    |                                                                                                                                                                                        |                                              |
-| 11/20/2019    |                                                                                                                                                                                        |                                              |
+| 11/20/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | 11/22/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | **Week 14**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |

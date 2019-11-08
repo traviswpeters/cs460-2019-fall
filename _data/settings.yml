@@ -34,7 +34,8 @@ menu:
 - {name: 'Schedule', url: '#schedule'}
 - {name: 'Assignments', url: '#assignments'}
 - {name: 'Exams', url: '#exams'}
-- {name: 'Project', url: 'project'}
+- {name: 'Project Details', url: 'project'}
+- {name: 'Project Teams & Schedule', url: 'project-schedule'}
 # - {name: 'Code', url: 'code'}
 
 homeworks:
