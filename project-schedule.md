@@ -33,7 +33,7 @@ layout: default
 | **Day 3**      |
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 12/02/2019     | Parker Folkman, Kemal Turksonmez --- **A Microkernel for Raspberry Pi (PoC)**
-| 12/02/2019     |  
+| 12/02/2019     | Brad McCoy, Gage O’Neil --- **Understanding Problems In Concurrency Using Directed Topology and Homotopy Theory (Tech Report)**
 | 12/02/2019     |
 | **Day 4**      |
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,5 +49,4 @@ layout: default
 
 Currently Unscheduled...
 - Jimmy Boland, Andrew Johnson, Eric Zakrzewski --- **Extending the Arduino Real Time Kernel (PoC)**
-- Brad McCoy, Gage O’Neil --- **Understanding Problems In Concurrency Using Directed Topology and Homotopy Theory (Tech Report)**
 - Dillon Tice, Jakob Frank --- **Process Management on Commodity OSs (Tech Report)**
