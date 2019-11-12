@@ -34,10 +34,10 @@ layout: default
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 12/02/2019     | Parker Folkman, Kemal Turksonmez --- **A Microkernel for Raspberry Pi (PoC)**
 | 12/02/2019     | Brad McCoy, Gage O’Neil --- **Understanding Problems In Concurrency Using Directed Topology and Homotopy Theory (Tech Report)**
-| 12/02/2019     |
+| 12/02/2019     | Dillon Tice, Jakob Frank --- **Process Management on Commodity OSs (Tech Report)**
 | **Day 4**      |
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| 12/04/2019     |
+| 12/04/2019     | Jimmy Boland, Andrew Johnson, Eric Zakrzewski --- **Extending the Arduino Real Time Kernel (PoC)**
 | 12/04/2019     | Nathan Roberts --- **Concurrency on iOS (PoC)**
 | 12/04/2019     | Max Weimer --- **Microarchitectural Issues & OSs**
 | **Day 5**      |
@@ -46,7 +46,3 @@ layout: default
 | 12/06/2019     | Brendan Kristiansen, Grant Baker --- **Virtual Memory on an Array of FRAM Chips (PoC)**
 | 12/06/2019     | Chris Major, Tysen Radovich --- **Linux on an FPGA (PoC)**
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Currently Unscheduled...
-- Jimmy Boland, Andrew Johnson, Eric Zakrzewski --- **Extending the Arduino Real Time Kernel (PoC)**
-- Dillon Tice, Jakob Frank --- **Process Management on Commodity OSs (Tech Report)**
