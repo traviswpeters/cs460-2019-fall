@@ -251,7 +251,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | **Week 12**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
 | 11/11/2019    | *No Class. Veteran's Day.*                                                                                                                                                             |                                              |
-| 11/13/2019    | Hold for Guest Lecture - [Daniel Pagan](https://www.linkedin.com/in/daniel-pagan-0227b8126), OS Enthusiast & Pen Tester @ IBM X-Force Red                                              |                                              |
+| 11/13/2019    | Hold for Guest Lecture - [Daniel Pagan](https://www.linkedin.com/in/daniel-pagan-0227b8126), OS Enthusiast & Pen Tester @ IBM X-Force Red [slides][slides23]{:.slides}                                             |                                              |
 | 11/15/2019    | Review Exam #2 Results *(exam & feedback available on [Gradescope]({{site.data.settings.Gradescope}}))*
 | **Week 13**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
@@ -307,9 +307,8 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides20]: {{site.data.settings.slides}}/cs460-20-IO.pdf
 [slides21]: {{site.data.settings.slides}}/cs460-21-IO.pdf
 [slides22]: {{site.data.settings.slides}}/cs460-22-os-security-will-peteroy.pdf
+[slides23]: {{site.data.settings.slides}}/cs460-23-os-security-daniel-pagan.pdf
 
-
-[slides23]: {{site.data.settings.slides}}/cs460-23.pdf
 [slides24]: {{site.data.settings.slides}}/cs460-24.pdf
 [slides25]: {{site.data.settings.slides}}/cs460-25.pdf
 [slides26]: {{site.data.settings.slides}}/cs460-26.pdf
