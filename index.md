@@ -60,12 +60,12 @@ layout: default
 
 <!-- Announcements -->
 
-<div class="announcement" markdown="1">
-Please sign-up for a slot to present your final project ASAP. <br/><br/> Sign-ups are FCFS and can be done through the [Project Presentation Sign-up Google Sheet]({{site.data.settings.project.signuplink}}){:.alert-link}.
-<span class="timestamp">11/06/2019</span>
-</div>
 
 {% comment %}
+  <div class="announcement" markdown="1">
+  Please sign-up for a slot to present your final project ASAP. <br/><br/> Sign-ups are FCFS and can be done through the [Project Presentation Sign-up Google Sheet]({{site.data.settings.project.signuplink}}){:.alert-link}.
+  <span class="timestamp">11/06/2019</span>
+  </div>
 
   <div class="announcement" markdown="1">
   Please enter team info into this [Project Info Google Sheet]({{site.data.settings.project.infolink}}){:.alert-link} ASAP.

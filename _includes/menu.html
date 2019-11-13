@@ -12,6 +12,7 @@
             {% for item in site.data.settings.menu %}
 
                 {% if item.name == 'Assignments' %}
+                
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
                   <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
@@ -28,6 +29,7 @@
                 </li>
 
                 {% else %}
+
                 <li class="nav-item">
                     <a class="nav-link" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
                 </li>
