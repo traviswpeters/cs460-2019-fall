@@ -19,7 +19,7 @@ layout: default
 | Presentations  | Teams, Project Resources, Etc.
 | **Day 0**      |
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| 11/20/2019     | Olexandr Matveyev, Ellen Marie A, Ben Cathelif --- **Exploring Process Scheduling on Linux - The Completely Fair Scheduler (Tech Report)**
+| 11/20/2019     | Olexandr Matveyev, Ellen Marie A,  Benjamin Cathelineau --- **Exploring Process Scheduling on Linux - The Completely Fair Scheduler (Tech Report)**
 | **Day 1**      |
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 11/22/2019     | George Engel, Derek Jacobson, William Kingsley --- **Emulation: A Simple VM (PoC)**
