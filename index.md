@@ -255,7 +255,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 11/15/2019    | Review Exam #2 Results *(exam & feedback available on [Gradescope]({{site.data.settings.Gradescope}}))* <br/> MINIMUM 51.5%, MEDIAN 85.0%, MAXIMUM 97.0%, MEAN 81.93%, STD DEV 11.13%
 | **Week 13**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/18/2019    |                                                                                                                                                                                        |                                              |
+| 11/18/2019    | OS Security Wrap-Up                                                                                                                                                                                        |                                              |
 | 11/20/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | 11/22/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | **Week 14**   | <span class="note"></span>
