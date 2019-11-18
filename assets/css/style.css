@@ -44,6 +44,7 @@ h2 {
   border-bottom: 0.75px solid #999;
   padding-top: 5px;
   /* margin-bottom: 10px; */
+  /* margin-top: -10px; */
 }
 h3 {
     /* font-size: 1.5rem; */
@@ -166,4 +167,10 @@ code {
 .menu a {
     margin: 0px 20px;
     font-size: 1.1rem;
+}
+
+/* fix weird issues where top of in-page anchor target gets cut off. */
+h2 {
+  padding-top: 60px;
+  margin-top: -60px;
 }

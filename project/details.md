@@ -57,7 +57,7 @@ alternative ideas or strategies,
 an assessment of how it was implemented, and
 ideas for future work or possible improvements.
 2. **Proof of Concept (PoC).** For this type of project, your group will work together to implement an interesting OS idea or algorithm.
-The primary assessment of this type of project will be through a short demo (approx. 10 minutes).
+The primary assessment of this type of project will be through a short demo.
 This project still requires a technical report, but the emphasis is less on the report and more on the demo.
 3. **Something Else?** If your group has an idea that doesn’t fit into one of the above categories, schedule some time to meet with me to discuss the idea.
 Your group should come prepared to discuss details such as the problem, deliverables, assessment, and so forth.
@@ -66,12 +66,15 @@ Your group should come prepared to discuss details such as the problem, delivera
 
 #### Project Proposal
 
-Your group will present a 1-page proposal on your project. Your proposal should (briefly) address:
+Your group will present a 1-page proposal on your project.
 
+Your proposal should (briefly) address:
+
+- A project title.
 - Who are the members of your group.
 - An overview to your proposed project and deliverables.
-- Your plan for division of labor within the group.
 - A rough schedule for when various aspects of the project will be complete.
+- Your plan for division of labor within the group.
 
 #### Final Submission
 
@@ -83,13 +86,15 @@ The naming convention should be:
 2019-fall-os-project-lastname1-lastname2-lastname3.zip
 ```
 
-#### Demo
+#### Final Presentation / Demo
 
-- Project presentations will take place in the final weeks of the term during regularly-scheduled class times.
+All groups will present some form of presentation.
 - TR projects will present an overview of their exploration and findings.
 - PoC projects will present a demo (which should include some introduction to the project, the goals, and what the PoC demonstrates).
+- Project presentations will take place in the final weeks of the term during regularly-scheduled class times.  
+_**All presentations shall be no more than 10 minutes with 3-5 minutes of Q&A.**_{:.text-danger}
 - All students are required to attend all of the projects presentations & demos.  
-***If you need to miss a class, I will need written notice at least 1 week before the class(es) that you will not be able to attend.***
+_**If you need to miss a class, I will need written notice at least 1 week before the class(es) that you will not be able to attend.**_{:.text-danger}
 
 ## Project Grade Breakdown
 

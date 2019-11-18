@@ -310,6 +310,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides23]: {{site.data.settings.slides}}/cs460-23-os-security-daniel-pagan.pdf
 
 [slides24]: {{site.data.settings.slides}}/cs460-24.pdf
+
 [slides25]: {{site.data.settings.slides}}/cs460-25.pdf
 [slides26]: {{site.data.settings.slides}}/cs460-26.pdf
 [slides27]: {{site.data.settings.slides}}/cs460-27.pdf
@@ -321,7 +322,6 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [DEP & ASLR I]: https://msrc-blog.microsoft.com/2010/12/08/on-the-effectiveness-of-dep-and-aslr/
 [DEP & ASLR II]: https://msrc-blog.microsoft.com/2013/08/12/mitigating-the-ldrhotpatchroutine-depaslr-bypass-with-ms13-063/
 [0days]: https://arstechnica.com/information-technology/2019/08/armed-with-ios-0days-hackers-indiscriminately-infected-iphones-for-two-years/
-
 
 <!-- exams -->
 [Sample Exam Coversheet]: {{site.data.settings.exams.files}}/exam-coversheet-sample.pdf
@@ -428,7 +428,7 @@ Each group will choose, propose, and implement an OS-related project; groups wil
 The evaluation of the project is based on the report, quality, presentation, and participation.
 Each member of the same group should participate in the presentation/demo and will receive the same mark.
 
-[***Click here to go to the official project page...***](project)
+[***Click here to go to the official project page...***](project/details)
 
 ## Sample Solutions
 

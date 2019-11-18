@@ -32,10 +32,9 @@ reading: "notes"
 menu:
 - {name: 'Syllabus', url: '#'}
 - {name: 'Schedule', url: '#schedule'}
-- {name: 'Assignments', url: '#assignments'}
 - {name: 'Exams', url: '#exams'}
-- {name: 'Project Details', url: 'project'}
-- {name: 'Project Teams & Schedule', url: 'project-schedule'}
+- {name: 'Assignments', url: '#assignments'}
+- {name: 'Project', url: '#project'}
 - {name: 'Extra Credit', url: 'xc'}
 # - {name: 'Code', url: 'code'}
 
@@ -99,6 +98,9 @@ assignments:
     show: True # show on schedule?
 
 project:
+  pages:
+    details: "Project Details"
+    schedule: "Project Teams & Schedule"
   infolink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
   signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
   due-proposal: 'Friday, November 1st, 2019 @10pm'

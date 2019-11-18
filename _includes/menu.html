@@ -10,9 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
             {% for item in site.data.settings.menu %}
-
                 {% if item.name == 'Assignments' %}
-                
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
                   <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
@@ -27,15 +25,22 @@
                     {% endfor %}
                   </div>
                 </li>
-
+                {% elsif item.name == 'Project' %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
+                  <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
+                    <a class="dropdown-item" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }} | Syllabus <br/><br/> <i>All Materials Due: {{site.data.settings.project.due-final}}</i></a>
+                    <div class="dropdown-divider"></div>
+                    {% for ppage in site.data.settings.project.pages %}
+                    <a class="dropdown-item" href="{{ site.github.url }}/project/{{ppage[0]}}">{{ppage[1]}}</a>
+                    {% endfor %}
+                  </div>
+                </li>
                 {% else %}
-
                 <li class="nav-item">
                     <a class="nav-link" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
                 </li>
-
                 {% endif %}
-
             {% endfor %}
             </ul>
         </div>

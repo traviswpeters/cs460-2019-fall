@@ -2,6 +2,19 @@
 layout: default
 ---
 
+{% for f in site.static_files %}
+{% if f.path contains 'team-' %}
+<!-- {{f.path}} -->
+{% endif %}
+{% endfor %}
+
+<!-- Variables -->
+
+{% capture rorabaugh-slides %}[slides](/project/team-rorabaugh/final_presentation.pptx){:.slides}{% endcapture %}
+{% capture rorabaugh-write-up %}[write-up](/project/team-rorabaugh/final_report.docx){:.write-up}{% endcapture %}
+{% capture rorabaugh-code %}[code](){:.code}{% endcapture %}
+
+
 ### **Final Project**
 {:.text-center}
 
@@ -23,7 +36,7 @@ layout: default
 | **Day 1**      |
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 11/22/2019     | George Engel, Derek Jacobson, William Kingsley --- **Emulation: A Simple VM (PoC)**
-| 11/22/2019     | Tyler Rorabaugh --- **Technical Analysis of Early Personal Computers (Tech Report)**
+| 11/22/2019     | Tyler Rorabaugh --- **Technical Analysis of Early Personal Computers (Tech Report)** {{rorabaugh-slides}} {{rorabaugh-write-up}}
 | 11/22/2019     | Gavin Austin, Nicholas Rust, Ren Wall --- **Thread Optimizations (PoC)**
 | **Day 2**      |
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
