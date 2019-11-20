@@ -357,7 +357,7 @@ Homework in this course comes in two forms:
 {% for a in assignment %}
   {% if a.show %}
   <li>
-  <a href="{{a.url}}">{{a.longname}}</a>
+  <a href="{{site.baseurl}}/{{a.url}}">{{a.longname}}</a>
   </li>
   {% endif %}  
 {% endfor %}

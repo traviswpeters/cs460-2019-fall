@@ -1,6 +1,6 @@
 markdown: kramdown # use <TAG markdown="1"> to render markdown within HTML tags!
 mathjax: true
-# baseurl: /cs460
+baseurl: /cs460
 
 defaults:
     - scope:

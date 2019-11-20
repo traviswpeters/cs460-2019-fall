@@ -12,13 +12,13 @@ layout: default
 <!-- Variables -->
 
 {% assign team = 'andersen-cathelineau-matveyev' %}
-{% capture andersen-cathelineau-matveyev-slides %}[slides]({{site.data.settings.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
-{% capture andersen-cathelineau-matveyev-report %}[report]({{site.data.settings.baseurl}}/project/team-{{team}}/report.pdf){:.report}{% endcapture %}
+{% capture andersen-cathelineau-matveyev-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
+{% capture andersen-cathelineau-matveyev-report %}[report]({{site.baseurl}}/project/team-{{team}}/report.pdf){:.report}{% endcapture %}
 <!-- {% capture {{team}}-code %}[code](){:.code}{% endcapture %} -->
 
 {% assign team = 'rorabaugh' %}
-{% capture rorabaugh-slides %}[slides]({{site.data.settings.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
-{% capture rorabaugh-report %}[report]({{site.data.settings.baseurl}}/project/team-{{team}}/report.pdf){:.report}{% endcapture %}
+{% capture rorabaugh-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
+{% capture rorabaugh-report %}[report]({{site.baseurl}}/project/team-{{team}}/report.pdf){:.report}{% endcapture %}
 <!-- {% capture {{team}}-code %}[code](){:.code}{% endcapture %} -->
 
 ### **Final Project**
