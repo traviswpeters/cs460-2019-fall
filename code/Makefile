@@ -1,7 +1,11 @@
 CC = gcc
 CFLAGS = -Wall -std=c99 -ggdb
 
-all: procs threads
+# targets
+all: procs threads gsl uid
+
+# executables
+execs: fb t1 t2 gsl_example uid
 
 # --- DEMO CODE ---
 
@@ -15,7 +19,8 @@ threads:
 gsl:
 	$(CC) $(CFLAGS) gsl_example.c -lgsl -lgslcblas -lm -o gsl_example
 
-# --- DEMO TOOLS ---
+uid:
+	$(CC) $(CFLAGS) uid_example.c -o uid
 
 clean:
-	rm -f fb t1 t2 gsl_example
+	rm -f $(execs)

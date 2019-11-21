@@ -255,7 +255,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 | 11/15/2019    | Review Exam #2 Results *(exam & feedback available on [Gradescope]({{site.data.settings.Gradescope}}))* <br/> MINIMUM 51.5%, MEDIAN 85.0%, MAXIMUM 97.0%, MEAN 81.93%, STD DEV 11.13%
 | **Week 13**   | <span class="note"></span>
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |--------------------------------------------- |
-| 11/18/2019    | OS Wrap-Up                                                                                                                                                                             |                                              |
+| 11/18/2019    | OS Wrap-Up [slides][slides24]{:.slides}                                                                                                                                                                             |                                              |
 | 11/20/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | 11/22/2019    | Project Presentations.                                                                                                                                                                 |                                              |
 | **Week 14**   | <span class="note"></span>
@@ -308,8 +308,7 @@ Other stuff from class: [Makefile]{:.code} [Vagrantfile]{:.code}
 [slides21]: {{site.data.settings.slides}}/cs460-21-IO.pdf
 [slides22]: {{site.data.settings.slides}}/cs460-22-os-security-will-peteroy.pdf
 [slides23]: {{site.data.settings.slides}}/cs460-23-os-security-daniel-pagan.pdf
-
-[slides24]: {{site.data.settings.slides}}/cs460-24.pdf
+[slides24]: {{site.data.settings.slides}}/cs460-22-23-24-security.pdf
 
 [slides25]: {{site.data.settings.slides}}/cs460-25.pdf
 [slides26]: {{site.data.settings.slides}}/cs460-26.pdf
