@@ -403,11 +403,12 @@ If you are unable to attend class on these days,
 **Exam \#1** will be held in class on **10/07/2019**.
 Topics covered up to the class prior to the exam are all in-scope for this exam.
 (In other words, all topics covered in the first half of this course are fair game.)
-[Exam 1 Coversheet][exam1coversheet]{:.exam}
+[Sample Exam Coversheet]{:.exam}
 
 **Exam \#2** will be held in class on **11/08/2019**.
 Topics covered between the first exam and up to the class prior to the exam are all in-scope for this exam.
 (In other words, all topics covered in the second half of this course are fair game.)
+[Sample Exam Coversheet]{:.exam}
 
 #### Gradescope
 
