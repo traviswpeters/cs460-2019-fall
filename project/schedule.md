@@ -69,7 +69,7 @@ Attendance during project presentations are being tracked on the [Project Attend
 | 12/06/2019     | Ben Bushnell, Michael Seeley, Zach Taylor --- **A Mini Kernel - Popcorn (PoC)**
 | 12/06/2019     | Brendan Kristiansen, Grant Baker --- **Virtual Memory on an Array of FRAM Chips (PoC)**
 | 12/06/2019     | Chris Major, Tysen Radovich --- **Linux on an FPGA (PoC)**
-| **Day 6**      | <span class="note">Thursday, December 12, 2019</span> --- _**PRESENTATION MAKE-UP SLOT DURING FINAL EXAM TIME FOR CSCI 460**_{:.text-danger}
+| **Day 6**      | <span class="note">Thursday, December 12, 2019 (8:00am - 9:50am)</span> --- _**PRESENTATION MAKE-UP SLOT DURING FINAL EXAM TIME FOR CSCI 460 (8:00AM - 9:50AM)**_{:.text-danger}
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 12/12/2019     | George Engel, Derek Jacobson, William Kingsley --- **Emulation: A Simple VM (PoC)**
 | 12/12/2019     | Tyler Rorabaugh --- **Technical Analysis of Early Personal Computers (Tech Report)** {{rorabaugh-slides}} {{rorabaugh-report}}
