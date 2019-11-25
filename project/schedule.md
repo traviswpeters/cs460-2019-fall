@@ -21,6 +21,11 @@ layout: default
 {% capture rorabaugh-report %}[report]({{site.baseurl}}/project/team-{{team}}/report.pdf){:.report}{% endcapture %}
 <!-- {% capture {{team}}-code %}[code](){:.code}{% endcapture %} -->
 
+{% assign team = 'johnson-clayton-parrish' %}
+{% capture johnson-clayton-parrish-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
+{% capture johnson-clayton-parrish-report %}[report]({{site.baseurl}}/project/team-{{team}}/report.pdf){:.report}{% endcapture %}
+<!-- {% capture {{team}}-code %}[code](){:.code}{% endcapture %} -->
+
 ### **Final Project**
 {:.text-center}
 
@@ -74,7 +79,7 @@ Attendance during project presentations are being tracked on the [Project Attend
 | 12/12/2019     | George Engel, Derek Jacobson, William Kingsley --- **Emulation: A Simple VM (PoC)**
 | 12/12/2019     | Tyler Rorabaugh --- **Technical Analysis of Early Personal Computers (Tech Report)** {{rorabaugh-slides}} {{rorabaugh-report}}
 | 12/12/2019     | Gavin Austin, Nicholas Rust, Ren Wall --- **Thread Optimizations (PoC)**
-| 12/12/2019     | Rial Johnson, Rusty Clayton, Tim Parrish --- **Comparative Evaluation of Scheduling Algorithms (PoC)**
+| 12/12/2019     | Rial Johnson, Rusty Clayton, Tim Parrish --- **Comparative Evaluation of Scheduling Algorithms (PoC)** {{johnson-clayton-parrish-slides}}
 | 12/12/2019     | Reese Pearsall, Logan Pappas, Dallas LeGrande, Chris Cooper --- **An Exploration of Ransomware (Tech Report)**
 | 12/12/2019     | Kayla Wheeler --- **Energy Awareness (Tech Report)**
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
