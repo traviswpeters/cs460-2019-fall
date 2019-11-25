@@ -44,16 +44,16 @@ Attendance during project presentations are being tracked on the [Project Attend
 | **Day 0**      | <span class="note">Wednesday, November 20, 2019</span>
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 11/20/2019     | Olexandr Matveyev, Ellen Marie A,  Benjamin Cathelineau --- **Scheduling in Linux - CFS and It's Implementation (Tech Report)** {{andersen-cathelineau-matveyev-slides}} {{andersen-cathelineau-matveyev-report}}
-| ~~**Day 1**~~  | <span class="note">Friday, November 22, 2019</span> --- _**RESCHEDULED TO FINAL EXAM SLOT**_{:.text-danger}
+| **Day 1**      | <span class="note">Friday, November 22, 2019</span> --- _**PRESENTATIONS RESCHEDULED TO FINAL EXAM SLOT**_{:.text-danger}
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | ~~11/22/2019~~ | ~~George Engel, Derek Jacobson, William Kingsley --- **Emulation: A Simple VM (PoC)**~~
 | ~~11/22/2019~~ | ~~Tyler Rorabaugh --- **Technical Analysis of Early Personal Computers (Tech Report)**~~
 | ~~11/22/2019~~ | ~~Gavin Austin, Nicholas Rust, Ren Wall --- **Thread Optimizations (PoC)**~~
-| **Day 2**      | <span class="note">Monday, November 25, 2019</span>
+| **Day 2**      | <span class="note">Monday, November 25, 2019</span>  --- _**PRESENTATIONS RESCHEDULED TO FINAL EXAM SLOT**_{:.text-danger}
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| 11/25/2019     | Rial Johnson, Rusty Clayton, Tim Parrish --- **Comparative Evaluation of Scheduling Algorithms (PoC)**
-| 11/25/2019     | Reese Pearsall, Logan Pappas, Dallas LeGrande, Chris Cooper --- **An Exploration of Ransomware (Tech Report)**
-| 11/25/2019     | Kayla Wheeler --- **Energy Awareness (Tech Report)**
+| ~~11/25/2019~~ | ~~Rial Johnson, Rusty Clayton, Tim Parrish --- **Comparative Evaluation of Scheduling Algorithms (PoC)**~~
+| ~~11/25/2019~~ | ~~Reese Pearsall, Logan Pappas, Dallas LeGrande, Chris Cooper --- **An Exploration of Ransomware (Tech Report)**~~
+| ~~11/25/2019~~ | ~~Kayla Wheeler --- **Energy Awareness (Tech Report)**~~
 | **Day 3**      | <span class="note">Monday, December 2, 2019</span>
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 12/02/2019     | Parker Folkman, Kemal Turksonmez --- **A Microkernel for Raspberry Pi (PoC)**
@@ -69,10 +69,12 @@ Attendance during project presentations are being tracked on the [Project Attend
 | 12/06/2019     | Ben Bushnell, Michael Seeley, Zach Taylor --- **A Mini Kernel - Popcorn (PoC)**
 | 12/06/2019     | Brendan Kristiansen, Grant Baker --- **Virtual Memory on an Array of FRAM Chips (PoC)**
 | 12/06/2019     | Chris Major, Tysen Radovich --- **Linux on an FPGA (PoC)**
-| -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| **Day 6**      | <span class="note">Thursday, December 12, 2019</span> --- _**PRESENTATION MAKE-UP SLOT DURING FINAL EXAM TIME**_{:.text-danger}
+| **Day 6**      | <span class="note">Thursday, December 12, 2019</span> --- _**PRESENTATION MAKE-UP SLOT DURING FINAL EXAM TIME FOR CSCI 460**_{:.text-danger}
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 12/12/2019     | George Engel, Derek Jacobson, William Kingsley --- **Emulation: A Simple VM (PoC)**
 | 12/12/2019     | Tyler Rorabaugh --- **Technical Analysis of Early Personal Computers (Tech Report)** {{rorabaugh-slides}} {{rorabaugh-report}}
 | 12/12/2019     | Gavin Austin, Nicholas Rust, Ren Wall --- **Thread Optimizations (PoC)**
+| 12/12/2019     | Rial Johnson, Rusty Clayton, Tim Parrish --- **Comparative Evaluation of Scheduling Algorithms (PoC)**
+| 12/12/2019     | Reese Pearsall, Logan Pappas, Dallas LeGrande, Chris Cooper --- **An Exploration of Ransomware (Tech Report)**
+| 12/12/2019     | Kayla Wheeler --- **Energy Awareness (Tech Report)**
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

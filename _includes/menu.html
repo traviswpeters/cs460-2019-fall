@@ -33,7 +33,7 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
                   <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 40px, 0px); top: 0px; left: 0px; will-change: transform;">
-                    <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }} | Syllabus <br/><br/> <i>All Materials Due: {{site.data.settings.project.due-final}}</i></a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/{{ item.url }}">{{ item.name }} | Syllabus <br/><br/><i>All Materials Due: {{site.data.settings.project.due-final | markdownify}}</i></a>
                     <div class="dropdown-divider"></div>
                     {% for ppage in site.data.settings.project.pages %}
                     <a class="dropdown-item" href="{{ site.baseurl }}/project/{{ppage[0]}}">{{ppage[1]}}</a>

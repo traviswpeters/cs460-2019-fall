@@ -96,9 +96,9 @@ assignments:
     shortname: 'PA3'
     longname: 'Assignment 3: Peer Project Review'
     url: 'a3'
-    due: 'Due 12/07'
+    due: '~~Due 12/07~~ **Due 12/12**{:.text-danger}'
     timedue: '@10pm'
-    duelong: 'Saturday, December 7th, 2019 @10pm'
+    duelong: '~~Saturday, December 7th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
     show: True # show on schedule?
 
 project:
@@ -109,7 +109,7 @@ project:
   signuplink: 'https://docs.google.com/spreadsheets/d/1uMk0pcho_B2v8_7t_E3S-IpsdUfhjBKsT5XdBcfPOBI/edit?usp=sharing'
   attendance: 'https://docs.google.com/spreadsheets/d/1ViB-YF5SGXbf1jsXAIPJ-kK7-b3QskZJt4G-cYMuH9s/edit?usp=sharing'
   due-proposal: 'Friday, November 1st, 2019 @10pm'
-  due-final: 'Friday, December 6th, 2019 @10pm'
+  due-final: '~~Friday, December 6th, 2019 @10pm~~ **Thursday, December 12th, 2019 @10pm**{:.text-danger}'
 
 exams:
   files: "notes"
