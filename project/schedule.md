@@ -14,7 +14,6 @@ layout: default
 {% assign team = 'andersen-cathelineau-matveyev' %}
 {% capture andersen-cathelineau-matveyev-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
 {% capture andersen-cathelineau-matveyev-report %}[report]({{site.baseurl}}/project/team-{{team}}/report.pdf){:.report}{% endcapture %}
-<!-- {% capture {{team}}-code %}[code](){:.code}{% endcapture %} -->
 
 {% assign team = 'rorabaugh' %}
 {% capture rorabaugh-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
@@ -25,6 +24,9 @@ layout: default
 {% capture johnson-clayton-parrish-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
 {% capture johnson-clayton-parrish-report %}[report]({{site.baseurl}}/project/team-{{team}}/report.pdf){:.report}{% endcapture %}
 <!-- {% capture {{team}}-code %}[code](){:.code}{% endcapture %} -->
+
+{% assign team = 'frank-tice' %}
+{% capture frank-tice-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
 
 ### **Final Project**
 {:.text-center}
@@ -63,7 +65,7 @@ Attendance during project presentations are being tracked on the [Project Attend
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 12/02/2019     | Parker Folkman, Kemal Turksonmez --- **A Microkernel for Raspberry Pi (PoC)**
 | 12/02/2019     | Brad McCoy, Gage O’Neil --- **Understanding Problems In Concurrency Using Directed Topology and Homotopy Theory (Tech Report)**
-| 12/02/2019     | Dillon Tice, Jakob Frank --- **Process Management on Commodity OSs (Tech Report)**
+| 12/02/2019     | Dillon Tice, Jakob Frank --- **Process Management on Commodity OSs (Tech Report)** {{frank-tice-slides}}
 | **Day 4**      | <span class="note">Wednesday, December 4, 2019</span>
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | 12/04/2019     | Jimmy Boland, Andrew Johnson, Eric Zakrzewski --- **Extending the Arduino Real Time Kernel (PoC)**
