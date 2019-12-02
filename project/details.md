@@ -2,14 +2,14 @@
 layout: default
 ---
 
+<div class="subpage-header" markdown="1">
 ### **Final Project**
 {:.text-center}
-
 ###### ***Project Proposal Due:*** *{{ site.data.settings.project.due-proposal }}*
 {:.text-center}
-
 ###### ***All Project Deliverables Due:*** *{{ site.data.settings.project.due-final }}*
 {:.text-center}
+</div>
 
 ## Introduction
 

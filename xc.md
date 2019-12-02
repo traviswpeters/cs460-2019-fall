@@ -3,14 +3,14 @@ layout: default
 published: True
 ---
 
+<div class="subpage-header" markdown="1">
 ### **Extra Credit**
 {:.text-center}
-
 ### Participate in NCUR 2020
 {:.text-center}
-
 ###### ***Assignment Due:*** *December 6, 2019 <br/> (Hard Deadline. No Exceptions.)*
 {:.text-center}
+</div>
 
 ![](assets/NCUR2020_Logo-horizont.png)
 
@@ -29,7 +29,7 @@ Please see the [NCUR 2020 Abstract Guidelines](http://www.cur.org/what/events/st
 ## What To Turn In & Instructions On Submitting your Assignment
 
 Please submit **a single PDF** containing your abstract accompanied with proof of your submission
-_(e.g., a confirmation receipt that you should receive upon submitting your abstract through the NCUR portal.)_ 
+_(e.g., a confirmation receipt that you should receive upon submitting your abstract through the NCUR portal.)_
 
 <!--
 ## Rubric

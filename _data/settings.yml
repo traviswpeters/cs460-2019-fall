@@ -34,7 +34,7 @@ reading: "notes"
 projectfiles: 'project'
 
 menu:
-- {name: 'Syllabus', url: '#'}
+- {name: 'Syllabus', url: ''}
 - {name: 'Schedule', url: '#schedule'}
 - {name: 'Exams', url: '#exams'}
 - {name: 'Assignments', url: '#assignments'}

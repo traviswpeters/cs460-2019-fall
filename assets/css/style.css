@@ -42,14 +42,22 @@ h1 {
 h2 {
   /* Add horizontal line under each h2 with padding above and below */
   border-bottom: 0.75px solid #999;
-  padding-top: 5px;
-  /* margin-bottom: 10px; */
-  /* margin-top: -10px; */
+
+  /* fix weird issues where top of in-page anchor target gets cut off. */
+  padding-top: 60px;
+  margin-top: -60px;
 }
 h3 {
     /* font-size: 1.5rem; */
     /* padding-top: 10px; */
     /* padding-bottom: 10px; */
+}
+h6 {
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+}
+.subpage-header {
+  margin: 25px 0px;
 }
 
 p {
@@ -167,10 +175,4 @@ code {
 .menu a {
     margin: 0px 20px;
     font-size: 1.1rem;
-}
-
-/* fix weird issues where top of in-page anchor target gets cut off. */
-h2 {
-  padding-top: 60px;
-  margin-top: -60px;
 }

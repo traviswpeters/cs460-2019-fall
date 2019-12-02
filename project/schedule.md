@@ -34,21 +34,13 @@ layout: default
 {% assign team = 'mccoy-oneil' %}
 {% capture mccoy-oneil-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
 
-
+<div class="subpage-header" markdown="1">
 ### **Final Project**
 {:.text-center}
-
 ###### ***Project Proposal Due:*** *{{ site.data.settings.project.due-proposal }}*
 {:.text-center}
-
 ###### ***All Project Deliverables Due:*** *{{ site.data.settings.project.due-final }}*
 {:.text-center}
-
-<br/>
-
-<div class="announcement" markdown="1">
-Attendance during project presentations are being tracked on the [Project Attendance Google Sheet]({{site.data.settings.project.attendance}}){:.alert-link}.
-<span class="timestamp">11/21/2019</span>
 </div>
 
 ## Final Project Teams & Presentations
