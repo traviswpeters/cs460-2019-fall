@@ -28,6 +28,13 @@ layout: default
 {% assign team = 'frank-tice' %}
 {% capture frank-tice-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
 
+{% assign team = 'folkman-turksonmez' %}
+{% capture folkman-turksonmez-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
+
+{% assign team = 'mccoy-oneil' %}
+{% capture mccoy-oneil-slides %}[slides]({{site.baseurl}}/project/team-{{team}}/slides.pdf){:.slides}{% endcapture %}
+
+
 ### **Final Project**
 {:.text-center}
 
@@ -63,8 +70,8 @@ Attendance during project presentations are being tracked on the [Project Attend
 | ~~11/25/2019~~ | ~~Kayla Wheeler --- **Energy Awareness (Tech Report)**~~
 | **Day 3**      | <span class="note">Monday, December 2, 2019</span>
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| 12/02/2019     | Parker Folkman, Kemal Turksonmez --- **A Microkernel for Raspberry Pi (PoC)**
-| 12/02/2019     | Brad McCoy, Gage O’Neil --- **Understanding Problems In Concurrency Using Directed Topology and Homotopy Theory (Tech Report)**
+| 12/02/2019     | Parker Folkman, Kemal Turksonmez --- **A Microkernel for Raspberry Pi (PoC)** {{folkman-turksonmez-slides}}
+| 12/02/2019     | Brad McCoy, Gage O’Neil --- **Understanding Problems In Concurrency Using Directed Topology and Homotopy Theory (Tech Report)** {{mccoy-oneil-slides}}
 | 12/02/2019     | Dillon Tice, Jakob Frank --- **Process Management on Commodity OSs (Tech Report)** {{frank-tice-slides}}
 | **Day 4**      | <span class="note">Wednesday, December 4, 2019</span>
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
