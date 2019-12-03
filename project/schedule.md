@@ -67,7 +67,7 @@ layout: default
 {% assign team = 'team-roberts' %}
 {% capture team-roberts-slides %}[slides]({{site.baseurl}}/project/{{team}}/slides.pdf){:.slides}{% endcapture %}
 {% capture team-roberts-report %}[report]({{site.baseurl}}/project/{{team}}/report.pdf){:.report}{% endcapture %}
-{% capture team-roberts-code %}[code](){:.code}{% endcapture %}
+{% capture team-roberts-code %}[code](https://github.com/nathanroberts7/ios-concurrency){:.code}{% endcapture %}
 
 {% assign team = 'team-rorabaugh' %}
 {% capture team-rorabaugh-slides %}[slides]({{site.baseurl}}/project/{{team}}/slides.pdf){:.slides}{% endcapture %}
@@ -120,7 +120,7 @@ layout: default
 | **Day 2**      | <span class="note">Wednesday, December 4, 2019</span>
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |                | Jimmy Boland, Andrew Johnson, Eric Zakrzewski --- **Extending the Arduino Real Time Kernel (PoC)**
-|                | Nathan Roberts --- **Concurrency on iOS (PoC)**
+|                | Nathan Roberts --- **Concurrency on iOS (PoC)** {{team-roberts-slides}} {{team-roberts-code}}
 |                | Max Weimer --- **Microarchitectural Issues & OSs**
 | **Day 3**      | <span class="note">Friday, December 6, 2019</span>
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

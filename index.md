@@ -119,7 +119,7 @@ For more information on getting help, visit the [Student Success Center website]
 - [How to give a technical presentation (how to give a scientific talk)](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html)
 - [Efficient Reading of Papers in Science and Technology](https://classes.cs.uoregon.edu/13W/cis433/docs/Hanson2000.pdf)
 
-##### Forward-Thinking Papers Relevant to OS
+##### Interesting OS-Related Papers
 
 - [A `fork()` in the road](https://www.microsoft.com/en-us/research/uploads/prod/2019/04/fork-hotos19.pdf) - HotOS'19
 - [CheriABI: enforcing valid pointer provenance and minimizing pointer privilege in the POSIX C run-time environment](https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201904-asplos-cheriabi.pdf) - ASPLOS'19 [summary](https://blog.acolyer.org/2019/05/28/cheri-abi/){:.notes}
@@ -127,6 +127,7 @@ For more information on getting help, visit the [Student Success Center website]
 - [Granular Computing](https://dl.acm.org/citation.cfm?id=3321447) - HotOS'19
 - [Practical Safe Linux Kernel Extensibility](https://dl.acm.org/citation.cfm?id=3321429) - HotOS'19
 - [My VM is Lighter (and Safer) than your Container](https://dl.acm.org/citation.cfm?id=3132763) - SOSP'17
+- [Efficient Lock-Free Durable Sets](https://arxiv.org/abs/1909.02852) - OOPSLA'19 <!-- Object-Oriented Programming , Systems, Languages & Applications -->
 
 ## Prerequisites
 
