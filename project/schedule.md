@@ -17,7 +17,7 @@ layout: default
 {% assign team = 'team-boland-johnson-zakrzewski' %}
 {% capture team-boland-johnson-zakrzewski-slides %}[slides]({{site.baseurl}}/project/{{team}}/slides.pdf){:.slides}{% endcapture %}
 {% capture team-boland-johnson-zakrzewski-report %}[report]({{site.baseurl}}/project/{{team}}/report.pdf){:.report}{% endcapture %}
-{% capture team-boland-johnson-zakrzewski-code %}[code](){:.code}{% endcapture %}
+{% capture team-boland-johnson-zakrzewski-code %}[code](https://github.com/Alatec/ARTK_Extentions){:.code}{% endcapture %}
 
 {% assign team = 'team-bushnell-seeley-taylor' %}
 {% capture team-bushnell-seeley-taylor-slides %}[slides]({{site.baseurl}}/project/{{team}}/slides.pdf){:.slides}{% endcapture %}
@@ -119,7 +119,7 @@ layout: default
 |                | Dillon Tice, Jakob Frank --- **Process Management on Commodity OSs (Tech Report)** {{team-frank-tice-slides}}
 | **Day 2**      | <span class="note">Wednesday, December 4, 2019</span>
 | -------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|                | Jimmy Boland, Andrew Johnson, Eric Zakrzewski --- **Extending the Arduino Real Time Kernel (PoC)**
+|                | Jimmy Boland, Andrew Johnson, Eric Zakrzewski --- **Extending the Arduino Real Time Kernel (PoC)** {{team-boland-johnson-zakrzewski-code}}
 |                | Nathan Roberts --- **Concurrency on iOS (PoC)** {{team-roberts-slides}} {{team-roberts-code}}
 |                | Max Weimer --- **Microarchitectural Issues & OSs**
 | **Day 3**      | <span class="note">Friday, December 6, 2019</span>
