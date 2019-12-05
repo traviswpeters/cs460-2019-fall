@@ -31,16 +31,21 @@
 <script src="https://kit.fontawesome.com/3c804f8737.js" crossorigin="anonymous"></script>
 <script>
 $(document).ready(function() {
-    // class hacking: add bootstrap/bootswatch class labels to my custom classes (notes, slides, etc.)
+    /*
+     * class hacking: add bootstrap/bootswatch class labels to my custom classes (notes, slides, etc.)
+     */
+    // site asset stles
     $('.notes').addClass('badge badge-pill badge-info');
     $('.slides').addClass('badge badge-pill badge-warning');
     $('.code').addClass('badge badge-pill badge-danger');
     $('.exam').addClass('badge badge-pill badge-success');
+    // project-specific styles
+    $('.proposal').addClass('badge badge-pill badge-info');
     $('.report').addClass('badge badge-pill badge-success');
+    // admin styles
     $('.new').addClass('badge badge-pill badge-primary');
     $('.announcement').addClass('alert alert-primary').prepend('<h4 class="alert-heading">Class Announcement!</h4>');
     $('.timestamp').prepend('&mdash;Posted ');
-
 });
 </script>
 {% include mathjax.html %}
