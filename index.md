@@ -128,6 +128,7 @@ For more information on getting help, visit the [Student Success Center website]
 - [Practical Safe Linux Kernel Extensibility](https://dl.acm.org/citation.cfm?id=3321429) - HotOS'19
 - [My VM is Lighter (and Safer) than your Container](https://dl.acm.org/citation.cfm?id=3132763) - SOSP'17
 - [Efficient Lock-Free Durable Sets](https://arxiv.org/abs/1909.02852) - OOPSLA'19 <!-- Object-Oriented Programming , Systems, Languages & Applications -->
+- [Twizzler: An Operating System for Next-Generation Memory Hierarchies](https://www.ssrc.ucsc.edu/pub/bittman-ssrctr-17-01.html)
 
 ## Prerequisites
 
