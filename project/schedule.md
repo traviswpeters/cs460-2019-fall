@@ -38,6 +38,7 @@ teams:
    title: 'Concurrency on iOS (PoC)'
    date: 2019-12-04
    time: '@ 8am'
+   code: 'https://github.com/nathanroberts7/ios-concurrency'
 
  - id: team-weimer
    members: 'Max Weimer'
@@ -81,12 +82,14 @@ teams:
    title: 'Virtual Memory on an Array of FRAM Chips (PoC)'
    date: 2019-12-12
    time: '@ 8am'
+   code: 'http://www.bek.sh/website-external/fram-vmem.tar.gz'
 
  - id: team-major-radovich
    members: 'Chris Major, Tysen Radovich'
    title: 'Linux on an FPGA (PoC)'
    date: 2019-12-12
    time: '@ 8am'
+   code: 'https://github.com/chrismajor2124/CSCI460_Final_Project_Yocto_on_Microblaze'
 
  - id: team-pearsall-pappas-legrande-cooper
    members: 'Reese Pearsall, Logan Pappas, Dallas LeGrande, Chris Cooper'
@@ -135,6 +138,15 @@ teams:
 {% endfor %}
 
 {% endfor %}
+
+
+
+
+
+
+
+
+
 
 
 {% comment %}
