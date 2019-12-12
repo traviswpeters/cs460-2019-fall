@@ -58,7 +58,7 @@ teams:
    title: 'Comparative Evaluation of Scheduling Algorithms (PoC)'
    date: 2019-12-06
    time: '@ 8am'
-   code: 'https://github.com/Geo3ngel/CHIP-8-Emulator'
+   code: 'https://github.com/TimParrish/CSCI460FinalProject'
 
  - id: team-rorabaugh
    members: 'Tyler Rorabaugh'
