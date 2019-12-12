@@ -58,6 +58,7 @@ teams:
    title: 'Comparative Evaluation of Scheduling Algorithms (PoC)'
    date: 2019-12-06
    time: '@ 8am'
+   code: 'https://github.com/Geo3ngel/CHIP-8-Emulator'
 
  - id: team-rorabaugh
    members: 'Tyler Rorabaugh'
@@ -76,6 +77,7 @@ teams:
    title: 'Emulation: A Simple VM (PoC)'
    date: 2019-12-12
    time: '@ 8am'
+   code: 'https://github.com/Geo3ngel/CHIP-8-Emulator'
 
  - id: team-kristiansen-baker
    members: 'Brendan Kristiansen, Grant Baker'
