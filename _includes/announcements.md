@@ -1,3 +1,10 @@
+<!-- ACTIVE Announcements -->
+
+
+<!-- OLD Announcements (hidden in comment environment) -->
+
+{% comment %}
+
 <div class="announcement" markdown="1">
 Please complete your course evaluation (**DEADLINE: 12/06/2019**) for this course here: [https://montana.campuslabs.com/eval-home/](https://montana.campuslabs.com/eval-home/){:.alert-link}.
 <span class="timestamp">12/02/2019</span>
@@ -7,11 +14,6 @@ Please complete your course evaluation (**DEADLINE: 12/06/2019**) for this cours
 Attendance during project presentations are being tracked on the [Project Attendance Google Sheet]({{site.data.settings.project.attendance}}){:.alert-link}.
 <span class="timestamp">11/21/2019</span>
 </div>
-
-
-<!-- OLD Announcements -->
-
-{% comment %}
 
 <div class="announcement" markdown="1">
 Please sign-up for a slot to present your final project ASAP. <br/><br/> Sign-ups are FCFS and can be done through the [Project Presentation Sign-up Google Sheet]({{site.data.settings.project.signuplink}}){:.alert-link}.

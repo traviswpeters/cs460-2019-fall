@@ -101,7 +101,20 @@ _**If you need to miss a class, I will need written notice at least 1 week befor
 - Proposal (10%)
 - Final Submission / Demo / Presentation (80%)
 - Attendance during presentations (10%)
-<!-- </div> -->
-<!-- </div> -->
-<!-- </div> -->
-<!-- </div> -->
+
+## Project Rubric
+
+You can view the final project rubric in
+  [Google Sheets]({{site.data.settings.project.rubric}}){:.alert-link}, or as a
+  [PDF]({{site.data.settings.project.rubricpdf}}){:.alert-link}.
+
+<!-- <div class="embed-responsive embed-responsive-4by3"> -->
+<!-- <div class="embed-responsive embed-responsive-16by9"> -->
+<!--
+<div class="embed-responsive embed-responsive-1by1">
+<iframe class="embed-responsive-item"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTOw9kn71g1jVlLBf5AKLRgJkzvU3OeoEOHQdOlyzg8kjFtcrHxXxe2-nYo3btaX9AIzzAkASagm2gO/pubhtml?widget=true&amp;headers=false"
+        scrolling="no">
+</iframe>
+</div>
+-->
