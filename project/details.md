@@ -68,23 +68,45 @@ Your group should come prepared to discuss details such as the problem, delivera
 
 Your group will present a 1-page proposal on your project.
 
-Your proposal should (briefly) address:
+Your proposal should be well-written and (briefly) address the following items:
 
-- A project title.
-- Who are the members of your group.
-- An overview to your proposed project and deliverables.
-- A rough schedule for when various aspects of the project will be complete.
-- Your plan for division of labor within the group.
+- A project title
+- The members of your group
+- An overview of your proposed project and deliverables
+- A rough schedule for when various aspects of the project will be completed
+- Your plan for division of labor within the group
 
 #### Final Submission
 
-Your group should submit all deliverables in a single zipped folder.
+**_Please read this section carefully._**{:.text-danger}
 
-The naming convention should be:  
+##### Final Technical Write-Up
+
+Your final technical write-up should be well-written and address (at least) the following items:
+
+- The title and members of the group
+- An introduction to the project
+- Any necessary background on concepts, related projects and literature, etc. that are necessary to understand your project
+- A description of what you set out to do, and what you actually accomplished
+- A summary of the 'lessons learned'
+- A 'References' section listing related projects and literature
+
+All teams must submit a final technical write-up.
+_(There is obviously more emphasis on the final technical write-up if your primary deliverable is a technical report.)_
+
+##### What to Submit (and HOW)
+
+Your group must submit all deliverables in a single zipped folder.
+
+Only one member from each group should submit the final deliverables.
+
+The final zipped folder must have the following naming convention:  
 
 ```
 2019-fall-os-project-lastname1-lastname2-lastname3.zip
 ```
+
+_**Failure to follow these instructions will result in a penalty to our final project grade.**_{:.text-danger}
 
 #### Final Presentation / Demo
 
