@@ -7,6 +7,7 @@ teams:
    title: "Scheduling in Linux - CFS and Its Implementation (Tech Report)"
    date: 2019-11-20
    time: '@ 8am'
+   code: 'https://github.com/olimar718/SchedulerPoliciesAndNicenessTest'
 
  - id: team-folkman-turksonmez
    members: 'Parker Folkman, Kemal Turksonmez'
@@ -42,7 +43,7 @@ teams:
 
  - id: team-weimer
    members: 'Max Weimer'
-   title: 'Microarchitectural Issues & OSs'
+   title: 'Microarchitectural Issues & OSs (Tech Report)'
    date: 2019-12-04
    time: '@ 8am'
 
@@ -68,7 +69,7 @@ teams:
 
  - id: team-austin-rust-wall
    members: 'Gavin Austin, Nicholas Rust, Ren Wall'
-   title: 'Thread Optimizations (PoC)'
+   title: 'Thread Optimizations (Tech Report)'
    date: 2019-12-12
    time: '@ 8am'
 
