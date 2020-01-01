@@ -16,7 +16,7 @@ office: NAH 253A
 officephone: "x4296" # extension
 email: travis.peters1@montana.edu
 
-# baseurl: /cs460-2019-fall
+# --> baseurl set in _config.yml
 url: https://traviswpeters.github.io/cs460-2019-fall/
 homeurl: https://traviswpeters.github.io/
 githuburl: https://github.com/traviswpeters/cs460-2019-fall
