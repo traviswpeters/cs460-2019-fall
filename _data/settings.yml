@@ -12,14 +12,14 @@ textbook: "Operating Systems: Internals and Design Principles (9th Edition), by 
 textbooklink: "[(Amazon)](https://www.amazon.com/Operating-Systems-Internals-Design-Principles/dp/0134670957)"
 instructor: Dr. Travis Peters
 img: assets/peters-sq.png
-url: https://traviswpeters.github.io/cs460/
-baseurl: /cs460-2019-fall
 office: NAH 253A
 officephone: "x4296" # extension
 email: travis.peters1@montana.edu
 
+# baseurl: /cs460-2019-fall
+url: https://traviswpeters.github.io/cs460-2019-fall/
 homeurl: https://traviswpeters.github.io/
-githuburl: https://github.com/traviswpeters/cs460
+githuburl: https://github.com/traviswpeters/cs460-2019-fall
 
 Questionnaire: https://forms.gle/Krmco3bNsbPRjSca7
 d2l: https://ecat.montana.edu/d2l/home/553509
